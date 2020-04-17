@@ -41,7 +41,7 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $post = Post::create($request->all());
-
+        
         // Store in AWS S3
         if($archivo = $request->file('banner')){
 
@@ -95,6 +95,7 @@ class PostController extends Controller
     public function update(Request $request, $id)
     {
         $post = Post::find($id);
+
         $post->fill($request->all())->save();
         // Store in AWS S3
         if($archivo = $request->file('banner')){
