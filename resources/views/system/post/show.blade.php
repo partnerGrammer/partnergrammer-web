@@ -23,3 +23,7 @@
         </div>
     </section>
 @endsection
+
+@section('js')
+    <script id="instagram-embed" src="https://www.instagram.com/embed.js"></script>
+@endsection

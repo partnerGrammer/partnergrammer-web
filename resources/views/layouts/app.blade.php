@@ -11,6 +11,10 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script id="instagram-embed" src="https://www.instagram.com/embed.js"></script>
+    <script id="twitter-embed" src="https://platform.twitter.com/widgets.js"></script>
+    <script id="tumblr-embed" src="https://assets.tumblr.com/post.js"></script>
+    <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
