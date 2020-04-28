@@ -1,15 +1,15 @@
 <style lang="sass" scoped>
     *
-        margin: 0
         padding: 0
     .navbar
-        width: 100%
         height: 3em
-        display: flex
-    .nav-section-1, .nav-section-2
-        flex: 1
     .nav-section-1
-        // background-color: blue
+        display: flex
+        justify-content: flex-start
+        align-items: center
+    .nav-section-1 > a
+        color: black
+        display: inline-block
     .nav-section-2
         display: flex
         justify-content: space-between
@@ -17,6 +17,7 @@
     .nav-section-2 > a
         color: black
         text-decoration: none
+        
     .nav-section-2 > .nav-section-2-btn-contact
         color: white
         display: inline-block
@@ -26,11 +27,11 @@
 
 <template>
     <section>
-        <nav class="navbar">
-            <div class="nav-section-1">
-                <p>LOGO</p>
+        <nav class="row navbar">
+            <div class="col-md-6 nav-section-1">
+                <router-link to="/">LOGO</router-link>
             </div>
-            <div class="nav-section-2">
+            <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
                 <router-link to="/">portafolio</router-link>
                 <router-link to="/">nosotros</router-link>
