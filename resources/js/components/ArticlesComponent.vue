@@ -27,6 +27,7 @@
     .entradas{
         padding: 10px;
         min-height: 400px;
+        cursor: pointer;
     }
 
     .entradas article{
@@ -103,7 +104,7 @@
     <section class="main-container-articles">
         <!-- seccion 4 -->
         <section class="row">
-            <div class="col-md-4 entradas" v-for="(item, index) in articles" :key="index">
+            <div class="col-md-4 entradas" v-for="(item, index) in articles" :key="index" @click="goToArticle(item.id)">
                 <article>
                     <div class="col-md-12">
                         <div class="container-image">
