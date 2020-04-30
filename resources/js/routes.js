@@ -13,6 +13,12 @@ const router = new VueRouter({
         },
 
         {
+            path: '/projects',
+            name: 'Projects',
+            component: require('./pages/Projects').default,
+        },
+
+        {
             path: '/blog',
             name: 'Blog',
             component: require('./pages/Blog').default,

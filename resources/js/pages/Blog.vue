@@ -44,36 +44,6 @@
         font-weight: bold;
     }
 
-    .entradas{
-        padding: 10px;
-    }
-
-    .entradas article{
-        background-color: white;
-        box-shadow: 3px 3px 10px #BFBFBF;
-    }
-
-    .entradas article div:nth-child(2){
-        padding: 10px;
-    }
-
-    .entradas article div:nth-child(2) div{
-        margin-top: 4em;
-        font-size: 0.8em;
-    }
-
-    .entradas article div:nth-child(2) div p:nth-child(2){
-        margin-top: 1em;
-    }
-
-    .entradas article .container-image{
-        width: 100%;
-        padding-top: 40%; /* 1:1 Aspect Ratio */
-        position: relative; /* If you want text inside of it */
-        background-position: center;
-        background-size: cover;
-    }
-
     .entrada-principal div:nth-child(2){
         display: flex;
         flex-direction: column;
@@ -84,36 +54,6 @@
 
     .entrada-principal div:nth-child(2) p{
         font-size: 0.9em;
-    }
-
-    .main-container .row:nth-child(5) .controls{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .main-container .row:nth-child(5) .controls .control:nth-child(1){
-        margin-right: 10px;
-    }
-
-    .control{
-        background-color: #EE1331;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .control:hover{
-        background-color: #B9051D;
-    }
-
-    .control i{
-        color: white;
     }
 
 </style>
@@ -156,7 +96,9 @@
 
             <!-- seccion 4 -->
             <section class="row">
-                <Articles />
+                <div class="col-md-12">
+                    <Articles />
+                </div>
             </section>
         </section>
 

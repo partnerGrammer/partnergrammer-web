@@ -23,6 +23,11 @@
         margin: 0;
     }
 
+    .main-container h2{
+        font-size: 3em;
+        font-weight: bold;
+    }
+
     .box-1{
         height: calc(100vh - 3em);
     }
@@ -64,7 +69,7 @@
         color: #B5B5B5;
     }
 
-    .main-container .row:nth-child(3), .row:nth-child(4), .row:nth-child(6), .row:nth-child(7){
+    .main-container .row:nth-child(3), .row:nth-child(4), .row:nth-child(5), .row:nth-child(6), .row:nth-child(7){
         margin-top: 5em;
     }
 
@@ -97,78 +102,6 @@
         color: white;
         font-size: 0.9em;
         margin-top: -4em;
-    }
-
-    .entradas{
-        padding: 10px;
-    }
-
-    .entradas article{
-        background-color: white;
-        box-shadow: 3px 3px 10px #BFBFBF;
-    }
-
-    .entradas article div:nth-child(2){
-        padding: 10px;
-    }
-
-    .entradas article div:nth-child(2) div{
-        margin-top: 4em;
-        font-size: 0.8em;
-    }
-
-    .entradas article div:nth-child(2) div p:nth-child(2){
-        margin-top: 1em;
-    }
-
-    .entradas article .container-image{
-        width: 100%;
-        padding-top: 40%; /* 1:1 Aspect Ratio */
-        position: relative; /* If you want text inside of it */
-        background-position: center;
-        background-size: cover;
-    }
-
-    .entrada-principal div:nth-child(2){
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-        padding: 2em;
-    }
-
-    .entrada-principal div:nth-child(2) p{
-        font-size: 0.9em;
-    }
-
-    .main-container .row:nth-child(8) .controls{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .main-container .row:nth-child(8) .controls .control:nth-child(1){
-        margin-right: 10px;
-    }
-
-    .control{
-        background-color: #EE1331;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .control:hover{
-        background-color: #B9051D;
-    }
-
-    .control i{
-        color: white;
     }
 
 </style>
@@ -255,7 +188,9 @@
 
                 <!-- seccion 7 -->
                 <section class="row">
-                    <Articles />
+                    <div class="col-md-12">
+                        <Articles />
+                    </div>
                 </section>
             </section>
 
