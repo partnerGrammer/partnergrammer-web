@@ -118,6 +118,9 @@ export default {
             lastPage: null
         }
     },
+    created(){
+        window.instgrm.Embeds.process()
+    },
 
     mounted(){
         this.getProject()

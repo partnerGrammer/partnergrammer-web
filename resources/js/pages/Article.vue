@@ -200,6 +200,7 @@
 </template>
 
 <script>
+
 import Navbar from '../components/NavbarComponent'
 import Footer from '../components/FooterComponent'
 import Articles from '../components/ArticlesComponent'

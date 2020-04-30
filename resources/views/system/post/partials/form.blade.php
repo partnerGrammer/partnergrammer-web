@@ -15,8 +15,13 @@
 </div>
 
 <div class="form-group">
+    {{ Form::label('excerpt', 'Extracto') }}
+    {{ Form::textarea('excerpt', null, ['class' => 'form-control', 'id' => 'excerpt']) }}
+</div>
+
+<div class="form-group">
     {{ Form::label('body', 'Cuerpo') }}
-    {{ Form::textarea('body', null, ['class' => 'form-control my-editor', 'id' => 'editor']) }}
+    {{ Form::textarea('body', null, ['class' => 'form-control my-editor', 'id' => 'editor', 'height' => '400px']) }}
 </div>
 
 <div class="form-group">

@@ -3118,6 +3118,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       lastPage: null
     };
   },
+  created: function created() {
+    window.instgrm.Embeds.process();
+  },
   mounted: function mounted() {
     this.getProject();
     this.getProjects();
