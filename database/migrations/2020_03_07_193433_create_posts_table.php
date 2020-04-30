@@ -19,6 +19,7 @@ class CreatePostsTable extends Migration
             $table->unsignedBigInteger('category_id');
             $table->string('title');
             $table->string('banner');
+            $table->mediumText('excerpt');
             $table->text('body');
             $table->boolean('published')->default(0);
             $table->timestamps();

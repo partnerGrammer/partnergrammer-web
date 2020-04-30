@@ -37,7 +37,7 @@
                 <router-link to="/">nosotros</router-link>
                 <router-link to="/">servicio</router-link>
                 <router-link to="/">partners</router-link>
-                <router-link to="/">blog</router-link>
+                <router-link to="/blog">blog</router-link>
                 <router-link to="/" class="nav-section-2-btn-contact">contacto</router-link>
             </div>
         </nav>

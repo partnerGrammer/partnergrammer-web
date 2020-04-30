@@ -18,3 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('/article', 'System\PostController@mainArticle');
+Route::get('/article/{id}', 'System\PostController@showMainArticle');
+Route::get('/articles', 'System\PostController@getArticles');
+

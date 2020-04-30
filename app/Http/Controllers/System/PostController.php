@@ -127,4 +127,22 @@ class PostController extends Controller
         return redirect()->route('posts.index')
             ->with('info', 'Post eliminado con exito');
     }
+
+    public function mainArticle()
+    {
+        $post = Post::orderBy('id', 'DESC')->first();
+        return $post;
+    }
+
+    public function showMainArticle($id)
+    {
+        $post = Post::find($id);
+        return $post;
+    }
+
+    public function getArticles()
+    {
+        $posts = Post::orderBy('id', 'DESC')->paginate(3);
+        return $posts;
+    }
 }

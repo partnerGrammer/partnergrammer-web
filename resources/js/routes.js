@@ -3,15 +3,26 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import Index from './pages/Index'
-
 const router = new VueRouter({
-    mode: 'history',
+    mode: 'hash',
     routes: [
         {
             path: '/',
             name: 'Index',
-            component: Index
+            component: require('./pages/Index').default,
+        },
+
+        {
+            path: '/blog',
+            name: 'Blog',
+            component: require('./pages/Blog').default,
+        },
+
+        {
+            path: '/blog/:id',
+            props: true,
+            name: 'Article',
+            component: require('./pages/Article').default,
         },
     ],
 });
