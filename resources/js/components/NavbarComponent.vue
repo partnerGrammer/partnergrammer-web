@@ -34,7 +34,7 @@
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
                 <router-link to="/projects">portafolio</router-link>
-                <router-link to="/">nosotros</router-link>
+                <router-link to="/about">nosotros</router-link>
                 <router-link to="/">servicio</router-link>
                 <router-link to="/">partners</router-link>
                 <router-link to="/blog">blog</router-link>

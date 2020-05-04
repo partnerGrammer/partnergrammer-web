@@ -30,6 +30,12 @@ const router = new VueRouter({
             name: 'Article',
             component: require('./pages/Article').default,
         },
+
+        {
+            path: '/about',
+            name: 'About',
+            component: require('./pages/About').default,
+        },
     ],
 });
 
