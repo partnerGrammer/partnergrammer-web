@@ -52,28 +52,53 @@
         font-weight: bold;
     }
 
-    .line{
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+    .line-right{
         margin: auto;
-        width: 90%;
-        margin-left: 10%;
-        height: 300px;
+        width: 100%;
+        padding: 20px;
+        padding-left: 250px;
+        height: 200px;
         background-color: #EE1331;
+        color: white;
+    }
+    .img-right{
+        position: absolute;
+        left: 0;
+        height: 200px;
+    }
+    .line-left{
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        padding-right: 250px;
+        height: 200px;
+        background-color: gray;
+        color: white;
+    }
+    .img-left{
+        position: absolute;
+        right: 0;
+        height: 200px
+    }
+
+    .line-button{
+        background-color: transparent;
+        border-color: black;
+        border-style: solid;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
     }
 
 </style>
 
 <template>
     <div class="main-box">
-
-
         <div class="container">
             <Navbar />
-            
+
             <section class="main-container">
                 <!-- seccion 1 -->
                 <section class="row">
@@ -88,6 +113,30 @@
                     <div class="col-md-12 text-center">
                         <h2 style="color: #949A9D;">¿qué</h2>
                         <h2>hacemos?</h2>
+                    </div>
+                </section>
+
+                <!-- Mega Mundo Decor -->
+                <section class="row">
+                    <img src="/images/think.jpg" alt="image" class="img-right">
+                    <div class="line-right">
+                        <div style="float: left">
+                            <h2>Mega Mundo Decor</h2>
+                            <p>Organizadores de eventos de excelente calidad y venta de mobiliario.</p>
+                            <a href="#"><button class="line-button">ver mas</button></a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Best Western -->
+                <section class="row">
+                    <img src="/images/think.jpg" alt="image" class="img-left">
+                    <div class="line-left">
+                        <div style="float: right">
+                            <h2>Best Western</h2>
+                            <p>Cadena hotelera</p>
+                            <a href="#"><button class="line-button">ver mas</button></a>
+                        </div>
                     </div>
                 </section>
 
