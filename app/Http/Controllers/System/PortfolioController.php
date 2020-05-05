@@ -144,4 +144,16 @@ class PortfolioController extends Controller
         $portfolio->delete();
         return back();
     }
+
+    public function showMainProject($id)
+    {
+        $portfolio = Portfolio::find($id);
+        return $portfolio;
+    }
+
+    public function getProjects()
+    {
+        $portfolios = Portfolio::orderBy('id', 'DESC')->paginate(3);
+        return $portfolios;
+    }
 }

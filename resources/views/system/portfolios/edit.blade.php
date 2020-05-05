@@ -10,7 +10,7 @@
                     </h5>
                     
                     <div class="card-body">
-                        {!! Form::model($portfolio, ['route' => 'portfolios.store', 'files' => true]) !!}
+                        {!! Form::model($portfolio, ['route' => ['portfolios.update', $portfolio->id], 'method' => 'PUT', 'files' => true]) !!}
                             @include('system.portfolios.partials.form')
 
                             <button type="submit" class="btn btn-sm btn-success">Guardar</button>

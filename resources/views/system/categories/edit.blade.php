@@ -10,7 +10,7 @@
                     </h5>
                     
                     <div class="card-body">
-                        {!! Form::model($category, ['route' => 'categories.store', 'files' => true]) !!}
+                        {!! Form::model($category, ['route' => ['categories.update', $category->id], 'method' => 'PUT', 'files' => true]) !!}
                             @include('system.categories.partials.form')
 
                             <button type="submit" class="btn btn-sm btn-success">Guardar</button>

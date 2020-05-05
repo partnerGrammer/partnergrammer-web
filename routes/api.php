@@ -18,7 +18,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//Articulos
 Route::get('/article', 'System\PostController@mainArticle');
-Route::get('/article/{id}', 'System\PostController@showMainArticle');
+Route::get('/articles/{id}', 'System\PostController@showMainArticle');
 Route::get('/articles', 'System\PostController@getArticles');
+
+//Proyectos
+Route::get('/projects/{id}', 'System\PortfolioController@showMainProject');
+Route::get('/projects', 'System\PortfolioController@getProjects');
 

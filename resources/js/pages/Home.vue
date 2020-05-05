@@ -128,6 +128,29 @@
         margin-top: 20px;
     }
 
+    .contacto{
+        margin-top: 1em;
+        box-shadow: 3px 3px 10px #BFBFBF;
+        padding: 20px 10%;
+    }
+
+    .contacto input{
+        width: 100%;
+        margin-top: 10px;
+        height: 35px;
+        border: none;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .contacto textarea{
+        width: 100%;
+        margin-top: 10px;
+        border: none;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
 </style>
 
 <template>
@@ -312,6 +335,8 @@
                 </div>
             </section>
 
+            <Contact />
+
         </section>
 
         <Footer />
@@ -321,6 +346,7 @@
 <script>
 import Navbar from '../components/NavbarComponent'
 import Footer from '../components/FooterComponent'
+import Contact from '../components/ContactComponent'
 
 export default {
     name: 'Home',
@@ -328,6 +354,7 @@ export default {
     components: {
         Navbar,
         Footer,
+        Contact
     },
 
     data(){
