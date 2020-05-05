@@ -4233,6 +4233,55 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -9087,7 +9136,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.main-box[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.projects-container[data-v-55bf53fa]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 0;\n    width: 100%;\n    background-color: white;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.container-image[data-v-55bf53fa]{\n    width: 100%;\n    padding-top: 90%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-55bf53fa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-55bf53fa]:nth-child(1), .row[data-v-55bf53fa]:nth-child(2), .row[data-v-55bf53fa]:nth-child(3), .row[data-v-55bf53fa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-55bf53fa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.line[data-v-55bf53fa]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    width: 90%;\n    margin-left: 10%;\n    height: 300px;\n    background-color: #EE1331;\n}\n\n", ""]);
+exports.push([module.i, "\n.main-box[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.projects-container[data-v-55bf53fa]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 0;\n    width: 100%;\n    background-color: white;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.container-image[data-v-55bf53fa]{\n    width: 100%;\n    padding-top: 90%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-55bf53fa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-55bf53fa]:nth-child(1), .row[data-v-55bf53fa]:nth-child(2), .row[data-v-55bf53fa]:nth-child(3), .row[data-v-55bf53fa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-55bf53fa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.line-right[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-left: 250px;\n    height: 200px;\n    background-color: #EE1331;\n    color: white;\n}\n.img-right[data-v-55bf53fa]{\n    position: absolute;\n    left: 0;\n    height: 200px;\n}\n.line-left[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-right: 250px;\n    height: 200px;\n    background-color: gray;\n    color: white;\n}\n.img-left[data-v-55bf53fa]{\n    position: absolute;\n    right: 0;\n    height: 200px\n}\n.line-button[data-v-55bf53fa]{\n    background-color: transparent;\n    border-color: black;\n    border-style: solid;\n    border-radius: 20px;\n    padding: 5px;\n    padding-left: 10px;\n    padding-right: 10px;\n    margin-top: 20px;\n}\n\n", ""]);
 
 // exports
 
@@ -43322,6 +43371,48 @@ var staticRenderFns = [
           _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿qué")]),
           _vm._v(" "),
           _c("h2", [_vm._v("hacemos?")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("img", {
+          staticClass: "img-right",
+          attrs: { src: "/images/think.jpg", alt: "image" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "line-right" }, [
+          _c("div", { staticStyle: { float: "left" } }, [
+            _c("h2", [_vm._v("Mega Mundo Decor")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Organizadores de eventos de excelente calidad y venta de mobiliario."
+              )
+            ]),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "#" } }, [
+              _c("button", { staticClass: "line-button" }, [_vm._v("ver mas")])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("img", {
+          staticClass: "img-left",
+          attrs: { src: "/images/think.jpg", alt: "image" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "line-left" }, [
+          _c("div", { staticStyle: { float: "right" } }, [
+            _c("h2", [_vm._v("Best Western")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("Cadena hotelera")]),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "#" } }, [
+              _c("button", { staticClass: "line-button" }, [_vm._v("ver mas")])
+            ])
+          ])
         ])
       ])
     ])
