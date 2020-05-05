@@ -3344,6 +3344,168 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -8346,7 +8508,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-b3c5cf30]{\n    position: relative;\n}\n.main-container *[data-v-b3c5cf30]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h1[data-v-b3c5cf30]{\n    font-size: 3.5em;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 9vw;\n}\n.container-image[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(1), .row[data-v-b3c5cf30]:nth-child(5), .row[data-v-b3c5cf30]:nth-child(8){\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(2), .row[data-v-b3c5cf30]:nth-child(3), .row[data-v-b3c5cf30]:nth-child(6), .row[data-v-b3c5cf30]:nth-child(9){\n    margin-top: 2em;\n}\n.carrousel[data-v-b3c5cf30]{\n    width: 100%;\n    height: 200px;\n    background-color: purple;\n}\n.main-container h2[data-v-b3c5cf30]{\n    font-size: 3em;\n    font-weight: bold;\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-b3c5cf30]{\n    position: relative;\n}\n.main-container *[data-v-b3c5cf30]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h1[data-v-b3c5cf30]{\n    font-size: 3.5em;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 9vw;\n}\n.container-image[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image-2[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.container-image-2 img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(1), .row[data-v-b3c5cf30]:nth-child(5), .row[data-v-b3c5cf30]:nth-child(8), .row[data-v-b3c5cf30]:nth-child(11), .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(15){\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(2), .row[data-v-b3c5cf30]:nth-child(3), .row[data-v-b3c5cf30]:nth-child(6), .row[data-v-b3c5cf30]:nth-child(9), .row[data-v-b3c5cf30]:nth-child(12), .row[data-v-b3c5cf30]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(10){\n    position: relative;\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(14){\n    position: relative;\n}\n.carrousel[data-v-b3c5cf30]{\n    width: 100%;\n    height: 200px;\n    background-color: purple;\n}\n.main-container h2[data-v-b3c5cf30]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 20vw;\n}\n.line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 110%;\n    background-color: #EE1331;\n    position: absolute;\n    top: -5%;\n    right: 0;\n    margin-right: -20%;\n}\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 30%;\n    background-color: #EAECED;\n    opacity: 0.8;\n    position: absolute;\n    top: 70%;\n    right: 0;\n    margin-right: -20%;\n}\n.btn-ver-mas[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    border: 1px solid white;\n    font-size: 14px;\n    border-radius: 0px;\n}\n.btn-ver-mas-2[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    background-color: #EE1331;\n    font-size: 14px;\n    border-radius: 0px;\n    margin-top: 20px;\n}\n\n", ""]);
 
 // exports
 
@@ -41729,60 +41891,78 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-1" }),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-10" }, [
+          _c(
+            "div",
+            {
+              staticClass: "row",
+              staticStyle: { "background-color": "#EE1331" }
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "col-md-12",
+                  staticStyle: {
+                    padding: "10px",
+                    color: "white",
+                    display: "flex"
+                  }
+                },
+                [
+                  _c("p", [_c("i", { staticClass: "fas fa-arrow-down" })]),
+                  _vm._v(" "),
+                  _c("p", { staticStyle: { "margin-left": "55px" } }, [
+                    _vm._v("Pagas a medida que te entregamos resultados")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
           _c("div", { staticClass: "row" }, [
-            _c(
-              "div",
-              {
-                staticClass: "col-md-12",
-                staticStyle: {
-                  "background-color": "#EE1331",
-                  padding: "10px",
-                  color: "white",
-                  display: "flex"
-                }
-              },
-              [
-                _c("p", { staticStyle: { "margin-left": "2.5%" } }, [
-                  _vm._v("->")
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("ul", { staticStyle: { "margin-left": "30px" } }, [
+                _c("li", [
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "margin-left": "50px",
+                        "font-size": "1.2em",
+                        "margin-top": "1.2em"
+                      }
+                    },
+                    [_vm._v("Lista 1")]
+                  )
                 ]),
                 _vm._v(" "),
-                _c("p", { staticStyle: { "margin-left": "2.5%" } }, [
-                  _vm._v("Pagas a medida que te entregamos resultados")
+                _c("li", [
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "margin-left": "50px",
+                        "font-size": "1.2em",
+                        "margin-top": "1.2em"
+                      }
+                    },
+                    [_vm._v("Lista 1")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "margin-left": "50px",
+                        "font-size": "1.2em",
+                        "margin-top": "1.2em"
+                      }
+                    },
+                    [_vm._v("Lista 1")]
+                  )
                 ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-12" }, [
-              _c("ul", [
-                _c(
-                  "li",
-                  { staticStyle: { "margin-left": "5%", "margin-top": "5%" } },
-                  [
-                    _c("p", { staticStyle: { "margin-left": "20px" } }, [
-                      _vm._v("Lista 1")
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  { staticStyle: { "margin-left": "5%", "margin-top": "5%" } },
-                  [
-                    _c("p", { staticStyle: { "margin-left": "20px" } }, [
-                      _vm._v("Lista 1")
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  { staticStyle: { "margin-left": "5%", "margin-top": "5%" } },
-                  [
-                    _c("p", { staticStyle: { "margin-left": "20px" } }, [
-                      _vm._v("Lista 1")
-                    ])
-                  ]
-                )
               ])
             ])
           ])
@@ -41794,6 +41974,203 @@ var staticRenderFns = [
           _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
           _vm._v(" "),
           _c("h2", [_vm._v("hacemos?")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12 text-center" }, [
+          _c("p", [
+            _vm._v(
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("div", { staticClass: "line" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("div", { staticClass: "container-image-2" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
+                width: "100%",
+                alt: ""
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5",
+            staticStyle: { color: "white", padding: "20px 0" }
+          },
+          [
+            _c("h2", [_vm._v("Proyectos")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis voluptatem. Dolor voluptate quis, repellendus perspiciatis officiis voluptatibus illo magnam laboriosam ex in qui nesciunt facilis consectetur molestiae pariatur iusto."
+              )
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "btn btn-ver-mas", attrs: { href: "#" } }, [
+              _vm._v("Ver mas")
+            ])
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("clientes")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-12 d-flex justify-content-around align-items-center flex-wrap"
+          },
+          [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+                width: "200px",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: {
+                src:
+                  "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+                width: "200px",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: {
+                src:
+                  "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+                width: "200px",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: {
+                src:
+                  "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+                width: "200px",
+                alt: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              attrs: {
+                src:
+                  "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+                width: "200px",
+                alt: ""
+              }
+            })
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("expertos")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("div", { staticClass: "line" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("img", {
+                attrs: {
+                  src:
+                    "https://img1.kpopmap.com/2017/05/ELRS-Jackpot-Concept-Photo-profile.jpg",
+                  width: "100%",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-12 mt-2" }, [
+              _c("img", {
+                attrs: {
+                  src:
+                    "https://thebiaslistcom.files.wordpress.com/2017/06/elris-we-first.jpg",
+                  width: "100%",
+                  alt: ""
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12 ml-2" }, [
+              _c("img", {
+                attrs: {
+                  src:
+                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
+                  width: "100%",
+                  alt: ""
+                }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-5 d-flex justify-content-center align-items-start flex-column pl-3"
+          },
+          [
+            _c("p", [
+              _vm._v(
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fuga libero amet illo suscipit iste, error accusamus dolore dolorem debitis. Nemo, porro numquam! Aliquid ut porro harum officia quae? Cumque!"
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              { staticClass: "btn btn-ver-mas-2", attrs: { href: "#" } },
+              [_vm._v("ver mas")]
+            )
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [
+            _vm._v("¿que tienes en mente?")
+          ]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("contactanos")])
         ])
       ]),
       _vm._v(" "),
