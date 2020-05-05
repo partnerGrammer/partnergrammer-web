@@ -9,7 +9,7 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'Index',
-            component: require('./pages/Index').default,
+            component: require('./pages/Home').default,
         },
 
         {
