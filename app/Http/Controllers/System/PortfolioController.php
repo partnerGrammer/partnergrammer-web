@@ -37,7 +37,7 @@ class PortfolioController extends Controller
      */
     public function store(Request $request)
     {
-
+        $last = Portfolio::orderBy('id', 'DESC')->first();
         $portfolio = Portfolio::create($request->all());
         
         // Store in AWS S3
@@ -62,6 +62,14 @@ class PortfolioController extends Controller
 
             $portfolio->fill(['image' => asset($url.$path)])->save();
         }
+
+        if(!$last->control || is_null($last)){
+            $portfolio->control = 1;
+        }else{
+            $portfolio->control = 0;
+        }
+
+        $portfolio->save();
 
         return redirect()->route('portfolios.edit', $portfolio->id)
             ->with('info', 'Portafolio creado con exito');
@@ -154,6 +162,12 @@ class PortfolioController extends Controller
     public function getProjects()
     {
         $portfolios = Portfolio::orderBy('id', 'DESC')->paginate(3);
+        return $portfolios;
+    }
+
+    public function getProjectsAll()
+    {
+        $portfolios = Portfolio::orderBy('id', 'DESC')->get();
         return $portfolios;
     }
 }

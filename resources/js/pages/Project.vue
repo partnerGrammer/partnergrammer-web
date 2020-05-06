@@ -47,7 +47,7 @@
 
     .line{
         width: 100%;
-        height: 350px;
+        height: 300px;
         background-color: #EE1331;
         position: absolute;
         top: 0;
@@ -81,7 +81,7 @@
             <!-- seccion 2 -->
             <section class="row">
                 <div class="line">
-                    <div class="col-md-12 d-flex justify-content-around align-items-start flex-column" style="color: white; padding: 20px 25%; height: 350px;">
+                    <div class="col-md-12 d-flex justify-content-around align-items-start flex-column" style="color: white; padding: 20px 25%; height: 300px;">
                         <div class="col-md-4">
                             <img :src="mainProject.logo" width="100%" alt="">
                         </div>

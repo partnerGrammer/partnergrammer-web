@@ -151,6 +151,17 @@
         padding: 10px;
     }
 
+    .line-pointer{
+        position: absolute;
+        width: 1px;
+        height: 158px;
+        top: -30px;
+        left: 0;
+        background-color: #707070;
+        margin-left: 15px;
+        z-index: -1;
+    }
+
 </style>
 
 <template>
@@ -215,21 +226,22 @@
                             <p>
                                 <i class="fas fa-arrow-down"></i>
                             </p>
-                            <p style="margin-left: 55px;">Pagas a medida que te entregamos resultados</p>
+                            <p style="margin-left: 55px; font-size: 1.2em;">Pagas a medida que te entregamos resultados</p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-12"> 
+                        <div class="col-md-12" style="position: relative;">
+                            <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em;">Lista 1</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Penalización por tiempos</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em;">Lista 1</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Garantía de 90 días</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em;">Lista 1</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Todo se especifica en un contrato</p>
                                 </li>
                             </ul>
                         </div>

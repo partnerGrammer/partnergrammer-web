@@ -60,11 +60,13 @@
         height: 200px;
         background-color: #EE1331;
         color: white;
+        margin-right: -15%;
+        padding-right: 15%;
     }
     .img-right{
         position: absolute;
         left: 0;
-        height: 200px;
+        height: 300px;
     }
     .line-left{
         margin: auto;
@@ -74,22 +76,38 @@
         height: 200px;
         background-color: gray;
         color: white;
+        margin-left: -15%;
+        padding-left: 15%;
     }
     .img-left{
         position: absolute;
         right: 0;
-        height: 200px
+        height: 300px
     }
 
     .line-button{
         background-color: transparent;
-        border-color: black;
-        border-style: solid;
-        border-radius: 20px;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
+        padding: 10px 35px;
+        border-radius: 0px;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .left{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .right{
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
     }
 
 </style>
@@ -116,20 +134,22 @@
                     </div>
                 </section>
 
-                <!-- Mega Mundo Decor -->
+                <!-- seccion 2 -->
                 <section class="row">
-                    <img src="/images/think.jpg" alt="image" class="img-right">
-                    <div class="line-right">
-                        <div style="float: left">
-                            <h2>Mega Mundo Decor</h2>
-                            <p>Organizadores de eventos de excelente calidad y venta de mobiliario.</p>
-                            <a href="#"><button class="line-button">ver mas</button></a>
+                    <div class="col-md-12 d-flex justify-content-center align-items-center" v-for="(item, index) in projects" :key="index" style="margin-bottom: 150px;">
+                        <img :src="item.image" alt="image" :class="[item.control ? 'img-left': 'img-right']">
+                        <div :class="[item.control ? 'line-left ': 'line-right']" class="d-flex justify-content-center">
+                            <div :class="[item.control ? 'left': 'right']">
+                                <h3>{{ item.title }}</h3>
+                                <p>{{ item.excerpt }}</p>
+                                <button class="line-button" @click="goToProject(item.id)">ver mas</button>
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- Best Western -->
-                <section class="row">
+                <!-- <section class="row">
                     <img src="/images/think.jpg" alt="image" class="img-left">
                     <div class="line-left">
                         <div style="float: right">
@@ -138,7 +158,7 @@
                             <a href="#"><button class="line-button">ver mas</button></a>
                         </div>
                     </div>
-                </section>
+                </section> -->
 
             </section>
 
@@ -152,7 +172,7 @@ import Navbar from '../components/NavbarComponent'
 import Footer from '../components/FooterComponent'
 
 export default {
-    name: 'Blog',
+    name: 'Projects',
 
     components: {
         Navbar,
@@ -161,25 +181,12 @@ export default {
 
     data(){
         return{
-            mainProject: null,
             projects: [],
-            count: 1,
-            lastPage: null
         }
-    },
-    created(){
-        window.instgrm.Embeds.process()
     },
 
     mounted(){
-        this.getProject()
         this.getProjects()
-    },
-
-    watch:{
-        count(){
-            this.getArticles()
-        }
     },
 
     methods: {
@@ -187,30 +194,16 @@ export default {
             this.$router.push({ name: 'Project', params: { id: args } })
         },
 
-        async getProject(){
-            try {
-                let URL = '/api/project'
-                let response = await axios.get(URL)
-
-                if(response){
-                    this.mainArticle = response.data
-                }
-            } catch (error) {
-                console.log(error)
-            }
-        },
-
         async getProjects(){
             try {
-                this.articles = []
-                let URL = `/api/projects?page=${this.count}`
+                this.projects = []
+                let URL = '/api/projects/all'
                 let response = await axios.get(URL)
 
                 if (response) {
                     console.log(response.data)
-                    this.lastPage = response.data.last_page
-                    response.data.data.forEach(element => {
-                        this.articles.push(element)
+                    response.data.forEach(element => {
+                        this.projects.push(element)
                     });
                 }
             } catch (error) {

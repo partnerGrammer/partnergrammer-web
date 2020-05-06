@@ -24,6 +24,7 @@ Route::get('/articles/{id}', 'System\PostController@showMainArticle');
 Route::get('/articles', 'System\PostController@getArticles');
 
 //Proyectos
+Route::get('/projects/all', 'System\PortfolioController@getProjectsAll');
 Route::get('/projects/{id}', 'System\PortfolioController@showMainProject');
 Route::get('/projects', 'System\PortfolioController@getProjects');
 
