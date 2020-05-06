@@ -63,10 +63,14 @@ class PortfolioController extends Controller
             $portfolio->fill(['image' => asset($url.$path)])->save();
         }
 
-        if(!$last->control || is_null($last)){
-            $portfolio->control = 1;
-        }else{
+        if(is_null($last)){
             $portfolio->control = 0;
+        }else{
+            if(!$last->control){
+                $portfolio->control = 1;
+            }else{
+                $portfolio->control = 0;
+            }
         }
 
         $portfolio->save();

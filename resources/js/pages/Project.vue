@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                        <img :src="mainProject.image" width="100%" alt="">
+                    <img :src="mainProject.image" width="100%" alt="">
                 </div>
             </section>
 
