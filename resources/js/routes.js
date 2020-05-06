@@ -19,6 +19,12 @@ const router = new VueRouter({
         },
 
         {
+            path: '/projects/:id',
+            name: 'SingleProject',
+            component: require('./pages/SingleProhect').default,
+        },
+
+        {
             path: '/blog',
             name: 'Blog',
             component: require('./pages/Blog').default,
