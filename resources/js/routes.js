@@ -21,7 +21,7 @@ const router = new VueRouter({
         {
             path: '/projects/:id',
             name: 'SingleProject',
-            component: require('./pages/SingleProhect').default,
+            component: require('./pages/SingleProject').default,
         },
 
         {
