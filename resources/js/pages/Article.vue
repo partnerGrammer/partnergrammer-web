@@ -194,7 +194,7 @@
                 <!-- seccion 5 -->
                 <section class="row">
                     <div class="col-md-12">
-                        <vue-disqus shortname="partnergrammer" :identifier="mainArticle.title"></vue-disqus>
+                        <vue-disqus shortname="partnergrammer-1"></vue-disqus>
                     </div>
                 </section>
 
