@@ -22,6 +22,9 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 //POSTS
 Route::resource('posts', 'System\PostController');
 
+//PORTAFOLIOS
+Route::resource('portfolios', 'System\PortfolioController');
+
 //CATEGORIAS
 Route::resource('categories', 'System\CategoryController');
 

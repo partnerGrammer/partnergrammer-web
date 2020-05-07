@@ -44,6 +44,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('categories.index') }}">{{ __('Categorias') }}</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('portfolios.index') }}">{{ __('Portafolio') }}</a>
+                        </li>
                         @endauth
                     </ul>
 

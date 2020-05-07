@@ -231,7 +231,7 @@ export default {
     methods: {
         async getArticle(){
             try {
-                let URL = `/api/article/${this.id}`
+                let URL = `/api/articles/${this.id}`
 
                 let response = await axios.get(URL)
 

@@ -9,7 +9,7 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'Index',
-            component: require('./pages/Index').default,
+            component: require('./pages/Home').default,
         },
 
         {
@@ -20,8 +20,9 @@ const router = new VueRouter({
 
         {
             path: '/projects/:id',
-            name: 'SingleProject',
-            component: require('./pages/SingleProject').default,
+            props: true,
+            name: 'Project',
+            component: require('./pages/Project').default,
         },
 
         {
@@ -35,6 +36,12 @@ const router = new VueRouter({
             props: true,
             name: 'Article',
             component: require('./pages/Article').default,
+        },
+
+        {
+            path: '/about',
+            name: 'About',
+            component: require('./pages/About').default,
         },
     ],
 });

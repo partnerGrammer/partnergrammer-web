@@ -28,7 +28,7 @@
         }
     </style>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <div id="app">
         @yield('content')
     </div>
