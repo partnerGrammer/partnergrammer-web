@@ -5,7 +5,7 @@
 
     .main-container *{
         padding: 0;
-        margin: 0;  
+        margin: 0;
     }
 
     .main-container h1{
@@ -162,12 +162,18 @@
         z-index: -1;
     }
 
+    @media screen and (max-width: 767px){
+      #proyectos{
+          margin-left: 22%;
+      }
+    }
+
 </style>
 
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
@@ -198,7 +204,7 @@
             <!-- seccion 4 -->
             <section class="row">
                 <div class="col-md-12 carrousel">
-                    
+
                 </div>
             </section>
 
@@ -272,7 +278,7 @@
                         <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
                     </div>
                 </div>
-                <div class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
+                <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
                     <h2>Proyectos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis voluptatem. Dolor voluptate quis, repellendus perspiciatis officiis voluptatibus illo magnam laboriosam ex in qui nesciunt facilis consectetur molestiae pariatur iusto.</p>
                     <a class="btn btn-ver-mas" href="#">Ver mas</a>
