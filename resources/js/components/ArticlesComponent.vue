@@ -115,7 +115,7 @@
                         <h5>{{ item.title }}</h5>
                         
                         <div>
-                            <p style="color: #B5B5B5;">{{ item.created_at }}</p>
+                            <p style="color: #B5B5B5;">{{ item.created_at | formatDate }}</p>
                             <p>{{ item.excerpt }}</p>
                         </div>
                     </div>
@@ -138,6 +138,9 @@
 </template>
 
 <script>
+//Moment
+var moment = require('moment')
+
 export default {
     name: 'Blog',
 
@@ -156,6 +159,13 @@ export default {
     mounted(){
         this.getArticles()
 
+    },
+
+    filters: {
+        formatDate(args){
+            let date = moment(args).startOf('hour').fromNow();
+            return date
+        }
     },
 
     watch:{

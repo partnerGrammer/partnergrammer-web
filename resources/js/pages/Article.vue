@@ -75,7 +75,7 @@
 
     .form{
         background-color: white;
-        box-shadow: 3px 3px 10px #BFBFBF;
+        box-shadow: 3px 3px 10px #949A9D;
         padding: 2em 4em;
     }
 
@@ -102,6 +102,17 @@
         color: white;
         font-size: 0.9em;
         margin-top: -4em;
+    }
+
+    .line-2{
+        width: 110%;
+        height: 60%;
+        background-color: #EE1331;
+        position: absolute;
+        bottom: -10%;
+        right: 0;
+        margin-right: -20%;
+        
     }
 
 </style>
@@ -134,7 +145,7 @@
                 <section class="row">
                     <div class="col-md-12">
                         <h1>{{ mainArticle.title }}</h1>
-                        <p>{{ mainArticle.created_at }}</p>
+                        <p>{{ mainArticle.created_at | formatDate }}</p>
                     </div>
                 </section>
 
@@ -154,19 +165,20 @@
                 </section>
 
                 <!-- seccion 5 -->
-                <section class="row d-flex justify-content-center align-items-center">
+                <!-- <section class="row d-flex justify-content-center align-items-center" style="position: relative;">
+                    <div class="line-2" />
                     <div class="col-md-7 form">
                         <form action="">
                             <div class="row">
                                 <div class="col-md-12 d-flex justify-content-between align-items-center">
-                                    <input type="text">
-                                    <input type="text">
+                                    <input type="text" placeholder="Tu nombre">
+                                    <input type="email" placeholder="Tu email">
                                 </div>
                             </div>
                             
                             <div class="row mt-3">
                                 <div class="col-md-12">
-                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    <textarea name="" id="" cols="30" rows="5" placeholder="Tu comentario"></textarea>
                                 </div>
                             </div>
 
@@ -176,6 +188,13 @@
                                 </div>
                             </div>
                         </form>
+                    </div>
+                </section> -->
+
+                <!-- seccion 5 -->
+                <section class="row">
+                    <div class="col-md-12">
+                        <vue-disqus shortname="partnergrammer" :identifier="mainArticle.title"></vue-disqus>
                     </div>
                 </section>
 
@@ -200,7 +219,10 @@
 </template>
 
 <script>
+//Moment
+var moment = require('moment')
 
+//Componets
 import Navbar from '../components/NavbarComponent'
 import Footer from '../components/FooterComponent'
 import Articles from '../components/ArticlesComponent'
@@ -226,6 +248,13 @@ export default {
 
     mounted(){
         this.getArticle()
+    },
+
+    filters: {
+        formatDate(args){
+            let date = moment(args).startOf('hour').fromNow();
+            return date
+        }
     },
 
     methods: {

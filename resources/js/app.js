@@ -8,6 +8,16 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import VueDisqus from 'vue-disqus'
+import Vuelidate from 'vuelidate'
+import Toasted from 'vue-toasted';
+
+Vue.use(Toasted, {
+    iconPack : 'material' // set your iconPack, defaults to material. material|fontawesome|custom-class
+});
+Vue.use(VueDisqus)
+Vue.use(Vuelidate)
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

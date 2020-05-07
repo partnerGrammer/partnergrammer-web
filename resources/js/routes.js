@@ -9,40 +9,52 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'Index',
-            component: require('./pages/Home').default,
+            // component: require('./pages/Home').default,
+            component: () => import('./pages/Home.vue')
         },
 
         {
             path: '/projects',
             name: 'Projects',
-            component: require('./pages/Projects').default,
+            // component: require('./pages/Projects').default,
+            component: () => import('./pages/Projects.vue')
         },
 
         {
             path: '/projects/:id',
             props: true,
             name: 'Project',
-            component: require('./pages/Project').default,
+            // component: require('./pages/Project').default,
+            component: () => import('./pages/Project.vue')
         },
 
         {
             path: '/blog',
             name: 'Blog',
-            component: require('./pages/Blog').default,
+            // component: require('./pages/Blog').default,
+            component: () => import('./pages/Blog.vue')
         },
 
         {
             path: '/blog/:id',
             props: true,
             name: 'Article',
-            component: require('./pages/Article').default,
+            // component: require('./pages/Article').default,
+            component: () => import('./pages/Article.vue')
         },
 
         {
             path: '/about',
             name: 'About',
-            component: require('./pages/About').default,
+            // component: require('./pages/About').default,
+            component: () => import('./pages/About.vue')
         },
+        {
+            path: '*',
+            name: '404',
+            // component: require('./pages/404').default,
+            component: () => import('./pages/404.vue')
+        }
     ],
 });
 
