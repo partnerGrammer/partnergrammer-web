@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-    mode: 'history',
+    mode: 'hash',
     routes: [
         {
             path: '/',
@@ -47,6 +47,13 @@ const router = new VueRouter({
             path: '/about',
             name: 'About',
             component: require('./pages/About').default,
+            // component: () => import('./pages/About.vue')
+        },
+
+        {
+            path: '/partners',
+            name: 'Partners',
+            component: require('./pages/Partners').default,
             // component: () => import('./pages/About.vue')
         },
         {

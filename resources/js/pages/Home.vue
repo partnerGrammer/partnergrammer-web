@@ -262,6 +262,41 @@
                 <div class="col-md-12 text-center">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
                 </div>
+
+                <div class="col-md-12 d-flex justify-content-between align-items-center mt-5">
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo1.png" width="70%" alt="">
+                        <p class="text-center">B2C & B2B Web system apps</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo2.png" width="70%" alt="">
+                        <p class="text-center">Outstaffing</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo3.png" width="70%" alt="">
+                        <p>Logo</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo4.png" width="70%" alt="">
+                        <p>Logo</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo5.png" width="70%" alt="">
+                        <p>Logo</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo6.png" width="70%" alt="">
+                        <p>Logo</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo7.png" width="70%" alt="">
+                        <p>Logo</p>
+                    </div>
+                    <div  class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="/images/logo8.png" width="70%" alt="">
+                        <p>Logo</p>
+                    </div>
+                </div>
             </section>
 
             <!-- seccion 10 -->
