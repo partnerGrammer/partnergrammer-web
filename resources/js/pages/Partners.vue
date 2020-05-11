@@ -108,6 +108,23 @@
         padding: 10px;
     }
 
+    @media only screen and (max-width: 600px){
+
+        .line{
+            width: 100%;
+            margin:0;
+        }
+
+        .partner{
+            margin-left: 0;
+        }
+
+        .btn-next{
+            bottom: 0;
+            right: 0;
+        }
+    }
+
 </style>
 
 <template>

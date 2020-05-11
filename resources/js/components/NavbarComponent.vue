@@ -1,6 +1,4 @@
 <style lang="sass" scoped>
-    *
-        padding: 0
     .navbar
         height: 3em
     .nav-section-1
@@ -66,6 +64,71 @@
         border: 1px solid black
         padding: 10px
     
+    .navbar
+        display: flex
+    
+    .navbar-movil
+        display: none
+
+    @media only screen and (max-width: 600px)
+        .navbar
+            display: none
+
+        .navbar-movil
+            display: flex
+
+        .hamburger
+            font-size: 14px
+        .section-1
+            height: 3.5em
+            width: 100%
+            background-color: #F8FAFC
+            position: fixed
+            top: 0
+            z-index: 10000 
+
+        .section-2
+            width: 100%
+            height: calc(100vh - 3.5em)
+            background-color: #F8FAFC
+            position: fixed
+            top: 3.5em
+            z-index: 10000
+
+        .section-2 a
+            display: block
+            color: black
+            font-weight: bold
+
+        .section-2-btn-contact
+            color: white
+            display: inline-block
+            background-color: #EE1331
+            padding: 5px 15px
+
+        .section-2-nav
+            padding-top: 7em
+            padding-bottom: 7em
+            background-color: #F8FAFC
+            height: calc(100vh - 3em)
+            display: flex
+            justify-content: space-around
+            align-items: flex-end
+            flex-direction: column
+            font-size: 19px
+
+        .slide-fade-enter-active 
+            transition: all .3s ease
+        
+        .slide-fade-leave-active 
+            transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0)
+        
+        .slide-fade-enter, .slide-fade-leave-to
+            transform: translateX(10px)
+            opacity: 0
+        .box-btn
+            padding: 0
+            
 </style>
 
 <template>
@@ -84,6 +147,40 @@
                 <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact">contacto</button>
             </div>
         </nav>
+
+        <section class="row navbar-movil">
+            <div class="col-md-12 section-1">
+                <div class="row">
+                    <div class="col-6">
+                        LOGO
+                    </div>
+                    <div class="col-6 d-flex justify-content-end" @click="menuMovil = !menuMovil">
+                        <button class="hamburger hamburger--collapse" :class="[menuMovil ? 'is-active' : '']" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <transition name="slide-fade">
+                <div v-if="menuMovil" class="col-md-12 section-2">
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6 section-2-nav">
+                            <router-link to="/">inicio</router-link>
+                            <router-link to="/projects">portafolio</router-link>
+                            <router-link to="/about">nosotros</router-link>
+                            <!-- <router-link to="/">servicio</router-link> -->
+                            <router-link to="/partners">partners</router-link>
+                            <router-link to="/blog">blog</router-link>
+                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact">contacto</button>
+                        </div>
+                    </div>
+                </div>
+            </transition>
+        </section>
 
         <!-- modal contacto -->
         <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -157,7 +254,8 @@ export default {
                 email: '',
                 information: '',
                 message: '',
-            }
+            },
+            menuMovil: false
         }
     },
 

@@ -2524,6 +2524,60 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Footer'
 });
@@ -2687,6 +2741,103 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Navbar',
   data: function data() {
@@ -2696,7 +2847,8 @@ __webpack_require__.r(__webpack_exports__);
         email: '',
         information: '',
         message: ''
-      }
+      },
+      menuMovil: false
     };
   },
   mounted: function mounted() {
@@ -2927,6 +3079,16 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4208,6 +4370,20 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -4334,6 +4510,23 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -5040,6 +5233,48 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -9823,7 +10058,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "*[data-v-485090b2] {\n  padding: 0;\n}\n.navbar[data-v-485090b2] {\n  height: 3em;\n}\n.nav-section-1[data-v-485090b2] {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n.nav-section-1 > a[data-v-485090b2] {\n  color: black;\n  display: inline-block;\n}\n.nav-section-2[data-v-485090b2] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.nav-section-2 > a[data-v-485090b2] {\n  color: black;\n  text-decoration: none;\n}\n.nav-section-2 > .nav-section-2-btn-contact[data-v-485090b2] {\n  color: white;\n  display: inline-block;\n  background-color: #EE1331;\n  padding: 5px 15px;\n}\n.btn-ver-mas-2[data-v-485090b2] {\n  display: inline-block;\n  padding: 10px 35px;\n  color: white;\n  background-color: #EE1331;\n  font-size: 14px;\n  border-radius: 0px;\n  margin-top: 20px;\n}\n.main-box[data-v-485090b2] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  padding: 50px 50px;\n}\n.contacto[data-v-485090b2] {\n  margin-top: 1em;\n  box-shadow: 3px 3px 10px #BFBFBF;\n  padding: 20px 10%;\n  background-color: white;\n}\n.contacto input[data-v-485090b2] {\n  width: 100%;\n  margin-top: 10px;\n  height: 35px;\n  border: none;\n  border: 1px solid black;\n  padding: 10px;\n}\n.contacto textarea[data-v-485090b2] {\n  width: 100%;\n  margin-top: 10px;\n  border: none;\n  border: 1px solid black;\n  padding: 10px;\n}", ""]);
+exports.push([module.i, ".navbar[data-v-485090b2] {\n  height: 3em;\n}\n.nav-section-1[data-v-485090b2] {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n.nav-section-1 > a[data-v-485090b2] {\n  color: black;\n  display: inline-block;\n}\n.nav-section-2[data-v-485090b2] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.nav-section-2 > a[data-v-485090b2] {\n  color: black;\n  text-decoration: none;\n}\n.nav-section-2 > .nav-section-2-btn-contact[data-v-485090b2] {\n  color: white;\n  display: inline-block;\n  background-color: #EE1331;\n  padding: 5px 15px;\n}\n.btn-ver-mas-2[data-v-485090b2] {\n  display: inline-block;\n  padding: 10px 35px;\n  color: white;\n  background-color: #EE1331;\n  font-size: 14px;\n  border-radius: 0px;\n  margin-top: 20px;\n}\n.main-box[data-v-485090b2] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  padding: 50px 50px;\n}\n.contacto[data-v-485090b2] {\n  margin-top: 1em;\n  box-shadow: 3px 3px 10px #BFBFBF;\n  padding: 20px 10%;\n  background-color: white;\n}\n.contacto input[data-v-485090b2] {\n  width: 100%;\n  margin-top: 10px;\n  height: 35px;\n  border: none;\n  border: 1px solid black;\n  padding: 10px;\n}\n.contacto textarea[data-v-485090b2] {\n  width: 100%;\n  margin-top: 10px;\n  border: none;\n  border: 1px solid black;\n  padding: 10px;\n}\n.navbar[data-v-485090b2] {\n  display: flex;\n}\n.navbar-movil[data-v-485090b2] {\n  display: none;\n}\n@media only screen and (max-width: 600px) {\n.navbar[data-v-485090b2] {\n    display: none;\n}\n.navbar-movil[data-v-485090b2] {\n    display: flex;\n}\n.hamburger[data-v-485090b2] {\n    font-size: 14px;\n}\n.section-1[data-v-485090b2] {\n    height: 3.5em;\n    width: 100%;\n    background-color: #F8FAFC;\n    position: fixed;\n    top: 0;\n    z-index: 10000;\n}\n.section-2[data-v-485090b2] {\n    width: 100%;\n    height: calc(100vh - 3.5em);\n    background-color: #F8FAFC;\n    position: fixed;\n    top: 3.5em;\n    z-index: 10000;\n}\n.section-2 a[data-v-485090b2] {\n    display: block;\n    color: black;\n    font-weight: bold;\n}\n.section-2-btn-contact[data-v-485090b2] {\n    color: white;\n    display: inline-block;\n    background-color: #EE1331;\n    padding: 5px 15px;\n}\n.section-2-nav[data-v-485090b2] {\n    padding-top: 7em;\n    padding-bottom: 7em;\n    background-color: #F8FAFC;\n    height: calc(100vh - 3em);\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-end;\n    flex-direction: column;\n    font-size: 19px;\n}\n.slide-fade-enter-active[data-v-485090b2] {\n    transition: all 0.3s ease;\n}\n.slide-fade-leave-active[data-v-485090b2] {\n    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n}\n.slide-fade-enter[data-v-485090b2], .slide-fade-leave-to[data-v-485090b2] {\n    transform: translateX(10px);\n    opacity: 0;\n}\n.box-btn[data-v-485090b2] {\n    padding: 0;\n}\n}", ""]);
 
 // exports
 
@@ -9880,7 +10115,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nfooter{\n    padding: 10em 5em 0 5em;\n}\n.footer-section-1 p{\n    font-size: 0.9em;\n}\n.footer-section-1 .icons{\n    width: 30px;\n    height: 30px;\n    border: 1px solid black;\n    border-radius: 50%;\n}\n.footer-section-1 .icons i{\n    font-size: 0.9em;\n}\n.footer-section-2 div:nth-child(1){\n    display: flex;\n    justify-content: space-around;\n}\n.footer-section-2 .footer-navigation{\n    display: flex;\n    flex-direction: column;\n}\n.footer-section-2 .footer-navigation a{\n    font-size: 0.9em;\n    color: #C9C9C9;\n}\n.footer-section-2 .footer-navigation a:nth-child(1){\n    color: black;\n}\n", ""]);
+exports.push([module.i, "\nfooter{\n    padding: 10em 5em 0 5em;\n    display: flex;\n    flex-direction: column;\n}\n.footer-section-1 p{\n    font-size: 0.9em;\n}\n.footer-section-1 .icons{\n    width: 30px;\n    height: 30px;\n    border: 1px solid black;\n    border-radius: 50%;\n}\n.footer-section-1 .icons i{\n    font-size: 0.9em;\n}\n.footer-section-2 div:nth-child(1){\n    display: flex;\n    justify-content: space-around;\n}\n.footer-section-2 .footer-navigation{\n    display: flex;\n    flex-direction: column;\n}\n.footer-section-2 .footer-navigation a{\n    font-size: 0.9em;\n    color: #C9C9C9;\n}\n.footer-section-2 .footer-navigation a:nth-child(1){\n    color: black;\n}\n@media only screen and (max-width: 600px){\nfooter .row:nth-child(2){\n        display: flex;\n        flex: 1;\n        order: 0;\n}\nfooter .row:nth-child(1){\n        flex: 1;\n        order: 2;\n        display: flex;\n        flex-direction: column;\n}\nfooter .row:nth-child(2){\n        display: flex;\n        flex: 1;\n        order: 1;\n}\nfooter .row:nth-child(1) .footer-section-1{\n        flex: 1;\n        order: 2;\n        display: flex;\n        flex-direction: column;\n        align-items: flex-end;\n        margin-top: 1em;\n}\n.footer-section-1 p{\n        text-align: right;\n}\nfooter .row:nth-child(1) .footer-section-2{\n        flex: 1;\n        order: 1;\n}\n.footer-section-2 div:nth-child(1){\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: flex-start;\n}\n.footer-section-2 .footer-navigation{\n        display: flex;\n        flex-direction: column;\n        margin-top: 2em;\n}\n}\n", ""]);
 
 // exports
 
@@ -9918,7 +10153,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        margin-right: 0;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -9975,7 +10210,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-b3c5cf30]{\n    position: relative;\n}\n.main-container *[data-v-b3c5cf30]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h1[data-v-b3c5cf30]{\n    font-size: 3.5em;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 9vw;\n}\n.container-image[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image-2[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.container-image-2 img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(1), .row[data-v-b3c5cf30]:nth-child(5), .row[data-v-b3c5cf30]:nth-child(8), .row[data-v-b3c5cf30]:nth-child(11), .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(15){\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(2), .row[data-v-b3c5cf30]:nth-child(3), .row[data-v-b3c5cf30]:nth-child(6), .row[data-v-b3c5cf30]:nth-child(9), .row[data-v-b3c5cf30]:nth-child(12), .row[data-v-b3c5cf30]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(10){\n    position: relative;\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(14){\n    position: relative;\n}\n.carrousel[data-v-b3c5cf30]{\n    width: 100%;\n    height: 200px;\n    background-color: purple;\n}\n.main-container h2[data-v-b3c5cf30]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 20vw;\n}\n.line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 110%;\n    background-color: #EE1331;\n    position: absolute;\n    top: -5%;\n    right: 0;\n    margin-right: -20%;\n}\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 30%;\n    background-color: #EAECED;\n    opacity: 0.8;\n    position: absolute;\n    top: 70%;\n    right: 0;\n    margin-right: -20%;\n}\n.btn-ver-mas[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    border: 1px solid white;\n    font-size: 14px;\n    border-radius: 0px;\n}\n.btn-ver-mas-2[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    background-color: #EE1331;\n    font-size: 14px;\n    border-radius: 0px;\n    margin-top: 20px;\n}\n.contacto[data-v-b3c5cf30]{\n    margin-top: 1em;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    padding: 20px 10%;\n}\n.contacto input[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.contacto textarea[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.line-pointer[data-v-b3c5cf30]{\n    position: absolute;\n    width: 1px;\n    height: 158px;\n    top: -30px;\n    left: 0;\n    background-color: #707070;\n    margin-left: 15px;\n    z-index: -1;\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-b3c5cf30]{\n    position: relative;\n}\n.main-container *[data-v-b3c5cf30]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h1[data-v-b3c5cf30]{\n    font-size: 3.5em;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 9vw;\n}\n.container-image[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image-2[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.container-image-2 img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(1), .row[data-v-b3c5cf30]:nth-child(5), .row[data-v-b3c5cf30]:nth-child(8), .row[data-v-b3c5cf30]:nth-child(11), .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(15){\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(2), .row[data-v-b3c5cf30]:nth-child(3), .row[data-v-b3c5cf30]:nth-child(6), .row[data-v-b3c5cf30]:nth-child(9), .row[data-v-b3c5cf30]:nth-child(12), .row[data-v-b3c5cf30]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(10){\n    position: relative;\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(14){\n    position: relative;\n}\n.carrousel[data-v-b3c5cf30]{\n    width: 100%;\n    height: 200px;\n    background-color: purple;\n}\n.main-container h2[data-v-b3c5cf30]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 20vw;\n}\n.line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 110%;\n    background-color: #EE1331;\n    position: absolute;\n    top: -5%;\n    right: 0;\n    margin-right: -20%;\n}\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 30%;\n    background-color: #EAECED;\n    opacity: 0.8;\n    position: absolute;\n    top: 70%;\n    right: 0;\n    margin-right: -20%;\n}\n.btn-ver-mas[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    border: 1px solid white;\n    font-size: 14px;\n    border-radius: 0px;\n}\n.btn-ver-mas-2[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    background-color: #EE1331;\n    font-size: 14px;\n    border-radius: 0px;\n    margin-top: 20px;\n}\n.contacto[data-v-b3c5cf30]{\n    margin-top: 1em;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    padding: 20px 10%;\n}\n.contacto input[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.contacto textarea[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.line-pointer[data-v-b3c5cf30]{\n    position: absolute;\n    width: 1px;\n    height: 158px;\n    top: -30px;\n    left: 0;\n    background-color: #707070;\n    margin-left: 15px;\n    z-index: -1;\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n        margin-right: 0;\n}\n.line[data-v-b3c5cf30]{\n        margin-right: 0;\n}\n.projects img[data-v-b3c5cf30]{\n        width: 50%;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -9994,7 +10229,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-b2730c98]{\n    position: relative;\n}\nh1[data-v-b2730c98]{\n    font-size: 4em;\n}\n.main-container *[data-v-b2730c98]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-b2730c98]{\n    width: 9vw;\n}\n.container-image[data-v-b2730c98]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b2730c98] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(1), .row[data-v-b2730c98]:nth-child(2){\n    margin-top: 5em;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.line[data-v-b2730c98]{\n    width: 140%;\n    height: 250px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -10%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-b2730c98]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.partner[data-v-b2730c98]{\n    background-color: white;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    position: relative;\n    height: auto;\n    padding-left: 20%;\n    padding-top: 50px;\n    padding-bottom: 50px;\n    padding-right: 50px;\n    margin-left: -20%;\n}\n.btn-next[data-v-b2730c98]{\n    display: inline-block;\n    background-color: #EE1331;\n    color: white;\n    padding: 5px 30px;\n    position: absolute;\n    bottom: -20px;\n    right: -25px;\n    border-radius: 0px;\n    width: 150px;\n    height: 40px;\n}\n.form[data-v-b2730c98]{\n    margin-top: 3em;\n}\n.form input[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n.form textarea[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-b2730c98]{\n    position: relative;\n}\nh1[data-v-b2730c98]{\n    font-size: 4em;\n}\n.main-container *[data-v-b2730c98]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-b2730c98]{\n    width: 9vw;\n}\n.container-image[data-v-b2730c98]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b2730c98] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(1), .row[data-v-b2730c98]:nth-child(2){\n    margin-top: 5em;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.line[data-v-b2730c98]{\n    width: 140%;\n    height: 250px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -10%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-b2730c98]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.partner[data-v-b2730c98]{\n    background-color: white;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    position: relative;\n    height: auto;\n    padding-left: 20%;\n    padding-top: 50px;\n    padding-bottom: 50px;\n    padding-right: 50px;\n    margin-left: -20%;\n}\n.btn-next[data-v-b2730c98]{\n    display: inline-block;\n    background-color: #EE1331;\n    color: white;\n    padding: 5px 30px;\n    position: absolute;\n    bottom: -20px;\n    right: -25px;\n    border-radius: 0px;\n    width: 150px;\n    height: 40px;\n}\n.form[data-v-b2730c98]{\n    margin-top: 3em;\n}\n.form input[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n.form textarea[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n@media only screen and (max-width: 600px){\n.line[data-v-b2730c98]{\n        width: 100%;\n        margin:0;\n}\n.partner[data-v-b2730c98]{\n        margin-left: 0;\n}\n.btn-next[data-v-b2730c98]{\n        bottom: 0;\n        right: 0;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -10032,7 +10267,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.main-box[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.projects-container[data-v-55bf53fa]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 0;\n    width: 100%;\n    background-color: white;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.container-image[data-v-55bf53fa]{\n    width: 100%;\n    padding-top: 90%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-55bf53fa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-55bf53fa]:nth-child(1), .row[data-v-55bf53fa]:nth-child(2), .row[data-v-55bf53fa]:nth-child(3), .row[data-v-55bf53fa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-55bf53fa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.line-right[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-left: 250px;\n    height: 200px;\n    background-color: #EE1331;\n    color: white;\n    margin-right: -15%;\n    padding-right: 15%;\n}\n.img-right[data-v-55bf53fa]{\n    position: absolute;\n    left: 0;\n    height: 300px;\n}\n.line-left[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-right: 250px;\n    height: 200px;\n    background-color: gray;\n    color: white;\n    margin-left: -15%;\n    padding-left: 15%;\n}\n.img-left[data-v-55bf53fa]{\n    position: absolute;\n    right: 0;\n    height: 300px\n}\n.line-button[data-v-55bf53fa]{\n    background-color: transparent;\n    margin-top: 10px;\n    padding: 10px 35px;\n    border-radius: 0px;\n    border: 1px solid white;\n    color: white;\n}\n.left[data-v-55bf53fa]{\n    float: left;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n    float: right;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.projects-container[data-v-55bf53fa]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 0;\n    width: 100%;\n    background-color: white;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.container-image[data-v-55bf53fa]{\n    width: 100%;\n    padding-top: 90%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-55bf53fa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-55bf53fa]:nth-child(1), .row[data-v-55bf53fa]:nth-child(2), .row[data-v-55bf53fa]:nth-child(3), .row[data-v-55bf53fa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-55bf53fa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container .row:nth-child(3) > div[data-v-55bf53fa]{\n    margin-bottom: 150px;\n}\n.line-right[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-left: 250px;\n    height: 200px;\n    background-color: #EE1331;\n    color: white;\n    margin-right: -15%;\n    padding-right: 15%;\n}\n.img-right[data-v-55bf53fa]{\n    position: absolute;\n    left: 0;\n    height: 300px;\n}\n.line-left[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-right: 250px;\n    height: 200px;\n    background-color: gray;\n    color: white;\n    margin-left: -15%;\n    padding-left: 15%;\n}\n.img-left[data-v-55bf53fa]{\n    position: absolute;\n    right: 0;\n    height: 300px\n}\n.line-button[data-v-55bf53fa]{\n    background-color: transparent;\n    margin-top: 10px;\n    padding: 10px 35px;\n    border-radius: 0px;\n    border: 1px solid white;\n    color: white;\n}\n.left[data-v-55bf53fa]{\n    float: left;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n    float: right;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n}\n@media only screen and (max-width: 600px){\n.line-right[data-v-55bf53fa]{\n        margin: 0;\n        padding: 0;\n        padding-left: 0;\n        height: 200px;\n        margin-right: 0;\n        padding-right: 0;\n}\n.line-left[data-v-55bf53fa]{\n        margin: 0;\n        padding: 0;\n        padding-right: 0;\n        height: 200px;\n        margin-left: 0;\n        padding-left: 0;\n}\nimg[data-v-55bf53fa]{\n        display: none;\n}\n.left[data-v-55bf53fa]{\n        float: initial;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n        float: initial;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n}\np[data-v-55bf53fa]{\n        text-align: justify;\n}\n.main-container .row:nth-child(3) > div[data-v-55bf53fa]{\n        margin-bottom: 50px;\n}\n}\n", ""]);
 
 // exports
 
@@ -64207,6 +64442,93 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c(
+      "section",
+      { staticClass: "row navbar-movil" },
+      [
+        _c("div", { staticClass: "col-md-12 section-1" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-6" }, [
+              _vm._v("\n                    LOGO\n                ")
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "col-6 d-flex justify-content-end",
+                on: {
+                  click: function($event) {
+                    _vm.menuMovil = !_vm.menuMovil
+                  }
+                }
+              },
+              [
+                _c(
+                  "button",
+                  {
+                    staticClass: "hamburger hamburger--collapse",
+                    class: [_vm.menuMovil ? "is-active" : ""],
+                    attrs: { type: "button" }
+                  },
+                  [_vm._m(0)]
+                )
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("transition", { attrs: { name: "slide-fade" } }, [
+          _vm.menuMovil
+            ? _c("div", { staticClass: "col-md-12 section-2" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-6" }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-6 section-2-nav" },
+                    [
+                      _c("router-link", { attrs: { to: "/" } }, [
+                        _vm._v("inicio")
+                      ]),
+                      _vm._v(" "),
+                      _c("router-link", { attrs: { to: "/projects" } }, [
+                        _vm._v("portafolio")
+                      ]),
+                      _vm._v(" "),
+                      _c("router-link", { attrs: { to: "/about" } }, [
+                        _vm._v("nosotros")
+                      ]),
+                      _vm._v(" "),
+                      _c("router-link", { attrs: { to: "/partners" } }, [
+                        _vm._v("partners")
+                      ]),
+                      _vm._v(" "),
+                      _c("router-link", { attrs: { to: "/blog" } }, [
+                        _vm._v("blog")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "section-2-btn-contact",
+                          attrs: {
+                            "data-toggle": "modal",
+                            "data-target": "#modalContacto"
+                          }
+                        },
+                        [_vm._v("contacto")]
+                      )
+                    ],
+                    1
+                  )
+                ])
+              ])
+            : _vm._e()
+        ])
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c(
       "div",
       {
         staticClass: "modal fade",
@@ -64249,9 +64571,9 @@ var render = function() {
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "col-md-11 main-box" }, [
-                      _vm._m(0),
-                      _vm._v(" "),
                       _vm._m(1),
+                      _vm._v(" "),
+                      _vm._m(2),
                       _vm._v(" "),
                       _c("section", { staticClass: "row" }, [
                         _c("div", { staticClass: "col-md-1" }),
@@ -64401,7 +64723,7 @@ var render = function() {
                                 })
                               ]),
                               _vm._v(" "),
-                              _vm._m(2)
+                              _vm._m(3)
                             ]
                           )
                         ])
@@ -64418,6 +64740,14 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "hamburger-box" }, [
+      _c("span", { staticClass: "hamburger-inner" })
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -65385,18 +65715,19 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "col-md-12 d-flex justify-content-between align-items-center mt-5"
+            "projects col-md-12 d-flex justify-content-between align-items-start flex-wrap mt-5"
         },
         [
           _c(
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo1.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo1.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
               _c("p", { staticClass: "text-center" }, [
@@ -65409,11 +65740,12 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo2.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo2.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
               _c("p", { staticClass: "text-center" }, [_vm._v("Outstaffing")])
@@ -65424,14 +65756,15 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo3.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo3.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
-              _c("p", [_vm._v("Logo")])
+              _c("p", [_vm._v("Ecommerce")])
             ]
           ),
           _vm._v(" "),
@@ -65439,14 +65772,15 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo4.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo4.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
-              _c("p", [_vm._v("Logo")])
+              _c("p", [_vm._v("Themes & Plugins")])
             ]
           ),
           _vm._v(" "),
@@ -65454,14 +65788,15 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo5.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo5.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
-              _c("p", [_vm._v("Logo")])
+              _c("p", [_vm._v("Mobile Apps")])
             ]
           ),
           _vm._v(" "),
@@ -65469,14 +65804,15 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo6.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo6.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
-              _c("p", [_vm._v("Logo")])
+              _c("p", [_vm._v("Digital Marketing & SEO")])
             ]
           ),
           _vm._v(" "),
@@ -65484,14 +65820,15 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo7.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo7.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
-              _c("p", [_vm._v("Logo")])
+              _c("p", [_vm._v("Rich Media")])
             ]
           ),
           _vm._v(" "),
@@ -65499,14 +65836,15 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "d-flex justify-content-center align-items-center flex-column"
+                "col-6 col-md-1 d-flex justify-content-center align-items-center flex-column",
+              staticStyle: { "background-color": "" }
             },
             [
               _c("img", {
-                attrs: { src: "/images/logo8.png", width: "70%", alt: "" }
+                attrs: { src: "/images/logo8.png", width: "100%", alt: "" }
               }),
               _vm._v(" "),
-              _c("p", [_vm._v("Logo")])
+              _c("p", [_vm._v("Websites")])
             ]
           )
         ]
@@ -66834,8 +67172,7 @@ var render = function() {
                 {
                   key: index,
                   staticClass:
-                    "col-md-12 d-flex justify-content-center align-items-center",
-                  staticStyle: { "margin-bottom": "150px" }
+                    "col-md-12 d-flex justify-content-center align-items-center"
                 },
                 [
                   _c("img", {

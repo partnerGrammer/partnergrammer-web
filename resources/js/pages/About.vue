@@ -75,6 +75,16 @@
         font-weight: bold;
     }
 
+    @media only screen and (max-width: 600px){
+        .main-container .row:nth-child(14) .line{
+            margin-right: 0;
+        }
+
+        .line{
+            margin-right: 0;
+        }
+    }
+
 </style>
 
 <template>

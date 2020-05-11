@@ -162,6 +162,20 @@
         z-index: -1;
     }
 
+    @media only screen and (max-width: 600px){
+        .main-container .row:nth-child(14) .line{
+            margin-right: 0;
+        }
+
+        .line{
+            margin-right: 0;
+        }
+
+        .projects img{
+            width: 50%;
+        }
+    }
+
 </style>
 
 <template>
@@ -263,38 +277,38 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
                 </div>
 
-                <div class="col-md-12 d-flex justify-content-between align-items-center mt-5">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo1.png" width="70%" alt="">
+                <div class="projects col-md-12 d-flex justify-content-between align-items-start flex-wrap mt-5">
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo1.png" width="100%" alt="">
                         <p class="text-center">B2C & B2B Web system apps</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo2.png" width="70%" alt="">
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo2.png" width="100%" alt="">
                         <p class="text-center">Outstaffing</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo3.png" width="70%" alt="">
-                        <p>Logo</p>
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo3.png" width="100%" alt="">
+                        <p>Ecommerce</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo4.png" width="70%" alt="">
-                        <p>Logo</p>
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo4.png" width="100%" alt="">
+                        <p>Themes & Plugins</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo5.png" width="70%" alt="">
-                        <p>Logo</p>
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo5.png" width="100%" alt="">
+                        <p>Mobile Apps</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo6.png" width="70%" alt="">
-                        <p>Logo</p>
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo6.png" width="100%" alt="">
+                        <p>Digital Marketing & SEO</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo7.png" width="70%" alt="">
-                        <p>Logo</p>
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo7.png" width="100%" alt="">
+                        <p>Rich Media</p>
                     </div>
-                    <div  class="d-flex justify-content-center align-items-center flex-column">
-                        <img src="/images/logo8.png" width="70%" alt="">
-                        <p>Logo</p>
+                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
+                        <img src="/images/logo8.png" width="100%" alt="">
+                        <p>Websites</p>
                     </div>
                 </div>
             </section>

@@ -1,7 +1,11 @@
 <style scoped>
-    .main-box{
+    .container{
+        position: relative;
+    }
+
+    .main-container *{
         padding: 0;
-        margin: 0;
+        margin: 0;  
     }
 
     .projects-container{
@@ -50,6 +54,10 @@
     .main-container h2{
         font-size: 3em;
         font-weight: bold;
+    }
+
+    .main-container .row:nth-child(3) > div{
+        margin-bottom: 150px;
     }
 
     .line-right{
@@ -110,6 +118,52 @@
         flex-direction: column;
     }
 
+    @media only screen and (max-width: 600px){
+        .line-right{
+            margin: 0;
+            padding: 0;
+            padding-left: 0;
+            height: 200px;
+            margin-right: 0;
+            padding-right: 0;
+        }
+        .line-left{
+            margin: 0;
+            padding: 0;
+            padding-right: 0;
+            height: 200px;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        img{
+            display: none;
+        }
+
+        .left{
+            float: initial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .right{
+            float: initial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        .main-container .row:nth-child(3) > div{
+            margin-bottom: 50px;
+        }
+    }
 </style>
 
 <template>
@@ -134,9 +188,9 @@
                     </div>
                 </section>
 
-                <!-- seccion 2 -->
+                <!-- seccion 3 -->
                 <section class="row">
-                    <div class="col-md-12 d-flex justify-content-center align-items-center" v-for="(item, index) in projects" :key="index" style="margin-bottom: 150px;">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center" v-for="(item, index) in projects" :key="index">
                         <img :src="item.image" alt="image" :class="[item.control ? 'img-left': 'img-right']">
                         <div :class="[item.control ? 'line-left ': 'line-right']" class="d-flex justify-content-center">
                             <div :class="[item.control ? 'left': 'right']">
@@ -147,18 +201,6 @@
                         </div>
                     </div>
                 </section>
-
-                <!-- Best Western -->
-                <!-- <section class="row">
-                    <img src="/images/think.jpg" alt="image" class="img-left">
-                    <div class="line-left">
-                        <div style="float: right">
-                            <h2>Best Western</h2>
-                            <p>Cadena hotelera</p>
-                            <a href="#"><button class="line-button">ver mas</button></a>
-                        </div>
-                    </div>
-                </section> -->
 
             </section>
 
