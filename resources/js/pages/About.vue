@@ -6,11 +6,12 @@
     .main-container *{
         padding: 0;
         margin: 0;
-        
+
     }
 
     .image-about{
         width: 9vw;
+        margin: 0 10px;
     }
 
     .container-image{
@@ -80,7 +81,7 @@
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
@@ -104,42 +105,42 @@
                 <div class="col-md-12">
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/luis.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/judith.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/lalo.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/gera.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/meny.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/talita.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/monica.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+
                         </div>
                     </div>
                 </div>
@@ -168,17 +169,17 @@
                     <div class="row">
                         <div class="col-4 col-md-4">
                             <div class="container-image">
-                                <img src="https://agilecoachingpath.com/img/badges/CSPO.png" width="100%" alt="">
+                                <img src="/images/SCRUM-CSD+.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
                             <div class="container-image">
-                                <img src="https://agilecoachingpath.com/img/badges/CSPO.png" width="100%" alt="">
+                                <img src="/images/SCRUM-CSPO.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
                             <div class="container-image">
-                                <img src="https://agilecoachingpath.com/img/badges/CSPO.png" width="100%" alt="">
+                                <img src="/images/SCRUM-CSPSM.png" width="100%" alt="">
                             </div>
                         </div>
                     </div>
@@ -191,7 +192,7 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="https://drywyekkxvsd8.cloudfront.net/event/41717/banner/event_1488431613.jpg" width="100%" alt="">
+                            <img src="/images/SCRUM.png" width="100%" alt="">
                         </div>
                     </div>
                 </div>

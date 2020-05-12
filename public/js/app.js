@@ -63492,12 +63492,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/luis.png", width: "100%", alt: "" }
               })
             ])
           ]),
@@ -63505,12 +63500,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/judith.png", width: "100%", alt: "" }
               })
             ])
           ]),
@@ -63518,12 +63508,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/lalo.png", width: "100%", alt: "" }
               })
             ])
           ]),
@@ -63531,12 +63516,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/gera.png", width: "100%", alt: "" }
               })
             ])
           ]),
@@ -63544,12 +63524,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/meny.png", width: "100%", alt: "" }
               })
             ])
           ]),
@@ -63557,12 +63532,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/talita.png", width: "100%", alt: "" }
               })
             ])
           ]),
@@ -63570,27 +63540,13 @@ var staticRenderFns = [
           _c("div", { staticClass: "image-about" }, [
             _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/monica.png", width: "100%", alt: "" }
               })
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src:
-                    "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
-                  width: "100%",
-                  alt: ""
-                }
-              })
-            ])
+            _c("div", { staticClass: "container-image" })
           ])
         ])
       ]),
@@ -63626,7 +63582,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "container-image" }, [
                 _c("img", {
                   attrs: {
-                    src: "https://agilecoachingpath.com/img/badges/CSPO.png",
+                    src: "/images/SCRUM-CSD+.png",
                     width: "100%",
                     alt: ""
                   }
@@ -63638,7 +63594,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "container-image" }, [
                 _c("img", {
                   attrs: {
-                    src: "https://agilecoachingpath.com/img/badges/CSPO.png",
+                    src: "/images/SCRUM-CSPO.png",
                     width: "100%",
                     alt: ""
                   }
@@ -63650,7 +63606,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "container-image" }, [
                 _c("img", {
                   attrs: {
-                    src: "https://agilecoachingpath.com/img/badges/CSPO.png",
+                    src: "/images/SCRUM-CSPSM.png",
                     width: "100%",
                     alt: ""
                   }
@@ -63668,12 +63624,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-md-12" }, [
               _c("img", {
-                attrs: {
-                  src:
-                    "https://drywyekkxvsd8.cloudfront.net/event/41717/banner/event_1488431613.jpg",
-                  width: "100%",
-                  alt: ""
-                }
+                attrs: { src: "/images/SCRUM.png", width: "100%", alt: "" }
               })
             ])
           ])
