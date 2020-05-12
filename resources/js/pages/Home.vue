@@ -5,7 +5,7 @@
 
     .main-container *{
         padding: 0;
-        margin: 0;  
+        margin: 0;
     }
 
     .main-container h1{
@@ -90,12 +90,13 @@
 
     .line{
         width: 100%;
-        height: 110%;
+        height: 9%;
         background-color: #EE1331;
         position: absolute;
-        top: -5%;
+        top: 46%;
         right: 0;
         margin-right: -20%;
+        z-index: -100; /*para que este hasta el fondo*/
     }
 
     .main-container .row:nth-child(14) .line{
@@ -162,12 +163,28 @@
         z-index: -1;
     }
 
+    .que-hacemos-img{
+        height: 80px;
+        width: auto;
+    }
+
+    .img-con-texto {
+        text-align: center;
+        width: 200px;
+        margin: 0 5px;
+    }
+
+    .img-con-texto img {
+        display: block;
+        margin: 20px auto;
+    }
+
 </style>
 
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
@@ -198,7 +215,7 @@
             <!-- seccion 4 -->
             <section class="row">
                 <div class="col-md-12 carrousel">
-                    
+
                 </div>
             </section>
 
@@ -264,12 +281,49 @@
                 </div>
             </section>
 
+            <section class="row">
+                <div class="col-md-12 text-center" style="display: flex;">
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
+                        <p class="que-hacemos-caption">B2C & B2B <br> Web system apps</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-2.png" alt="que-hacemos-2">
+                        <p class="que-hacemos-caption">Outstaffing</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-3.png" alt="que-hacemos-3">
+                        <p class="que-hacemos-caption">Ecommerce</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-4.png" alt="que-hacemos-4">
+                        <p class="que-hacemos-caption">Themes &<br>Plugins</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-5.png" alt="que-hacemos-5">
+                        <p class="que-hacemos-caption">Mobile Apps</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-6.png" alt="que-hacemos-6">
+                        <p class="que-hacemos-caption">Digital Marketing<br>& SEO</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-7.png" alt="que-hacemos-7">
+                        <p class="que-hacemos-caption">Rich Media</p>
+                    </div>
+                    <div class="img-con-texto">
+                        <img class="que-hacemos-img" src="/images/que-hacemos-8.png" alt="que-hacemos-8">
+                        <p class="que-hacemos-caption">Websites</p>
+                    </div>
+                </div>
+            </section>
+
             <!-- seccion 10 -->
             <section class="row">
                 <div class="line" />
                 <div class="col-md-4">
                     <div class="container-image-2">
-                        <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                        <img src="/images/grupo-disp.png" style="width:100%; height: auto;" alt="disp">
                     </div>
                 </div>
                 <div class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
@@ -290,11 +344,11 @@
             <!-- seccion 12 -->
             <section class="row">
                 <div class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
-                    <img src="https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg" width="200px" alt="">
-                    <img src="https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg" width="200px" alt="">
-                    <img src="https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg" width="200px" alt="">
-                    <img src="https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg" width="200px" alt="">
-                    <img src="https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg" width="200px" alt="">
+                    <img src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
+                    <img src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
+                    <img src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
+                    <img src="/images/ghm.png" style=" width: 150px; height: auto;" alt="">
+                    <img src="/images/dix04.png" style=" width: 150px; height: auto;" alt="">
                 </div>
             </section>
 
@@ -312,17 +366,17 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="https://img1.kpopmap.com/2017/05/ELRS-Jackpot-Concept-Photo-profile.jpg" width="100%" alt="">
+                            <img src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
                         </div>
                         <div class="col-md-12 mt-2">
-                            <img src="https://thebiaslistcom.files.wordpress.com/2017/06/elris-we-first.jpg" width="100%" alt="">
+                            <img src="/images/grupal-2.png" style=" width: 100%; height: auto;" alt="grupal 2">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <div class="col-md-12 ml-2">
-                            <img src="https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639" width="100%" alt="">
+                            <img src="/images/grupal-3.png" style=" width: 100%; height: auto;" alt="grupal 3">
                         </div>
                     </div>
                 </div>
