@@ -2380,10 +2380,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Navbar',
+  data: function data() {
+    return {
+      showNavbar: true
+    };
+  },
   mounted: function mounted() {
     console.log('Component mounted.');
+    window.addEventListener('scroll', this.onScroll);
+  },
+  beforeDestroy: function beforeDestroy() {
+    window.removeEventListener('scroll', this.onScroll);
+  },
+  methods: {
+    onScroll: function onScroll() {
+      // Get the current scroll position
+      var currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop; // Because of momentum scrolling on mobiles, we shouldn't continue if it is less than zero
+
+      if (currentScrollPosition > 0) {
+        this.showNavbar = false;
+      } else {
+        this.showNavbar = true;
+      }
+    }
   }
 });
 
@@ -8934,7 +8964,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "*[data-v-485090b2] {\n  padding: 0;\n}\n.navbar[data-v-485090b2] {\n  height: 3em;\n}\n.nav-section-1[data-v-485090b2] {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n.nav-section-1 > a[data-v-485090b2] {\n  color: black;\n  display: inline-block;\n}\n.nav-section-2[data-v-485090b2] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.nav-section-2 > a[data-v-485090b2] {\n  color: black;\n  text-decoration: none;\n}\n.nav-section-2 > .nav-section-2-btn-contact[data-v-485090b2] {\n  color: white;\n  display: inline-block;\n  background-color: #EE1331;\n  padding: 5px 15px;\n}", ""]);
+exports.push([module.i, "*[data-v-485090b2] {\n  padding: 0;\n}\n.navbar[data-v-485090b2] {\n  position: fixed;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  z-index: 200;\n  height: 8em;\n  padding: 0 25px;\n}\n.nav-section-1[data-v-485090b2] {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n.nav-section-1 > a[data-v-485090b2] {\n  color: black;\n  display: inline-block;\n}\n.nav-section-2[data-v-485090b2] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.nav-section-2 > a[data-v-485090b2] {\n  color: black;\n  text-decoration: none;\n}\n.nav-section-2 > .nav-section-2-btn-contact[data-v-485090b2] {\n  color: white;\n  display: inline-block;\n  background-color: #EE1331;\n  padding: 5px 15px;\n}\n.nav-showNavbar[data-v-485090b2] {\n  background-color: #FFFFFF;\n}", ""]);
 
 // exports
 
@@ -41966,7 +41996,12 @@ var staticRenderFns = [
           staticClass:
             "col-md-12 d-flex justify-content-center align-items-center"
         },
-        [_c("p", [_vm._v("LOGO")])]
+        [
+          _c("img", {
+            staticStyle: { width: "auto", height: "100px" },
+            attrs: { src: "/images/logos/logo.svg", alt: "LOGO" }
+          })
+        ]
       )
     ])
   }
@@ -41993,41 +42028,57 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("section", [
-    _c("nav", { staticClass: "row navbar" }, [
-      _c(
-        "div",
-        { staticClass: "col-md-6 nav-section-1" },
-        [_c("router-link", { attrs: { to: "/" } }, [_vm._v("LOGO")])],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-md-6 nav-section-2" },
-        [
-          _c("router-link", { attrs: { to: "/" } }, [_vm._v("inicio")]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/projects" } }, [
-            _vm._v("portafolio")
-          ]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/about" } }, [_vm._v("nosotros")]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/" } }, [_vm._v("servicio")]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/" } }, [_vm._v("partners")]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/blog" } }, [_vm._v("blog")]),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-section-2-btn-contact", attrs: { to: "/" } },
-            [_vm._v("contacto")]
-          )
-        ],
-        1
-      )
-    ])
+    _c(
+      "nav",
+      {
+        staticClass: "row navbar",
+        class: { "nav-showNavbar": !_vm.showNavbar }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "col-md-6 nav-section-1" },
+          [
+            _c("router-link", { attrs: { to: "/" } }, [
+              _c("img", {
+                staticStyle: { width: "auto", height: "100px" },
+                attrs: { src: "/images/logos/logo.svg", alt: "LOGO" }
+              })
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-md-6 nav-section-2" },
+          [
+            _c("router-link", { attrs: { to: "/" } }, [_vm._v("inicio")]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/projects" } }, [
+              _vm._v("portafolio")
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/about" } }, [
+              _vm._v("nosotros")
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/" } }, [_vm._v("servicio")]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/" } }, [_vm._v("partners")]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/blog" } }, [_vm._v("blog")]),
+            _vm._v(" "),
+            _c(
+              "router-link",
+              { staticClass: "nav-section-2-btn-contact", attrs: { to: "/" } },
+              [_vm._v("contacto")]
+            )
+          ],
+          1
+        )
+      ]
+    )
   ])
 }
 var staticRenderFns = []
@@ -42685,7 +42736,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "section",
-        { staticClass: "main-container" },
+        { staticClass: "main-container", staticStyle: { "margin-top": "9em" } },
         [
           _vm._m(0),
           _vm._v(" "),
