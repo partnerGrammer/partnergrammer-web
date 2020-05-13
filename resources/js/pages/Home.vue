@@ -5,7 +5,7 @@
 
     .main-container *{
         padding: 0;
-        margin: 0;  
+        margin: 0;
     }
 
     .main-container h1{
@@ -77,6 +77,23 @@
         width: 100%;
         height: 200px;
         background-color: purple;
+    }
+
+
+    .horizontal-scroll-wrapper{
+        width: 150px;
+        height: 100vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transform: rotate(-90deg) translateY(-20%);
+        transform-origin: right top;
+    }
+
+    .horizontal-scroll-wrapper > div {
+      	width: 100px;
+      	height: 100px;
+      	transform: rotate(90deg);
+      	transform-origin: right top;
     }
 
     .main-container h2{
@@ -167,7 +184,7 @@
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
@@ -196,9 +213,41 @@
             </section>
 
             <!-- seccion 4 -->
-            <section class="row">
-                <div class="col-md-12 carrousel">
-                    
+            <section class="row" style="overflow: visible; height: 300px;">
+                <div class="horizontal-scroll-wrapper">
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
+                    <div>
+                        <p>ejemplo</p>
+                    </div>
                 </div>
             </section>
 
