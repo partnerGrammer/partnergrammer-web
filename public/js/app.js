@@ -64876,8 +64876,689 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
-var staticRenderFns = []
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("Navbar"),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "main-container" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _vm._m(5),
+          _vm._v(" "),
+          _vm._m(6),
+          _vm._v(" "),
+          _vm._m(7),
+          _vm._v(" "),
+          _vm._m(8),
+          _vm._v(" "),
+          _vm._m(9),
+          _vm._v(" "),
+          _vm._m(10),
+          _vm._v(" "),
+          _vm._m(11),
+          _vm._v(" "),
+          _vm._m(12),
+          _vm._v(" "),
+          _vm._m(13),
+          _vm._v(" "),
+          _vm._m(14),
+          _vm._v(" "),
+          _vm._m(15),
+          _vm._v(" "),
+          _c("Contact")
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("Footer")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-md-6 d-flex justify-content-center align-items-center flex-column"
+        },
+        [
+          _c("h1", [
+            _vm._v("Lorem ipsum dolor sit amet, consectetur adipiscing elit")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-3" }, [
+            _vm._v(
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore."
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6" }, [
+        _c("img", {
+          attrs: { src: "/images/computer-bg-1.png", width: "100%", alt: "" }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("procesos")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12 text-center" }, [
+        _c("p", [
+          _vm._v(
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "row",
+        staticStyle: { overflow: "visible", height: "300px" }
+      },
+      [
+        _c("div", { staticClass: "horizontal-scroll-wrapper" }, [
+          _c("div", [
+            _c("img", {
+              staticClass: "img-75w",
+              attrs: { src: "/images/component (1).png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("ejemplo")])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              staticClass: "img-75w",
+              attrs: { src: "/images/component (2).png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("ejemplo")])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              staticClass: "img-75w",
+              attrs: { src: "/images/component (3).png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("ejemplo")])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              staticClass: "img-75w",
+              attrs: { src: "/images/component (4).png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("ejemplo")])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              staticClass: "img-75w",
+              attrs: { src: "/images/component (5).png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("ejemplo")])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [
+          _vm._v("tu tranquilidad")
+        ]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("nuestra prioridad")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12 text-center" }, [
+        _c("p", [
+          _vm._v(
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-1" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-10" }, [
+        _c(
+          "div",
+          {
+            staticClass: "row",
+            staticStyle: { "background-color": "#EE1331" }
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "col-md-12",
+                staticStyle: {
+                  padding: "10px",
+                  color: "white",
+                  display: "flex"
+                }
+              },
+              [
+                _c("p", [_c("i", { staticClass: "fas fa-arrow-down" })]),
+                _vm._v(" "),
+                _c(
+                  "p",
+                  {
+                    staticStyle: { "margin-left": "55px", "font-size": "1.2em" }
+                  },
+                  [_vm._v("Pagas a medida que te entregamos resultados")]
+                )
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-md-12", staticStyle: { position: "relative" } },
+            [
+              _c("div", { staticClass: "line-pointer" }),
+              _vm._v(" "),
+              _c("ul", { staticStyle: { "margin-left": "30px" } }, [
+                _c("li", [
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "margin-left": "50px",
+                        "font-size": "1.2em",
+                        "margin-top": "1.2em",
+                        "font-weight": "bold"
+                      }
+                    },
+                    [_vm._v("Penalización por tiempos")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "margin-left": "50px",
+                        "font-size": "1.2em",
+                        "margin-top": "1.2em",
+                        "font-weight": "bold"
+                      }
+                    },
+                    [_vm._v("Garantía de 90 días")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "margin-left": "50px",
+                        "font-size": "1.2em",
+                        "margin-top": "1.2em",
+                        "font-weight": "bold"
+                      }
+                    },
+                    [_vm._v("Todo se especifica en un contrato")]
+                  )
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("hacemos?")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12 text-center" }, [
+        _c("p", [
+          _vm._v(
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore."
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-md-12 d-flex justify-content-between align-items-center mt-5"
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo1.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("B2C & B2B Web system apps")
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo2.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center" }, [_vm._v("Outstaffing")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo3.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v("Logo")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo4.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v("Logo")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo5.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v("Logo")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo6.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v("Logo")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo7.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v("Logo")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex justify-content-center align-items-center flex-column"
+            },
+            [
+              _c("img", {
+                attrs: { src: "/images/logo8.png", width: "70%", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v("Logo")])
+            ]
+          )
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "line" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "container-image-2" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
+              width: "100%",
+              alt: ""
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5",
+          staticStyle: { color: "white", padding: "20px 0" }
+        },
+        [
+          _c("h2", [_vm._v("Proyectos")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis voluptatem. Dolor voluptate quis, repellendus perspiciatis officiis voluptatibus illo magnam laboriosam ex in qui nesciunt facilis consectetur molestiae pariatur iusto."
+            )
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "btn btn-ver-mas", attrs: { href: "#" } }, [
+            _vm._v("Ver mas")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("clientes")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-md-12 d-flex justify-content-around align-items-center flex-wrap"
+        },
+        [
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+              width: "200px",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+              width: "200px",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+              width: "200px",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+              width: "200px",
+              alt: ""
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.websmultimedia.com/style/img/trabajos/logotipo-areco.jpg",
+              width: "200px",
+              alt: ""
+            }
+          })
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("expertos")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "line" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-12" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://img1.kpopmap.com/2017/05/ELRS-Jackpot-Concept-Photo-profile.jpg",
+                width: "100%",
+                alt: ""
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-12 mt-2" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://thebiaslistcom.files.wordpress.com/2017/06/elris-we-first.jpg",
+                width: "100%",
+                alt: ""
+              }
+            })
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-3" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-12 ml-2" }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://vignette.wikia.nocookie.net/kpop/images/2/27/ELRIS_Bella_Jackpot_concept_photo_%283%29.png/revision/latest?cb=20200227233639",
+                width: "100%",
+                alt: ""
+              }
+            })
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-md-5 d-flex justify-content-center align-items-start flex-column pl-3"
+        },
+        [
+          _c("p", [
+            _vm._v(
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fuga libero amet illo suscipit iste, error accusamus dolore dolorem debitis. Nemo, porro numquam! Aliquid ut porro harum officia quae? Cumque!"
+            )
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "btn btn-ver-mas-2", attrs: { href: "#" } }, [
+            _vm._v("ver mas")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [
+          _vm._v("¿que tienes en mente?")
+        ]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("contactanos")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12 text-center" }, [
+        _c("p", [
+          _vm._v(
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore."
+          )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
 
 
 
