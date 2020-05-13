@@ -84,16 +84,17 @@
         width: 150px;
         height: 100vw;
         overflow-y: auto;
-        overflow-x: hidden;
-        transform: rotate(-90deg) translateY(-20%);
+        overflow-x: visible;
+        transform: rotate(-90deg) translateY(-10vw);
         transform-origin: right top;
     }
 
     .horizontal-scroll-wrapper > div {
       	width: 100px;
-      	height: 100px;
-      	transform: rotate(90deg);
+      	height: 300px;
+      	transform: rotate(90deg) translatex(100px);
       	transform-origin: right top;
+        margin: 30px;
     }
 
     .main-container h2{
@@ -179,6 +180,11 @@
         z-index: -1;
     }
 
+    .img-75w{
+        width: auto;
+        height: 75px;
+    }
+
 </style>
 
 <template>
@@ -216,38 +222,26 @@
             <section class="row" style="overflow: visible; height: 300px;">
                 <div class="horizontal-scroll-wrapper">
                     <div>
-                        <p>ejemplo</p>
+                        <img src="/images/component (1).png" class="img-75w" alt="">
+                        <p>Discovery Meeting</p>
                     </div>
                     <div>
-                        <p>ejemplo</p>
+                        <p>Investigación y planeación</p>
+                        <img src="/images/component (2).png" class="img-75w" alt="">
                     </div>
                     <div>
-                        <p>ejemplo</p>
+                        <img src="/images/component (3).png" class="img-75w" alt="">
+                        <p>Contrato de implementación de software</p>
                     </div>
                     <div>
-                        <p>ejemplo</p>
+                        <p>Desarrollo del proyecto</p>
+                        <img src="/images/component (4).png" class="img-75w" alt="">
                     </div>
                     <div>
-                        <p>ejemplo</p>
+                        <img src="/images/component (5).png" class="img-75w" alt="">
+                        <p>Demos y aprobación/p>
                     </div>
-                    <div>
-                        <p>ejemplo</p>
-                    </div>
-                    <div>
-                        <p>ejemplo</p>
-                    </div>
-                    <div>
-                        <p>ejemplo</p>
-                    </div>
-                    <div>
-                        <p>ejemplo</p>
-                    </div>
-                    <div>
-                        <p>ejemplo</p>
-                    </div>
-                    <div>
-                        <p>ejemplo</p>
-                    </div>
+
                 </div>
             </section>
 
