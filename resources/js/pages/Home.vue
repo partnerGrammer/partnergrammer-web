@@ -81,7 +81,7 @@
 
 
     .horizontal-scroll-wrapper{
-        width: 150px;
+        width: 200px;
         height: 100vw;
         overflow-y: auto;
         overflow-x: visible;
@@ -90,9 +90,9 @@
     }
 
     .horizontal-scroll-wrapper > div {
-      	width: 100px;
       	height: 300px;
-      	transform: rotate(90deg) translateX(100px);
+        width: 300px;
+        transform: rotate(90deg) translateY(200px) translateX(300px);
       	transform-origin: right top;
         margin: 30px;
     }
