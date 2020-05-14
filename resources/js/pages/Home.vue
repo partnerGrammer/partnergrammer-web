@@ -93,9 +93,25 @@
     .horizontal-scroll-wrapper > div {
       	height: 300px;
         width: 300px;
-        transform: rotate(90deg) translateY(200px) translateX(300px);
+        /*transform: rotate(90deg) translateY(200px) translateX(300px);*/
       	transform-origin: right top;
         margin: 30px;
+    }
+
+    .horizontal-scroll-upper {
+        transform: rotate(90deg) translateY(140px) translateX(300px);
+    }
+
+    .horizontal-scroll-upper > p {
+        transform: translateY(-50px) translateX(64px);
+    }
+
+    .horizontal-scroll-lower {
+        transform: rotate(90deg) translateY(270px) translateX(300px);
+    }
+
+    .horizontal-scroll-lower > img{
+        transform: translateY(-45px) translateX(205px);
     }
 
     .horizontal-scroll-wrapper::-webkit-scrollbar {
@@ -226,22 +242,22 @@
             <!-- seccion 4 -->
             <section class="row" style="overflow: visible; height: 300px;">
                 <div class="horizontal-scroll-wrapper">
-                    <div>
+                    <div class="horizontal-scroll-upper">
                         <img src="/images/component (1).png" class="img-75w" alt="">
                         <p>Discovery Meeting</p>
                     </div>
-                    <div>
+                    <div class="horizontal-scroll-lower">
                         <p>Investigación y planeación</p>
                         <img src="/images/component (2).png" class="img-75w" alt="">
                     </div>
-                    <div>
+                    <div class="horizontal-scroll-upper">
                         <img src="/images/component (3).png" class="img-75w" alt="">
                         <p>Contrato de implementación de software</p>
                     </div>
-                    <div>
+                    <div class="horizontal-scroll-lower">
                         <p>Desarrollo del proyecto</p>
                         <img src="/images/component (4).png" class="img-75w" alt="">
-                    </div>
+                    </div class="horizontal-scroll-upper">
                     <div>
                         <img src="/images/component (5).png" class="img-75w" alt="">
                         <p>Demos y aprobación</p>
