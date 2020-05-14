@@ -87,6 +87,7 @@
         overflow-x: visible;
         transform: rotate(-90deg) translateY(-10vw);
         transform-origin: right top;
+        -ms-overflow-style: none; /*ocultar scrollbar en IE y Edge*/
     }
 
     .horizontal-scroll-wrapper > div {
@@ -95,6 +96,10 @@
         transform: rotate(90deg) translateY(200px) translateX(300px);
       	transform-origin: right top;
         margin: 30px;
+    }
+
+    .horizontal-scroll-wrapper::-webkit-scrollbar {
+        display: none; /*ocultar scrollbar en chrome, safari, y opera*/
     }
 
     .main-container h2{
