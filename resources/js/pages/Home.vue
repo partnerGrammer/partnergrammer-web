@@ -79,35 +79,41 @@
         background-color: purple;
     }
 
-
     .horizontal-scroll-wrapper{
-        width: 200px;
-        height: 100vw;
+        width: 300px;
+        height: 84vw;
         overflow-y: auto;
         overflow-x: visible;
-        transform: rotate(-90deg) translateY(-10vw);
+        transform: rotate(-90deg) translateY(-300px);
         transform-origin: right top;
         -ms-overflow-style: none; /*ocultar scrollbar en IE y Edge*/
     }
 
     .horizontal-scroll-wrapper > div {
-      	height: 300px;
-        width: 300px;
+        height: 100px;
+        width: 400px;
+        padding: 16px 0px;
+        margin: 289px 0px;
         /*transform: rotate(90deg) translateY(200px) translateX(300px);*/
       	transform-origin: right top;
-        margin: 30px;
     }
 
     .horizontal-scroll-upper {
-        transform: rotate(90deg) translateY(140px) translateX(300px);
+        transform: rotate(90deg) translateY(150px) translateX(218px);
+        border-bottom-color: gray;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
     }
 
     .horizontal-scroll-upper > p {
-        transform: translateY(-50px) translateX(64px);
+        transform: translateY(-50px) translateX(80px);
     }
 
     .horizontal-scroll-lower {
-        transform: rotate(90deg) translateY(270px) translateX(300px);
+        transform: rotate(90deg) translateY(245px) translateX(229px);
+        border-top-color: grey;
+        border-top-style: solid;
+        border-top-width: 5px;
     }
 
     .horizontal-scroll-lower > img{
@@ -258,7 +264,7 @@
                         <p>Desarrollo del proyecto</p>
                         <img src="/images/component (4).png" class="img-75w" alt="">
                     </div class="horizontal-scroll-upper">
-                    <div>
+                    <div class="horizontal-scroll-upper">
                         <img src="/images/component (5).png" class="img-75w" alt="">
                         <p>Demos y aprobación</p>
                     </div>
