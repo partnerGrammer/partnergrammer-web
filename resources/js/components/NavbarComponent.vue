@@ -175,7 +175,7 @@ export default {
                 email: '',
                 information: '',
                 message: '',
-            }
+            },
             showNavbar: true,
 
         }
@@ -248,11 +248,11 @@ export default {
 
     methods: {
         async sendForm(){
-            
+
             if(this.$v.form.$invalid){
                 this.$v.form.$touch()
-                let toast1 = this.$toasted.show(this.erroresName[0], { 
-                        theme: "bubble", 
+                let toast1 = this.$toasted.show(this.erroresName[0], {
+                        theme: "bubble",
                         position: "bottom-center",
                         type: 'error',
                         duration : 5000,
@@ -266,8 +266,8 @@ export default {
                             }
                         },
                     })
-                let toast2 = this.$toasted.show(this.erroresEmail[0], { 
-                        theme: "bubble", 
+                let toast2 = this.$toasted.show(this.erroresEmail[0], {
+                        theme: "bubble",
                         position: "bottom-center",
                         type: 'error',
                         duration : 5000,
@@ -281,8 +281,8 @@ export default {
                             }
                         },
                     })
-                let toast3 = this.$toasted.show(this.erroresMessage[0], { 
-                        theme: "bubble", 
+                let toast3 = this.$toasted.show(this.erroresMessage[0], {
+                        theme: "bubble",
                         position: "bottom-center",
                         type: 'error',
                         duration : 5000,
@@ -301,15 +301,15 @@ export default {
                 console.log(this.erroresMessage)
                 return
             }
-            
+
             try {
                 let URL = '/email/contact'
                 let response = await axios.post(URL, this.form)
 
                 if(response){
                     console.log('Mensaje enviado')
-                    let toast = this.$toasted.show("Mensaje enviado!!", { 
-                        theme: "bubble", 
+                    let toast = this.$toasted.show("Mensaje enviado!!", {
+                        theme: "bubble",
                         position: "bottom-center",
                         type: 'success',
                         duration : 5000,
