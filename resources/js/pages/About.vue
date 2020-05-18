@@ -115,37 +115,37 @@
                 <div class="col-md-12">
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/luis.png" width="100%" alt="">
+                            <img src="/images/luis.png" width="100%" alt="Luis Andrade">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/judith.png" width="100%" alt="">
+                            <img src="/images/judith.png" width="100%" alt="Judith Delgado">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/lalo.png" width="100%" alt="">
+                            <img src="/images/lalo.png" width="100%" alt="Samuel Acosta">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/gera.png" width="100%" alt="">
+                            <img src="/images/gera.png" width="100%" alt="Gerardo González">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/meny.png" width="100%" alt="">
+                            <img src="/images/meny.png" width="100%" alt="Manuel Higuera">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/talita.png" width="100%" alt="">
+                            <img src="/images/talita.png" width="100%" alt="Talita Roldán">
                         </div>
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-                            <img src="/images/monica.png" width="100%" alt="">
+                            <img src="/images/monica.png" width="100%" alt="Monica Soto">
                         </div>
                     </div>
                     <div class="image-about">
