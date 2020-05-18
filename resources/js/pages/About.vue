@@ -6,7 +6,7 @@
     .main-container *{
         padding: 0;
         margin: 0;
-        
+
     }
 
     .image-about{
@@ -80,7 +80,7 @@
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
@@ -94,7 +94,7 @@
             <section class="row">
                 <div class="col-md-3" />
                 <div class="col-md-7 offset-4 text-left">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit facilis nam quasi libero vitae maxime, inventore incidunt, ipsum magni necessitatibus repudiandae sapiente sequi animi iste veritatis a! Recusandae, ab.</p>
+                    <p>Partnergrammer es una agencia que cree en el talento mexicano.<br>Somos una compañía que desarrolla software personalizado, que entiende de negocios y que busca ser tu socio estratégico para innovar en tu negocio.</p>
                 </div>
             </section>
 
@@ -157,7 +157,7 @@
             <section class="row">
                 <div class="col-md-3" />
                 <div class="col-md-7 offset-4 text-left">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit facilis nam quasi libero vitae maxime, inventore incidunt, ipsum magni necessitatibus repudiandae sapiente sequi animi iste veritatis a! Recusandae, ab.</p>
+                    <p>Es por eso que hemos invertido en procesos, certificaciones y mejores prácticas para brindarte la seguridad de que tu proyecto estará terminado de manera puntual.</p>
                 </div>
             </section>
 

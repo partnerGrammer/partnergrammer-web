@@ -226,13 +226,13 @@
         <Navbar />
 
 
-        <section class="main-container" style="margin-top: 9em">
 
+        <section class="main-container" style="margin-top: 9em">
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
+                    <h1>Desarrollo de software de calidad de inicio a fin</h1>
+                    <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="/images/computer-bg-1.png" width="100%" alt="">
@@ -242,19 +242,21 @@
             <!-- seccion 2 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">nuestros</h2>
-                    <h2>procesos</h2>
+                    <h2 style="color: #949A9D;">nuestro</h2>
+                    <h2>proceso</h2>
                 </div>
             </section>
 
             <!-- seccion 3 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
+                    <p>Déjate sorprender por nuestro proceso de planeación: Somos extremadamente meticulosos. Nos enfocamos en cada detalle antes de llevar iniciar el proyecto, que podrías llevar nuestra planeación con otra agencia de software y podrían realizarlo sin ningún problema. Seguimos el proceso de SCRUM, el cual es un proceso en el que se aplican un conjunto de buenas prácticas para trabajar colaborativamente y así obtener el mejor resultado.
+                        <br>La planeación es nuestra especialidad</p>
                 </div>
             </section>
 
             <!-- seccion 4 -->
+
             <section class="row" style="overflow: visible; height: 300px;">
                 <div class="horizontal-scroll-wrapper">
                     <div class="horizontal-scroll-upper">
@@ -284,15 +286,15 @@
             <!-- seccion 5 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">tu tranquilidad</h2>
-                    <h2>nuestra prioridad</h2>
+                    <h2 style="color: #949A9D;">¿qué nos hace</h2>
+                    <h2>diferente a los demás?</h2>
                 </div>
             </section>
 
             <!-- seccion 6 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
+                    <p>Iniciamos este viaje con tu idea y la llevamos hasta el final, pasando por la definición del producto, estrategia, diseño, desarrollo, aseguranza de calidad y finalmente, la entrega impecable de tu producto final.</p>
                 </div>
             </section>
 
@@ -339,7 +341,7 @@
             <!-- seccion 9 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
+                    <p>Hacemos desarrollo de software a la medida, desarrollo web y móvil y todo lo que se te ocurra. Platicar es gratis. Cuéntanos tu idea y nosotros ponemos el café.</p>
                 </div>
 
                 <div class="col-md-12 d-flex justify-content-between align-items-center mt-5">
@@ -388,7 +390,7 @@
                 </div>
                 <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
                     <h2>Proyectos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis voluptatem. Dolor voluptate quis, repellendus perspiciatis officiis voluptatibus illo magnam laboriosam ex in qui nesciunt facilis consectetur molestiae pariatur iusto.</p>
+                    <p>Checa nuestro portafolio para que veas de qué hablamos.</p>
                     <a class="btn btn-ver-mas" href="#">Ver mas</a>
                 </div>
             </section>
@@ -441,7 +443,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center align-items-start flex-column pl-3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fuga libero amet illo suscipit iste, error accusamus dolore dolorem debitis. Nemo, porro numquam! Aliquid ut porro harum officia quae? Cumque!</p>
+                    <p>Nuestro diverso equipo está compuesto por personas creativas, ingeniosas y está preparado con las mejores herramientas y conocimiento necesario para llevar tu idea al siguiente nivel.</p>
                     <a class="btn btn-ver-mas-2" href="#">ver mas</a>
                 </div>
             </section>
@@ -449,15 +451,15 @@
             <!-- seccion 15 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">¿que tienes en mente?</h2>
-                    <h2>contactanos</h2>
+                    <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
+                    <h2>¡contáctanos!</h2>
                 </div>
             </section>
 
             <!-- seccion 16 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
+                    <h2>Empecemos con tu nombre</h2>
                 </div>
             </section>
 
