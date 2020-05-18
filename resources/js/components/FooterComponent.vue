@@ -79,7 +79,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center align-items-center">
-                    <p>LOGO</p>
+                    <img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 200px; margin-bottom: 20px;">
                 </div>
             </div>
         </footer>

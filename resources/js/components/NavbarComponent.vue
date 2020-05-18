@@ -2,7 +2,13 @@
     *
         padding: 0
     .navbar
-        height: 3em
+        position: fixed
+        left: 0
+        top: 0
+        width: 100vw
+        z-index: 200
+        height: 8em
+        padding: 0 25px
     .nav-section-1
         display: flex
         justify-content: flex-start
@@ -17,12 +23,13 @@
     .nav-section-2 > a
         color: black
         text-decoration: none
-        
+
     .nav-section-2 > .nav-section-2-btn-contact
         color: white
         display: inline-block
         background-color: #EE1331
         padding: 5px 15px
+
 
     .btn-ver-mas-2
         display: inline-block
@@ -32,7 +39,7 @@
         font-size: 14px
         border-radius: 0px
         margin-top: 20px
-    
+
     .main-box
         position: absolute
         top: 0
@@ -48,7 +55,7 @@
         box-shadow: 3px 3px 10px #BFBFBF
         padding: 20px 10%
         background-color: white
-    
+
 
     .contacto input
         width: 100%
@@ -57,7 +64,7 @@
         border: none
         border: 1px solid black
         padding: 10px
-    
+
 
     .contacto textarea
         width: 100%
@@ -65,14 +72,17 @@
         border: none
         border: 1px solid black
         padding: 10px
-    
+
+    .nav-showNavbar
+        background-color: #FFFFFF
+
 </style>
 
 <template>
     <section>
-        <nav class="row navbar">
+        <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }">
             <div class="col-md-6 nav-section-1">
-                <router-link to="/">LOGO</router-link>
+                <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 100px;"></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
@@ -150,6 +160,7 @@
     </section>
 </template>
 
+
 <script>
 //Vuelidate
 import { required, minLength, email } from 'vuelidate/lib/validators'
@@ -165,8 +176,11 @@ export default {
                 information: '',
                 message: '',
             }
+            showNavbar: true,
+
         }
     },
+
 
     mounted(){
 
@@ -312,6 +326,7 @@ export default {
                 }
             } catch (error) {
                 console.log(error)
+
             }
         }
     }
