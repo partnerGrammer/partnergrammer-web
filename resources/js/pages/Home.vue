@@ -220,7 +220,8 @@
       #proyectos{
           margin-left: 22%;
       }
-
+    }
+    
     .que-hacemos-img{
         height: 80px;
         width: auto;
