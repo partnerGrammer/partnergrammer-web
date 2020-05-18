@@ -5,7 +5,7 @@
 
     .main-container *{
         padding: 0;
-        margin: 0;  
+        margin: 0;
     }
 
     .main-container h1{
@@ -77,6 +77,51 @@
         width: 100%;
         height: 200px;
         background-color: purple;
+    }
+
+    .horizontal-scroll-wrapper{
+        width: 300px;
+        height: 84vw;
+        overflow-y: auto;
+        overflow-x: visible;
+        transform: rotate(-90deg) translateY(-300px);
+        transform-origin: right top;
+        -ms-overflow-style: none; /*ocultar scrollbar en IE y Edge*/
+    }
+
+    .horizontal-scroll-wrapper > div {
+        height: 100px;
+        width: 400px;
+        padding: 16px 0px;
+        margin: 289px 0px;
+        /*transform: rotate(90deg) translateY(200px) translateX(300px);*/
+      	transform-origin: right top;
+    }
+
+    .horizontal-scroll-upper {
+        transform: rotate(90deg) translateY(150px) translateX(218px);
+        border-bottom-color: gray;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+    }
+
+    .horizontal-scroll-upper > p {
+        transform: translateY(-50px) translateX(80px);
+    }
+
+    .horizontal-scroll-lower {
+        transform: rotate(90deg) translateY(245px) translateX(229px);
+        border-top-color: grey;
+        border-top-style: solid;
+        border-top-width: 5px;
+    }
+
+    .horizontal-scroll-lower > img{
+        transform: translateY(-45px) translateX(205px);
+    }
+
+    .horizontal-scroll-wrapper::-webkit-scrollbar {
+        display: none; /*ocultar scrollbar en chrome, safari, y opera*/
     }
 
     .main-container h2{
@@ -162,12 +207,17 @@
         z-index: -1;
     }
 
+    .img-75w{
+        width: auto;
+        height: 75px;
+    }
+
 </style>
 
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
@@ -196,9 +246,29 @@
             </section>
 
             <!-- seccion 4 -->
-            <section class="row">
-                <div class="col-md-12 carrousel">
-                    
+            <section class="row" style="overflow: visible; height: 300px;">
+                <div class="horizontal-scroll-wrapper">
+                    <div class="horizontal-scroll-upper">
+                        <img src="/images/component (1).png" class="img-75w" alt="">
+                        <p>Discovery Meeting</p>
+                    </div>
+                    <div class="horizontal-scroll-lower">
+                        <p>Investigación y planeación</p>
+                        <img src="/images/component (2).png" class="img-75w" alt="">
+                    </div>
+                    <div class="horizontal-scroll-upper">
+                        <img src="/images/component (3).png" class="img-75w" alt="">
+                        <p>Contrato de implementación de software</p>
+                    </div>
+                    <div class="horizontal-scroll-lower">
+                        <p>Desarrollo del proyecto</p>
+                        <img src="/images/component (4).png" class="img-75w" alt="">
+                    </div class="horizontal-scroll-upper">
+                    <div class="horizontal-scroll-upper">
+                        <img src="/images/component (5).png" class="img-75w" alt="">
+                        <p>Demos y aprobación</p>
+                    </div>
+
                 </div>
             </section>
 
