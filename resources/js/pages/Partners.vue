@@ -320,7 +320,7 @@
                         <button class="btn btn-next" @click="control++">enviar</button>
                     </div>
                 <!-- final -->
-                <div class="col-md-12 partner" v-if="control == 7">
+                <div class="col-md-12 partner" v-if="(control == 7) || (control == 6 && !flag)">
                     <div class="row">
                         <div class="col-md-12">
                             <h2 style="color: #949A9D;">¡Muchas gracias!</h2>
@@ -377,6 +377,14 @@ export default {
 
     },
 
+    watch: {
+        control(){
+            if ((this.control == 7) || (this.control == 6 && !this.flag)) {
+                this.sendForm()
+            }
+        }
+    },
+
     computed: {
         saludo(){
 
@@ -391,31 +399,29 @@ export default {
             this.$router.push({ name: 'Article', params: { id: args } })
         },
 
-        async getArticle(){
+        async sendForm(){
+            
             try {
-                let URL = '/api/article'
-                let response = await axios.get(URL)
+                let URL = '/email/partner'
+                let response = await axios.post(URL, this.form)
 
                 if(response){
-                    this.mainArticle = response.data
-                }
-            } catch (error) {
-                console.log(error)
-            }
-        },
-
-        async getArticles(){
-            try {
-                this.articles = []
-                let URL = `/api/articles?page=${this.count}`
-                let response = await axios.get(URL)
-
-                if (response) {
-                    console.log(response.data)
-                    this.lastPage = response.data.last_page
-                    response.data.data.forEach(element => {
-                        this.articles.push(element)
-                    });
+                    console.log('Mensaje enviado')
+                    let toast = this.$toasted.show("Mensaje enviado!!", { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'success',
+                        duration : 5000,
+                        icon : {
+                            name : 'check'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
                 }
             } catch (error) {
                 console.log(error)

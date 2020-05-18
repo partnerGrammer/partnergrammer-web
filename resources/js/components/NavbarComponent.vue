@@ -2,7 +2,13 @@
     *
         padding: 0
     .navbar
-        height: 3em
+        position: fixed
+        left: 0
+        top: 0
+        width: 100vw
+        z-index: 200
+        height: 8em
+        padding: 0 25px
     .nav-section-1
         display: flex
         justify-content: flex-start
@@ -17,12 +23,13 @@
     .nav-section-2 > a
         color: black
         text-decoration: none
-        
+
     .nav-section-2 > .nav-section-2-btn-contact
         color: white
         display: inline-block
         background-color: #EE1331
         padding: 5px 15px
+
 
     .btn-ver-mas-2
         display: inline-block
@@ -32,7 +39,7 @@
         font-size: 14px
         border-radius: 0px
         margin-top: 20px
-    
+
     .main-box
         position: absolute
         top: 0
@@ -48,7 +55,7 @@
         box-shadow: 3px 3px 10px #BFBFBF
         padding: 20px 10%
         background-color: white
-    
+
 
     .contacto input
         width: 100%
@@ -57,7 +64,7 @@
         border: none
         border: 1px solid black
         padding: 10px
-    
+
 
     .contacto textarea
         width: 100%
@@ -65,14 +72,17 @@
         border: none
         border: 1px solid black
         padding: 10px
-    
+
+    .nav-showNavbar
+        background-color: #FFFFFF
+
 </style>
 
 <template>
     <section>
-        <nav class="row navbar">
+        <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }">
             <div class="col-md-6 nav-section-1">
-                <router-link to="/">LOGO</router-link>
+                <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 100px;"></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
@@ -97,7 +107,11 @@
                     </div> -->
                     <div class="modal-body">
                         <div class="row" style="position: relative;">
-                            <div class="col-md-12" style="background-color: #EE1331; height: 350px;"></div>
+                            <div class="col-md-12" style="background-color: #EE1331; height: 350px;">
+                                <button type="button" class="close mr-2 mt-2" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
                             <div class="col-md-12" style="background-color: white; height: 350px;"></div>
 
                             <div class="col-md-11 main-box">
@@ -146,7 +160,11 @@
     </section>
 </template>
 
+
 <script>
+//Vuelidate
+import { required, minLength, email } from 'vuelidate/lib/validators'
+
 export default {
     name: 'Navbar',
 
@@ -158,11 +176,159 @@ export default {
                 information: '',
                 message: '',
             }
+            showNavbar: true,
+
         }
     },
 
-    mounted() {
-        console.log('Component mounted.')
+
+    mounted(){
+
+    },
+
+    validations: {
+        form: {
+            name: {
+                required,
+            },
+            email: {
+                required,
+                email
+            },
+            message: {
+                required,
+            },
+        }
+    },
+
+    computed: {
+        erroresName: function(){
+            let errores = []
+            if(!this.$v.form.name.$dirty){
+                return errores
+            }
+
+            if(!this.$v.form.name.required){
+                errores.push('Ingresa tu nombre')
+            }
+
+            return errores
+        },
+
+        erroresEmail: function(){
+            let errores = []
+            if(!this.$v.form.email.$dirty){
+                return errores
+            }
+
+            if(!this.$v.form.email.required){
+                errores.push('Ingresa tu email')
+            }
+
+            if(!this.$v.form.email.email){
+                errores.push('Ingresa un email valido')
+            }
+
+            return errores
+        },
+
+        erroresMessage: function(){
+            let errores = []
+            if(!this.$v.form.message.$dirty){
+                return errores
+            }
+
+            if(!this.$v.form.message.required){
+                errores.push('Ingresa tu mensaje')
+            }
+
+            return errores
+        },
+    },
+
+    methods: {
+        async sendForm(){
+            
+            if(this.$v.form.$invalid){
+                this.$v.form.$touch()
+                let toast1 = this.$toasted.show(this.erroresName[0], { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'error',
+                        duration : 5000,
+                        icon : {
+                            name : 'error'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                let toast2 = this.$toasted.show(this.erroresEmail[0], { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'error',
+                        duration : 5000,
+                        icon : {
+                            name : 'error'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                let toast3 = this.$toasted.show(this.erroresMessage[0], { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'error',
+                        duration : 5000,
+                        icon : {
+                            name : 'error'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                console.log(this.erroresName)
+                console.log(this.erroresEmail)
+                console.log(this.erroresMessage)
+                return
+            }
+            
+            try {
+                let URL = '/email/contact'
+                let response = await axios.post(URL, this.form)
+
+                if(response){
+                    console.log('Mensaje enviado')
+                    let toast = this.$toasted.show("Mensaje enviado!!", { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'success',
+                        duration : 5000,
+                        icon : {
+                            name : 'check'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                }
+            } catch (error) {
+                console.log(error)
+
+            }
+        }
     }
 }
 </script>
