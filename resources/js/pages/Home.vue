@@ -221,7 +221,7 @@
           margin-left: 22%;
       }
     }
-    
+
     .que-hacemos-img{
         height: 80px;
         width: auto;
@@ -267,7 +267,7 @@
                     <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="/images/computer-bg-1.png" width="100%" alt="">
+                    <img src="/images/computer-bg-1.png" width="100%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 
@@ -292,23 +292,23 @@
             <section class="row" style="overflow: visible; height: 300px;">
                 <div class="horizontal-scroll-wrapper">
                     <div class="horizontal-scroll-upper">
-                        <img src="/images/component (1).png" class="img-75w" alt="">
+                        <img src="/images/component (1).png" class="img-75w" alt="Desarrollo web empresas">
                         <p>Discovery Meeting</p>
                     </div>
                     <div class="horizontal-scroll-lower">
                         <p>Investigación y planeación</p>
-                        <img src="/images/component (2).png" class="img-75w" alt="">
+                        <img src="/images/component (2).png" class="img-75w" alt=Desarrollo web aplicaciones móviles"">
                     </div>
                     <div class="horizontal-scroll-upper">
-                        <img src="/images/component (3).png" class="img-75w" alt="">
+                        <img src="/images/component (3).png" class="img-75w" alt="Desarrollo web e-commerce">
                         <p>Contrato de implementación de software</p>
                     </div>
                     <div class="horizontal-scroll-lower">
                         <p>Desarrollo del proyecto</p>
-                        <img src="/images/component (4).png" class="img-75w" alt="">
+                        <img src="/images/component (4).png" class="img-75w" alt="software a la medida mexico">
                     </div class="horizontal-scroll-upper">
                     <div class="horizontal-scroll-upper">
-                        <img src="/images/component (5).png" class="img-75w" alt="">
+                        <img src="/images/component (5).png" class="img-75w" alt="desarrollo web html y css">
                         <p>Demos y aprobación</p>
                     </div>
 
@@ -378,23 +378,23 @@
 
                 <div class="projects col-md-12 d-flex justify-content-between align-items-start flex-wrap mt-5">
                     <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo1.png" width="100%" alt="">
+                        <img src="/images/logo1.png" width="100%" alt="software a la medida de su empresa">
                         <p class="text-center">B2C & B2B Web system apps</p>
                     </div>
                     <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo2.png" width="100%" alt="">
+                        <img src="/images/logo2.png" width="100%" alt="desarrollo software a la medida">
                         <p class="text-center">Outstaffing</p>
                     </div>
                     <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo3.png" width="100%" alt="">
+                        <img src="/images/logo3.png" width="100%" alt="desarrollo de software a la medida mexico">
                         <p>Ecommerce</p>
                     </div>
                     <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo4.png" width="100%" alt="">
+                        <img src="/images/logo4.png" width="100%" alt="diseño y construcción de software a la medida para el sector empresarial">
                         <p>Themes & Plugins</p>
                     </div>
                     <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo5.png" width="100%" alt="">
+                        <img src="/images/logo5.png" width="100%" alt="cuanto cuesta un software a la medida">
                         <p>Mobile Apps</p>
                     </div>
                     <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
