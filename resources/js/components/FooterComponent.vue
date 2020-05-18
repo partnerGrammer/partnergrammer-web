@@ -1,6 +1,8 @@
 <style>
     footer{
         padding: 10em 5em 0 5em;
+        display: flex;
+        flex-direction: column;
     }
 
     .footer-section-1 p{
@@ -35,6 +37,58 @@
 
     .footer-section-2 .footer-navigation a:nth-child(1){
         color: black;
+    }
+
+    @media only screen and (max-width: 600px){
+        footer .row:nth-child(2){
+            display: flex;
+            flex: 1;
+            order: 0;
+        }
+        
+        footer .row:nth-child(1){
+            flex: 1;
+            order: 2;
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer .row:nth-child(2){
+            display: flex;
+            flex: 1;
+            order: 1;
+        }
+
+        footer .row:nth-child(1) .footer-section-1{
+            flex: 1;
+            order: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 1em;
+        }
+
+        .footer-section-1 p{
+            text-align: right;
+        }
+
+        footer .row:nth-child(1) .footer-section-2{
+            flex: 1;
+            order: 1;
+        }
+
+        .footer-section-2 div:nth-child(1){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .footer-section-2 .footer-navigation{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2em;
+        }
     }
 </style>
 
