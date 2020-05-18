@@ -211,7 +211,8 @@
     .img-75w{
         width: auto;
         height: 75px;
-
+    }
+    
     @media screen and (max-width: 767px){
       #proyectos{
           margin-left: 22%;
