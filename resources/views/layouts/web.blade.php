@@ -6,6 +6,8 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description"
+    content="Partnergrammer ayuda a marcas globales a diseñar, construir y lanzar productos digitales. Desarrollamos software a la medida, sistemas web, móviles o de escritorio con soluciones innovadoras. Pide tu cotización ahora.">
 
     <title>{{ config('app.name', 'PartnerGrammer') }}</title>
 
@@ -35,6 +37,6 @@
     <div id="app">
         @yield('content')
     </div>
-    
+
 </body>
 </html>
