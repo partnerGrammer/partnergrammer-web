@@ -107,7 +107,11 @@
                     </div> -->
                     <div class="modal-body">
                         <div class="row" style="position: relative;">
-                            <div class="col-md-12" style="background-color: #EE1331; height: 350px;"></div>
+                            <div class="col-md-12" style="background-color: #EE1331; height: 350px;">
+                                <button type="button" class="close mr-2 mt-2" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
                             <div class="col-md-12" style="background-color: white; height: 350px;"></div>
 
                             <div class="col-md-11 main-box">
@@ -158,6 +162,9 @@
 
 
 <script>
+//Vuelidate
+import { required, minLength, email } from 'vuelidate/lib/validators'
+
 export default {
     name: 'Navbar',
 
@@ -174,21 +181,152 @@ export default {
         }
     },
 
-    mounted() {
-        console.log('Component mounted.')
-        window.addEventListener('scroll', this.onScroll)
+
+    mounted(){
+
     },
-    beforeDestroy () {
-        window.removeEventListener('scroll', this.onScroll)
+
+    validations: {
+        form: {
+            name: {
+                required,
+            },
+            email: {
+                required,
+                email
+            },
+            message: {
+                required,
+            },
+        }
     },
+
+    computed: {
+        erroresName: function(){
+            let errores = []
+            if(!this.$v.form.name.$dirty){
+                return errores
+            }
+
+            if(!this.$v.form.name.required){
+                errores.push('Ingresa tu nombre')
+            }
+
+            return errores
+        },
+
+        erroresEmail: function(){
+            let errores = []
+            if(!this.$v.form.email.$dirty){
+                return errores
+            }
+
+            if(!this.$v.form.email.required){
+                errores.push('Ingresa tu email')
+            }
+
+            if(!this.$v.form.email.email){
+                errores.push('Ingresa un email valido')
+            }
+
+            return errores
+        },
+
+        erroresMessage: function(){
+            let errores = []
+            if(!this.$v.form.message.$dirty){
+                return errores
+            }
+
+            if(!this.$v.form.message.required){
+                errores.push('Ingresa tu mensaje')
+            }
+
+            return errores
+        },
+    },
+
     methods: {
-        onScroll () {
-            // Get the current scroll position
-            const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop    // Because of momentum scrolling on mobiles, we shouldn't continue if it is less than zero
-            if (currentScrollPosition > 0) {
-              this.showNavbar= false
-            } else {
-              this.showNavbar= true
+        async sendForm(){
+            
+            if(this.$v.form.$invalid){
+                this.$v.form.$touch()
+                let toast1 = this.$toasted.show(this.erroresName[0], { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'error',
+                        duration : 5000,
+                        icon : {
+                            name : 'error'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                let toast2 = this.$toasted.show(this.erroresEmail[0], { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'error',
+                        duration : 5000,
+                        icon : {
+                            name : 'error'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                let toast3 = this.$toasted.show(this.erroresMessage[0], { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'error',
+                        duration : 5000,
+                        icon : {
+                            name : 'error'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                console.log(this.erroresName)
+                console.log(this.erroresEmail)
+                console.log(this.erroresMessage)
+                return
+            }
+            
+            try {
+                let URL = '/email/contact'
+                let response = await axios.post(URL, this.form)
+
+                if(response){
+                    console.log('Mensaje enviado')
+                    let toast = this.$toasted.show("Mensaje enviado!!", { 
+                        theme: "bubble", 
+                        position: "bottom-center",
+                        type: 'success',
+                        duration : 5000,
+                        icon : {
+                            name : 'check'
+                        },
+                        action : {
+                            text : 'OK',
+                            onClick : (e, toastObject) => {
+                                toastObject.goAway(0);
+                            }
+                        },
+                    })
+                }
+            } catch (error) {
+                console.log(error)
+
             }
         }
     }

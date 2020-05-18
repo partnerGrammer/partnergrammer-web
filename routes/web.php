@@ -1,7 +1,9 @@
 <?php
 
 use App\Contact;
+use App\Partner;
 use App\Mail\Contact as ContactMail;
+use App\Mail\Partner as PartnerMail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -42,6 +44,26 @@ Route::post('email/contact', function(Request $request){
     $contact->save();
     
     Mail::to('contact@partnergrammer.com', 'Contacto')->send(new ContactMail($data));
+});
+
+//PARTNER MAIL
+Route::post('email/partner', function(Request $request){
+    $data = json_decode(file_get_contents("php://input"));
+
+    $partner = new Partner();
+    $partner->name = $data->name;
+    $partner->lastName = $data->lastName;
+    $partner->empresa = $data->empresa;
+    $partner->email = $data->email;
+    $partner->sector = $data->sector;
+    $partner->emailComercial = $data->emailComercial;
+    $partner->telephone = $data->telephone;
+    $partner->number = $data->number;
+    $partner->city = $data->city;
+    $partner->comments = $data->comments;
+    $partner->save();
+    
+    Mail::to('partner@partnergrammer.com', 'Partner')->send(new PartnerMail($data));
 });
 
 

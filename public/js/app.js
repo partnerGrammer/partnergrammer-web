@@ -2539,6 +2539,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuelidate/lib/validators */ "./node_modules/vuelidate/lib/validators/index.js");
+/* harmony import */ var vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 //
 //
 //
@@ -2687,6 +2697,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//Vuelidate
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Navbar',
   data: function data() {
@@ -2699,8 +2715,177 @@ __webpack_require__.r(__webpack_exports__);
       }
     };
   },
-  mounted: function mounted() {
-    console.log('Component mounted.');
+  mounted: function mounted() {},
+  validations: {
+    form: {
+      name: {
+        required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"]
+      },
+      email: {
+        required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"],
+        email: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["email"]
+      },
+      message: {
+        required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"]
+      }
+    }
+  },
+  computed: {
+    erroresName: function erroresName() {
+      var errores = [];
+
+      if (!this.$v.form.name.$dirty) {
+        return errores;
+      }
+
+      if (!this.$v.form.name.required) {
+        errores.push('Ingresa tu nombre');
+      }
+
+      return errores;
+    },
+    erroresEmail: function erroresEmail() {
+      var errores = [];
+
+      if (!this.$v.form.email.$dirty) {
+        return errores;
+      }
+
+      if (!this.$v.form.email.required) {
+        errores.push('Ingresa tu email');
+      }
+
+      if (!this.$v.form.email.email) {
+        errores.push('Ingresa un email valido');
+      }
+
+      return errores;
+    },
+    erroresMessage: function erroresMessage() {
+      var errores = [];
+
+      if (!this.$v.form.message.$dirty) {
+        return errores;
+      }
+
+      if (!this.$v.form.message.required) {
+        errores.push('Ingresa tu mensaje');
+      }
+
+      return errores;
+    }
+  },
+  methods: {
+    sendForm: function sendForm() {
+      var _this = this;
+
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+        var toast1, toast2, toast3, URL, response, toast;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (!_this.$v.form.$invalid) {
+                  _context.next = 9;
+                  break;
+                }
+
+                _this.$v.form.$touch();
+
+                toast1 = _this.$toasted.show(_this.erroresName[0], {
+                  theme: "bubble",
+                  position: "bottom-center",
+                  type: 'error',
+                  duration: 5000,
+                  icon: {
+                    name: 'error'
+                  },
+                  action: {
+                    text: 'OK',
+                    onClick: function onClick(e, toastObject) {
+                      toastObject.goAway(0);
+                    }
+                  }
+                });
+                toast2 = _this.$toasted.show(_this.erroresEmail[0], {
+                  theme: "bubble",
+                  position: "bottom-center",
+                  type: 'error',
+                  duration: 5000,
+                  icon: {
+                    name: 'error'
+                  },
+                  action: {
+                    text: 'OK',
+                    onClick: function onClick(e, toastObject) {
+                      toastObject.goAway(0);
+                    }
+                  }
+                });
+                toast3 = _this.$toasted.show(_this.erroresMessage[0], {
+                  theme: "bubble",
+                  position: "bottom-center",
+                  type: 'error',
+                  duration: 5000,
+                  icon: {
+                    name: 'error'
+                  },
+                  action: {
+                    text: 'OK',
+                    onClick: function onClick(e, toastObject) {
+                      toastObject.goAway(0);
+                    }
+                  }
+                });
+                console.log(_this.erroresName);
+                console.log(_this.erroresEmail);
+                console.log(_this.erroresMessage);
+                return _context.abrupt("return");
+
+              case 9:
+                _context.prev = 9;
+                URL = '/email/contact';
+                _context.next = 13;
+                return axios.post(URL, _this.form);
+
+              case 13:
+                response = _context.sent;
+
+                if (response) {
+                  console.log('Mensaje enviado');
+                  toast = _this.$toasted.show("Mensaje enviado!!", {
+                    theme: "bubble",
+                    position: "bottom-center",
+                    type: 'success',
+                    duration: 5000,
+                    icon: {
+                      name: 'check'
+                    },
+                    action: {
+                      text: 'OK',
+                      onClick: function onClick(e, toastObject) {
+                        toastObject.goAway(0);
+                      }
+                    }
+                  });
+                }
+
+                _context.next = 20;
+                break;
+
+              case 17:
+                _context.prev = 17;
+                _context.t0 = _context["catch"](9);
+                console.log(_context.t0);
+
+              case 20:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, null, [[9, 17]]);
+      }))();
+    }
   }
 });
 
@@ -4748,6 +4933,13 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     };
   },
   mounted: function mounted() {},
+  watch: {
+    control: function control() {
+      if (this.control == 7 || this.control == 6 && !this.flag) {
+        this.sendForm();
+      }
+    }
+  },
   computed: {
     saludo: function saludo() {
       var nombreCompleto = '¡Mucho gusto, ' + this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!';
@@ -4763,25 +4955,40 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         }
       });
     },
-    getArticle: function getArticle() {
+    sendForm: function sendForm() {
       var _this = this;
 
       return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        var URL, response;
+        var URL, response, toast;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.prev = 0;
-                URL = '/api/article';
+                URL = '/email/partner';
                 _context.next = 4;
-                return axios.get(URL);
+                return axios.post(URL, _this.form);
 
               case 4:
                 response = _context.sent;
 
                 if (response) {
-                  _this.mainArticle = response.data;
+                  console.log('Mensaje enviado');
+                  toast = _this.$toasted.show("Mensaje enviado!!", {
+                    theme: "bubble",
+                    position: "bottom-center",
+                    type: 'success',
+                    duration: 5000,
+                    icon: {
+                      name: 'check'
+                    },
+                    action: {
+                      text: 'OK',
+                      onClick: function onClick(e, toastObject) {
+                        toastObject.goAway(0);
+                      }
+                    }
+                  });
                 }
 
                 _context.next = 11;
@@ -4798,48 +5005,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             }
           }
         }, _callee, null, [[0, 8]]);
-      }))();
-    },
-    getArticles: function getArticles() {
-      var _this2 = this;
-
-      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
-        var URL, response;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                _context2.prev = 0;
-                _this2.articles = [];
-                URL = "/api/articles?page=".concat(_this2.count);
-                _context2.next = 5;
-                return axios.get(URL);
-
-              case 5:
-                response = _context2.sent;
-
-                if (response) {
-                  console.log(response.data);
-                  _this2.lastPage = response.data.last_page;
-                  response.data.data.forEach(function (element) {
-                    _this2.articles.push(element);
-                  });
-                }
-
-                _context2.next = 12;
-                break;
-
-              case 9:
-                _context2.prev = 9;
-                _context2.t0 = _context2["catch"](0);
-                console.log(_context2.t0);
-
-              case 12:
-              case "end":
-                return _context2.stop();
-            }
-          }
-        }, _callee2, null, [[0, 9]]);
       }))();
     }
   }
@@ -64001,13 +64166,7 @@ var render = function() {
                   "div",
                   { staticClass: "row", staticStyle: { position: "relative" } },
                   [
-                    _c("div", {
-                      staticClass: "col-md-12",
-                      staticStyle: {
-                        "background-color": "#EE1331",
-                        height: "350px"
-                      }
-                    }),
+                    _vm._m(0),
                     _vm._v(" "),
                     _c("div", {
                       staticClass: "col-md-12",
@@ -64018,9 +64177,9 @@ var render = function() {
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "col-md-11 main-box" }, [
-                      _vm._m(0),
-                      _vm._v(" "),
                       _vm._m(1),
+                      _vm._v(" "),
+                      _vm._m(2),
                       _vm._v(" "),
                       _c("section", { staticClass: "row" }, [
                         _c("div", { staticClass: "col-md-1" }),
@@ -64170,7 +64329,7 @@ var render = function() {
                                 })
                               ]),
                               _vm._v(" "),
-                              _vm._m(2)
+                              _vm._m(3)
                             ]
                           )
                         ])
@@ -64187,6 +64346,32 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "col-md-12",
+        staticStyle: { "background-color": "#EE1331", height: "350px" }
+      },
+      [
+        _c(
+          "button",
+          {
+            staticClass: "close mr-2 mt-2",
+            attrs: {
+              type: "button",
+              "data-dismiss": "modal",
+              "aria-label": "Close"
+            }
+          },
+          [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+        )
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -66300,7 +66485,7 @@ var render = function() {
               ])
             : _vm._e(),
           _vm._v(" "),
-          _vm.control == 7
+          _vm.control == 7 || (_vm.control == 6 && !_vm.flag)
             ? _c("div", { staticClass: "col-md-12 partner" }, [_vm._m(10)])
             : _vm._e()
         ])
