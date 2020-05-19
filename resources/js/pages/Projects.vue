@@ -5,7 +5,7 @@
 
     .main-container *{
         padding: 0;
-        margin: 0;  
+        margin: 0;
     }
 
     .projects-container{
@@ -171,7 +171,7 @@
         <div class="container">
             <Navbar />
 
-            <section class="main-container">
+            <section class="main-container" style="margin-top: 9em">
                 <!-- seccion 1 -->
                 <section class="row">
                     <div class="col-md-12">
