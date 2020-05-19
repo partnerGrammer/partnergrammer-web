@@ -65180,7 +65180,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "container-image" }, [
                   _c("img", {
                     attrs: {
-                      src: "/images/SCRUM-CSD+.png",
+                      src: "/images/SCRUM-CSD.png",
                       width: "100%",
                       alt: ""
                     }

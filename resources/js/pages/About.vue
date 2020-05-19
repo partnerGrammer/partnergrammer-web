@@ -179,7 +179,7 @@
                     <div class="row">
                         <div class="col-4 col-md-4">
                             <div class="container-image">
-                                <img src="/images/SCRUM-CSD+.png" width="100%" alt="">
+                                <img src="/images/SCRUM-CSD.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
