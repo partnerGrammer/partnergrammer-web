@@ -78,6 +78,9 @@ const router = new VueRouter({
             path: '/partners',
             name: 'Partners',
             component: require('./pages/Partners').default,
+            meta: {
+              title: 'Programa de alianza'
+            }
             // component: () => import('./pages/About.vue')
         },
         {
