@@ -135,10 +135,10 @@
 
     .line{
         width: 100%;
-        height: 9%;
+        height: 80%;
         background-color: #EE1331;
         position: absolute;
-        top: 46%;
+        top: 12%;
         right: 0;
         margin-right: -20%;
         z-index: -100; /*para que este hasta el fondo*/
@@ -371,47 +371,6 @@
             </section>
 
             <!-- seccion 9 -->
-            <section class="row">
-                <div class="col-md-12 text-center">
-                    <p>Hacemos desarrollo de software a la medida, desarrollo web y móvil y todo lo que se te ocurra. Platicar es gratis. Cuéntanos tu idea y nosotros ponemos el café.</p>
-                </div>
-
-                <div class="projects col-md-12 d-flex justify-content-between align-items-start flex-wrap mt-5">
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo1.png" width="100%" alt="software a la medida de su empresa">
-                        <p class="text-center">B2C & B2B Web system apps</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo2.png" width="100%" alt="desarrollo software a la medida">
-                        <p class="text-center">Outstaffing</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo3.png" width="100%" alt="desarrollo de software a la medida mexico">
-                        <p>Ecommerce</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo4.png" width="100%" alt="diseño y construcción de software a la medida para el sector empresarial">
-                        <p>Themes & Plugins</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo5.png" width="100%" alt="cuanto cuesta un software a la medida">
-                        <p>Mobile Apps</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo6.png" width="100%" alt="">
-                        <p>Digital Marketing & SEO</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo7.png" width="100%" alt="">
-                        <p>Rich Media</p>
-                    </div>
-                    <div class="col-6 col-md-1 d-flex justify-content-center align-items-center flex-column" style="background-color: ;">
-                        <img src="/images/logo8.png" width="100%" alt="">
-                        <p>Websites</p>
-                    </div>
-                </div>
-            </section>
-
             <section class="row">
                 <div class="col-md-12 text-center" style="display: flex;">
                     <div class="img-con-texto">
