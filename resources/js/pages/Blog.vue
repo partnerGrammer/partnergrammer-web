@@ -61,8 +61,8 @@
 <template>
     <div class="container">
         <Navbar />
-
-        <section class="main-container" style="margin-top: 9em">
+        
+        <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-12">
@@ -80,9 +80,9 @@
                 </div>
                 <div class="col-md-7">
                     <h3>{{ mainArticle.title }}</h3>
-
+                
                     <p>{{ mainArticle.excerpt }}</p>
-
+                
                     <a class="btn-leer-mas" href="#" @click="goToArticle(mainArticle.id)">leer más</a>
                 </div>
             </article>

@@ -92,7 +92,7 @@
     <div class="container">
         <Navbar />
 
-        <section class="main-container" style="margin-top: 9em">
+        <section class="main-container">
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-12">
@@ -179,7 +179,7 @@
                     <div class="row">
                         <div class="col-4 col-md-4">
                             <div class="container-image">
-                                <img src="/images/SCRUM-CSD.png" width="100%" alt="">
+                                <img src="/images/SCRUM-CSD+.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="col-4 col-md-4">

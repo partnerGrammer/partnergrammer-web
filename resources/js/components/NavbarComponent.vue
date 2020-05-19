@@ -283,11 +283,9 @@ export default {
 
 
     mounted(){
-        window.addEventListener('scroll', this.onScroll)
+
     },
-    beforeDestroy () {
-        window.removeEventListener('scroll', this.onScroll)
-    },
+
     validations: {
         form: {
             name: {
@@ -429,15 +427,6 @@ export default {
             } catch (error) {
                 console.log(error)
 
-            }
-        },
-        onScroll () {
-            // Get the current scroll position
-            const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop    // Because of momentum scrolling on mobiles, we shouldn't continue if it is less than zero
-            if (currentScrollPosition > 0) {
-              this.showNavbar= false
-            } else {
-              this.showNavbar= true
             }
         }
     }
