@@ -135,10 +135,10 @@
 
     .line{
         width: 100%;
-        height: 9%;
+        height: 80%;
         background-color: #EE1331;
         position: absolute;
-        top: 46%;
+        top: 12%;
         right: 0;
         margin-right: -20%;
         z-index: -100; /*para que este hasta el fondo*/
