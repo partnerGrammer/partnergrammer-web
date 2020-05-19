@@ -10,7 +10,7 @@
     .main-container *{
         padding: 0;
         margin: 0;
-        
+
     }
 
     .image-about{
@@ -130,8 +130,8 @@
 <template>
     <div class="container">
         <Navbar />
-        
-        <section class="main-container">
+
+        <section class="main-container" style="margin-top: 9em">
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-6">
@@ -386,7 +386,7 @@ export default {
                 number: '',
                 city: '',
                 comments: '',
-            }, 
+            },
         }
     },
 
@@ -417,15 +417,15 @@ export default {
         },
 
         async sendForm(){
-            
+
             try {
                 let URL = '/email/partner'
                 let response = await axios.post(URL, this.form)
 
                 if(response){
                     console.log('Mensaje enviado')
-                    let toast = this.$toasted.show("Mensaje enviado!!", { 
-                        theme: "bubble", 
+                    let toast = this.$toasted.show("Mensaje enviado!!", {
+                        theme: "bubble",
                         position: "bottom-center",
                         type: 'success',
                         duration : 5000,
