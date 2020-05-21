@@ -216,6 +216,12 @@
         height: 75px;
     }
 
+    @media screen and (max-width: 992px){
+        #hacemos-nosotros{
+          flex-wrap: wrap;
+        }
+    }
+
     @media screen and (max-width: 767px){
       #proyectos{
           margin-left: 22%;
@@ -372,7 +378,7 @@
 
             <!-- seccion 9 -->
             <section class="row">
-                <div class="col-md-12 text-center" style="display: flex;">
+                <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex;">
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
                         <p class="que-hacemos-caption">B2C & B2B <br> Web system apps</p>
