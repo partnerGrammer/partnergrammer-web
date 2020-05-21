@@ -82,6 +82,27 @@
     .navbar-movil
         display: none
 
+    .main-container{
+        margin-top: 9em;
+    }
+    @media only screen and (max-width: 960px) and (min-width: 768px){
+        .nav-section-2 > a {
+            padding: 0 10px;
+        }
+        .nav-section-1{
+            flex 0 0 30%;
+            max-width: 30%;
+        }
+        .nav-section-2{
+            left:-100px;
+        }
+      }
+      @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+    }
+
     @media only screen and (max-width: 600px)
         .navbar
             display: none

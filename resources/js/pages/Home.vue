@@ -259,7 +259,7 @@
 
 
 
-        <section class="main-container" style="margin-top: 9em">
+        <section class="main-container" >
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
