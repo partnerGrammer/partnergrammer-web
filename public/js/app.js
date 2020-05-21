@@ -10361,9 +10361,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/NavbarComponent.vue?vue&type=style&index=0&id=485090b2&lang=sass&scoped=true& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Expected newline.\n   ╷\n85 │ .main-container{\n   │                ^\n   ╵\n  D:\\proyectos-partner\\partnergrammer-web\\resources\\js\\components\\NavbarComponent.vue 85:16  root stylesheet");
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".navbar[data-v-485090b2] {\n  position: fixed;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  z-index: 200;\n  height: 8em;\n  padding: 0 25px;\n}\n.nav-section-1[data-v-485090b2] {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n.nav-section-1 > a[data-v-485090b2] {\n  color: black;\n  display: inline-block;\n}\n.nav-section-2[data-v-485090b2] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.nav-section-2 > a[data-v-485090b2] {\n  color: black;\n  text-decoration: none;\n}\n.nav-section-2 > .nav-section-2-btn-contact[data-v-485090b2] {\n  color: white;\n  display: inline-block;\n  background-color: #EE1331;\n  padding: 5px 15px;\n}\n.btn-ver-mas-2[data-v-485090b2] {\n  display: inline-block;\n  padding: 10px 35px;\n  color: white;\n  background-color: #EE1331;\n  font-size: 14px;\n  border-radius: 0px;\n  margin-top: 20px;\n}\n.main-box[data-v-485090b2] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  padding: 50px 50px;\n}\n.contacto[data-v-485090b2] {\n  margin-top: 1em;\n  box-shadow: 3px 3px 10px #BFBFBF;\n  padding: 20px 10%;\n  background-color: white;\n}\n.contacto input[data-v-485090b2] {\n  width: 100%;\n  margin-top: 10px;\n  height: 35px;\n  border: none;\n  border: 1px solid black;\n  padding: 10px;\n}\n.contacto textarea[data-v-485090b2] {\n  width: 100%;\n  margin-top: 10px;\n  border: none;\n  border: 1px solid black;\n  padding: 10px;\n}\n.nav-showNavbar[data-v-485090b2] {\n  background-color: #FFFFFF;\n}\n.navbar[data-v-485090b2] {\n  display: flex;\n}\n.navbar-movil[data-v-485090b2] {\n  display: none;\n}\n.main-container[data-v-485090b2] {\n  margin-top: 9em;\n}\n@media only screen and (max-width: 960px) and (min-width: 768px) {\n.nav-section-2 > a[data-v-485090b2] {\n    padding: 0 10px;\n}\n.nav-section-1[data-v-485090b2] {\n    flex: 0 0 30%;\n    max-width: 30%;\n}\n.nav-section-2[data-v-485090b2] {\n    left: -100px;\n}\n}\n@media only screen and (max-width: 767px) {\n.main-container[data-v-485090b2] {\n    margin-top: 11em;\n}\n}\n@media only screen and (max-width: 600px) {\n.navbar[data-v-485090b2] {\n    display: none;\n}\n.navbar-movil[data-v-485090b2] {\n    display: flex;\n}\n.hamburger[data-v-485090b2] {\n    font-size: 14px;\n}\n.section-1[data-v-485090b2] {\n    height: 5.5em;\n    width: 100%;\n    background-color: #F8FAFC;\n    position: fixed;\n    top: 0;\n    z-index: 10000;\n}\n.section-2[data-v-485090b2] {\n    width: 100%;\n    height: calc(100vh - 3.5em);\n    background-color: #F8FAFC;\n    position: fixed;\n    top: 3.5em;\n    z-index: 10000;\n}\n.section-2 a[data-v-485090b2] {\n    display: block;\n    color: black;\n    font-weight: bold;\n}\n.section-2-btn-contact[data-v-485090b2] {\n    color: white;\n    display: inline-block;\n    background-color: #EE1331;\n    padding: 5px 15px;\n}\n.section-2-nav[data-v-485090b2] {\n    padding-top: 7em;\n    padding-bottom: 7em;\n    background-color: #F8FAFC;\n    height: calc(100vh - 3em);\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-end;\n    flex-direction: column;\n    font-size: 19px;\n}\n.slide-fade-enter-active[data-v-485090b2] {\n    transition: all 0.3s ease;\n}\n.slide-fade-leave-active[data-v-485090b2] {\n    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);\n}\n.slide-fade-enter[data-v-485090b2], .slide-fade-leave-to[data-v-485090b2] {\n    transform: translateX(10px);\n    opacity: 0;\n}\n.box-btn[data-v-485090b2] {\n    padding: 0;\n}\n}", ""]);
+
+// exports
+
 
 /***/ }),
 
@@ -64407,7 +64415,7 @@ var staticRenderFns = [
           _c("img", {
             staticStyle: {
               width: "auto",
-              height: "200px",
+              height: "100px",
               "margin-bottom": "20px"
             },
             attrs: { src: "/images/logos/logo.svg", alt: "LOGO" }
@@ -64443,7 +64451,8 @@ var render = function() {
       "nav",
       {
         staticClass: "row navbar",
-        class: { "nav-showNavbar": !_vm.showNavbar }
+        class: { "nav-showNavbar": !_vm.showNavbar },
+        staticStyle: { "margin-left": "0px", "margin-right": "0px" }
       },
       [
         _c(
@@ -64452,7 +64461,7 @@ var render = function() {
           [
             _c("router-link", { attrs: { to: "/" } }, [
               _c("img", {
-                staticStyle: { width: "auto", height: "100px" },
+                staticStyle: { width: "auto", height: "70px" },
                 attrs: { src: "/images/logos/logo.svg", alt: "LOGO" }
               })
             ])
@@ -64509,7 +64518,7 @@ var render = function() {
               [
                 _c("router-link", { attrs: { to: "/" } }, [
                   _c("img", {
-                    staticStyle: { width: "auto", height: "100px" },
+                    staticStyle: { width: "auto", height: "70px" },
                     attrs: { src: "/images/logos/logo.svg", alt: "LOGO" }
                   })
                 ])

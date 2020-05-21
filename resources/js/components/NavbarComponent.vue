@@ -82,26 +82,26 @@
     .navbar-movil
         display: none
 
-    .main-container{
-        margin-top: 9em;
-    }
-    @media only screen and (max-width: 960px) and (min-width: 768px){
-        .nav-section-2 > a {
-            padding: 0 10px;
-        }
-        .nav-section-1{
-            flex 0 0 30%;
-            max-width: 30%;
-        }
-        .nav-section-2{
-            left:-100px;
-        }
-      }
-      @media only screen and (max-width: 767px){
-        .main-container{
-            margin-top: 11em;
-        }
-    }
+    .main-container
+        margin-top: 9em
+
+    @media only screen and (max-width: 960px) and (min-width: 768px)
+        .nav-section-2 > a
+            padding: 0 10px
+
+        .nav-section-1
+            flex: 0 0 30%
+            max-width: 30%
+
+        .nav-section-2
+            left:-100px
+
+
+    @media only screen and (max-width: 767px)
+      .main-container
+          margin-top: 11em
+
+
 
     @media only screen and (max-width: 600px)
         .navbar
@@ -113,7 +113,7 @@
         .hamburger
             font-size: 14px
         .section-1
-            height: 3.5em
+            height: 5.5em
             width: 100%
             background-color: #F8FAFC
             position: fixed
@@ -165,9 +165,9 @@
 
 <template>
     <section>
-        <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }">
+        <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }" style="margin-left: 0px; margin-right: 0px;">
             <div class="col-md-6 nav-section-1">
-                <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 100px;"></router-link>
+                <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 70px;"></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
@@ -184,7 +184,7 @@
             <div class="col-md-12 section-1">
                 <div class="row">
                     <div class="col-6">
-                        <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 100px;"></router-link>
+                        <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 70px;"></router-link>
                     </div>
                     <div class="col-6 d-flex justify-content-end" @click="menuMovil = !menuMovil">
                         <button class="hamburger hamburger--collapse" :class="[menuMovil ? 'is-active' : '']" type="button">
