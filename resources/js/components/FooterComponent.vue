@@ -45,7 +45,7 @@
             flex: 1;
             order: 0;
         }
-        
+
         footer .row:nth-child(1){
             flex: 1;
             order: 2;
@@ -133,7 +133,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center align-items-center">
-                    <img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 200px; margin-bottom: 20px;">
+                    <img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 100px; margin-bottom: 20px;">
                 </div>
             </div>
         </footer>

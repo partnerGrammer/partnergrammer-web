@@ -216,6 +216,15 @@
         height: 75px;
     }
 
+    @media screen and (max-width: 992px){
+        #hacemos-nosotros{
+            flex-wrap: wrap;
+        }
+        #nuestros-clientes{
+            height: 180px;
+        }
+    }
+
     @media screen and (max-width: 767px){
       #proyectos{
           margin-left: 22%;
@@ -259,7 +268,7 @@
 
 
 
-        <section class="main-container" style="margin-top: 9em">
+        <section class="main-container" >
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
@@ -372,7 +381,7 @@
 
             <!-- seccion 9 -->
             <section class="row">
-                <div class="col-md-12 text-center" style="display: flex;">
+                <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex;">
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
                         <p class="que-hacemos-caption">B2C & B2B <br> Web system apps</p>
@@ -433,7 +442,7 @@
 
             <!-- seccion 12 -->
             <section class="row">
-                <div class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
+                <div id="nuestros-clientes" class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
                     <img src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
                     <img src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
                     <img src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
