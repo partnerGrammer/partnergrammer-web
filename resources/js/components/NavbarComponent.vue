@@ -163,7 +163,7 @@
             <div class="col-md-12 section-1">
                 <div class="row">
                     <div class="col-6">
-                        LOGO
+                        <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 100px;"></router-link>
                     </div>
                     <div class="col-6 d-flex justify-content-end" @click="menuMovil = !menuMovil">
                         <button class="hamburger hamburger--collapse" :class="[menuMovil ? 'is-active' : '']" type="button">
