@@ -64834,6 +64834,11 @@ var staticRenderFns = [
           "button",
           {
             staticClass: "close mr-2 mt-2",
+            staticStyle: {
+              "z-index": "1000",
+              position: "absolute",
+              right: "0"
+            },
             attrs: {
               type: "button",
               "data-dismiss": "modal",

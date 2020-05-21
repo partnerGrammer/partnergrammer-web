@@ -220,7 +220,7 @@
                     <div class="modal-body">
                         <div class="row" style="position: relative;">
                             <div class="col-md-12" style="background-color: #EE1331; height: 350px;">
-                                <button type="button" class="close mr-2 mt-2" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close mr-2 mt-2" style="z-index: 1000; position: absolute; right: 0;" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
