@@ -66904,18 +66904,22 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("img", {
-          attrs: { src: "/images/partner.png", width: "100%", alt: "" }
-        })
-      ]),
+      _c(
+        "div",
+        { staticClass: "col-md-6", staticStyle: { "max-width": "40%" } },
+        [
+          _c("img", {
+            attrs: { src: "/images/partner.png", width: "100%", alt: "" }
+          })
+        ]
+      ),
       _vm._v(" "),
       _c(
         "div",
         {
           staticClass:
             "col-md-6 d-flex justify-content-start align-items-center flex-column",
-          staticStyle: { "padding-top": "5em" }
+          staticStyle: { "padding-top": "5em", "margin-left": "20px" }
         },
         [
           _c("h1", [_vm._v("¡Conviértete en un Agency Partner!")]),
