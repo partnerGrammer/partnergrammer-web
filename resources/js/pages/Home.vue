@@ -218,7 +218,10 @@
 
     @media screen and (max-width: 992px){
         #hacemos-nosotros{
-          flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        #nuestros-clientes{
+            height: 180px;
         }
     }
 
@@ -439,7 +442,7 @@
 
             <!-- seccion 12 -->
             <section class="row">
-                <div class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
+                <div id="nuestros-clientes" class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
                     <img src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
                     <img src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
                     <img src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
