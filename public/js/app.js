@@ -65638,7 +65638,13 @@ var staticRenderFns = [
           _c("div", { staticClass: "horizontal-scroll-lower" }, [
             _c("p", [_vm._v("Investigación y planeación")]),
             _vm._v(" "),
-            _vm._v('"">\n                ')
+            _c("img", {
+              staticClass: "img-75w",
+              attrs: {
+                src: "/images/component (2).png",
+                alt: "Desarrollo web aplicaciones móviles"
+              }
+            })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "horizontal-scroll-upper" }, [
@@ -85657,7 +85663,10 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   }, {
     path: '/partners',
     name: 'Partners',
-    component: __webpack_require__(/*! ./pages/Partners */ "./resources/js/pages/Partners.vue")["default"] // component: () => import('./pages/About.vue')
+    component: __webpack_require__(/*! ./pages/Partners */ "./resources/js/pages/Partners.vue")["default"],
+    meta: {
+      title: 'Programa de alianza'
+    } // component: () => import('./pages/About.vue')
 
   }, {
     path: '*',

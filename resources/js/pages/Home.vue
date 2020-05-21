@@ -297,7 +297,7 @@
                     </div>
                     <div class="horizontal-scroll-lower">
                         <p>Investigación y planeación</p>
-                        <img src="/images/component (2).png" class="img-75w" alt=Desarrollo web aplicaciones móviles"">
+                        <img src="/images/component (2).png" class="img-75w" alt="Desarrollo web aplicaciones móviles">
                     </div>
                     <div class="horizontal-scroll-upper">
                         <img src="/images/component (3).png" class="img-75w" alt="Desarrollo web e-commerce">
