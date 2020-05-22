@@ -66050,13 +66050,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("clientes")])
-      ])
-    ])
+    return _c(
+      "section",
+      { staticClass: "row", staticStyle: { "margin-bottom": "50px" } },
+      [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("clientes")])
+        ])
+      ]
+    )
   },
   function() {
     var _vm = this

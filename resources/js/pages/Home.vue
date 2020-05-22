@@ -440,7 +440,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row">
+            <section class="row" style="margin-bottom: 50px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
                     <h2>clientes</h2>
