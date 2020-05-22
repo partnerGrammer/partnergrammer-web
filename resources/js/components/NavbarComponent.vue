@@ -75,7 +75,9 @@
         background-color: #FFFFFF
         height: 5em
 
-
+    #logo-navbar
+        width: auto
+        height: 70px
 
     .navbar
         display: flex
@@ -94,8 +96,9 @@
 
         .nav-section-2
             left:-100px
-
-
+    @media only screen and (max-width: 767px)
+        #logo-navbar
+            height: 35px
 
     @media only screen and (max-width: 600px)
         .navbar
@@ -161,7 +164,7 @@
     <section>
         <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }" style="margin-left: 0px; margin-right: 0px;">
             <div class="col-md-6 nav-section-1">
-                <router-link to="/"><img src="/images/logos/logo.svg" alt="LOGO" style="width:auto; height: 70px;"></router-link>
+                <router-link to="/"><img id="logo-navbar" src="/images/logos/logo.svg" alt="LOGO" ></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
