@@ -64344,7 +64344,7 @@ var render = function() {
               [
                 _c(
                   "router-link",
-                  { staticClass: "main-link", attrs: { to: "/" } },
+                  { staticClass: "main-link", attrs: { to: "/projects" } },
                   [_vm._v("portafolio")]
                 ),
                 _vm._v(" "),
@@ -64365,7 +64365,7 @@ var render = function() {
               [
                 _c(
                   "router-link",
-                  { staticClass: "main-link", attrs: { to: "/" } },
+                  { staticClass: "main-link", attrs: { to: "/about" } },
                   [_vm._v("nosotros")]
                 ),
                 _vm._v(" "),
@@ -64438,7 +64438,18 @@ var staticRenderFns = [
             staticClass:
               "icons d-flex justify-content-center align-items-center"
           },
-          [_c("i", { staticClass: "fab fa-facebook-f" })]
+          [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.facebook.com/pg/PartnerGrammer",
+                  target: "_blank"
+                }
+              },
+              [_c("i", { staticClass: "fab fa-facebook-f" })]
+            )
+          ]
         ),
         _vm._v(" "),
         _c(
@@ -64447,7 +64458,18 @@ var staticRenderFns = [
             staticClass:
               "icons d-flex justify-content-center align-items-center ml-3"
           },
-          [_c("i", { staticClass: "fab fa-twitter" })]
+          [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://twitter.com/PartnerGrammer",
+                  target: "_blank"
+                }
+              },
+              [_c("i", { staticClass: "fab fa-twitter" })]
+            )
+          ]
         )
       ])
     ])
