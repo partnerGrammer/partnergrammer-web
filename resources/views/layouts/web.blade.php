@@ -46,6 +46,9 @@
 
     <title>{{ config('app.name', 'PartnerGrammer') }}</title>
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script id="instagram-embed" src="https://www.instagram.com/embed.js"></script>
