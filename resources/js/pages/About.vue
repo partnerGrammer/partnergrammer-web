@@ -76,6 +76,15 @@
         font-weight: bold;
     }
 
+    .main-container{
+        margin-top: 9em;
+    }
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+    }
+
     @media only screen and (max-width: 600px){
         .main-container .row:nth-child(14) .line{
             margin-right: 0;
@@ -150,7 +159,7 @@
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-
+                            <img src="/images/horacio.jpg" width="100%" alt="Horacio Adame">
                         </div>
                     </div>
                 </div>

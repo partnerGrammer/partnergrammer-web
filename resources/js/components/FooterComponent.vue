@@ -28,6 +28,7 @@
     .footer-section-2 .footer-navigation{
         display: flex;
         flex-direction: column;
+        margin: 0 10px;
     }
 
     .footer-section-2 .footer-navigation a{
@@ -101,22 +102,22 @@
                     <p>(614) 303-8662</p>
                     <div class="d-flex">
                         <div class="icons d-flex justify-content-center align-items-center">
-                            <i class="fab fa-facebook-f"></i>
+                            <a href="https://www.facebook.com/pg/PartnerGrammer" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         </div>
                         <div class="icons d-flex justify-content-center align-items-center ml-3">
-                            <i class="fab fa-twitter"></i>
+                            <a href="https://twitter.com/PartnerGrammer" target="_blank"><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 footer-section-2">
                     <div class="">
                         <div class="footer-navigation">
-                            <router-link class="main-link" to="/">portafolio</router-link>
+                            <router-link class="main-link" to="/projects">portafolio</router-link>
                             <router-link to="/">Web / móvil</router-link>
                             <router-link to="/">Software a la medida</router-link>
                         </div>
                         <div class="footer-navigation">
-                            <router-link class="main-link" to="/">nosotros</router-link>
+                            <router-link class="main-link" to="/about">nosotros</router-link>
                             <router-link to="/">Nosotros</router-link>
                             <router-link to="/">Equipo</router-link>
                         </div>

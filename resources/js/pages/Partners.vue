@@ -108,6 +108,15 @@
         padding: 10px;
     }
 
+    .main-container{
+        margin-top: 9em;
+    }
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+    }
+
     @media only screen and (max-width: 600px){
 
         .line{
