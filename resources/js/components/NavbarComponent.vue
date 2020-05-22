@@ -73,6 +73,7 @@
 
     .nav-showNavbar
         background-color: #FFFFFF
+        height: 5em
 
 
 

@@ -59,6 +59,14 @@
     .main-container .row:nth-child(3) > div{
         margin-bottom: 150px;
     }
+    .main-container{
+        margin-top: 9em;
+    }
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+    }
 
     .line-right{
         margin: auto;
