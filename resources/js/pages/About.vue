@@ -159,7 +159,7 @@
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-
+                            <img src="/images/horacio.jpg" width="100%" alt="Horacio Adame">
                         </div>
                     </div>
                 </div>

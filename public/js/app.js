@@ -65222,7 +65222,15 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" })
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/horacio.jpg",
+                  width: "100%",
+                  alt: "Horacio Adame"
+                }
+              })
+            ])
           ])
         ])
       ]),
