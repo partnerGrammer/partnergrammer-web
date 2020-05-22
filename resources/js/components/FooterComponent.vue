@@ -28,6 +28,7 @@
     .footer-section-2 .footer-navigation{
         display: flex;
         flex-direction: column;
+        margin: 0 10px;
     }
 
     .footer-section-2 .footer-navigation a{
