@@ -267,6 +267,11 @@
         }
     }
 
+    @media only screen and (max-width: 372px){
+        #titulo-banner{
+            text-align: justify;
+        }
+    }
 </style>
 
 <template>
@@ -279,7 +284,7 @@
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-                    <h1>Desarrollo de software de calidad de inicio a fin</h1>
+                    <h1 id="titulo-banner">Desarrollo de software de calidad de inicio a fin</h1>
                     <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
                 <div class="col-md-6">
