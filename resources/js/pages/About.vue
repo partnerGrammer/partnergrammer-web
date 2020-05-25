@@ -81,9 +81,17 @@
     .main-container{
         margin-top: 9em;
     }
+    @media only screen and (max-width: 991px){
+        .line{
+            height: 352px;
+        }
+    }
     @media only screen and (max-width: 767px){
         .main-container{
             margin-top: 11em;
+        }
+        .line{
+            height: 340px;
         }
     }
 
@@ -94,6 +102,16 @@
 
         .line{
             margin-right: 0;
+        }
+    }
+    @media only screen and (max-width: 449px){
+        .line{
+            height: 474px;
+        }
+    }
+    @media only screen and (max-width: 344px){
+        .line{
+            height: 612px;
         }
     }
 

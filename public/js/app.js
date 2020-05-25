@@ -3537,6 +3537,24 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -10543,7 +10561,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n    margin: 5px 10px;\n    min-width: 85px;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container[data-v-520b5d54]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-520b5d54]{\n        margin-top: 11em;\n}\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        margin-right: 0;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n    margin: 5px 10px;\n    min-width: 85px;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container[data-v-520b5d54]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 991px){\n.line[data-v-520b5d54]{\n        height: 352px;\n}\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-520b5d54]{\n        margin-top: 11em;\n}\n.line[data-v-520b5d54]{\n        height: 340px;\n}\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        margin-right: 0;\n}\n}\n@media only screen and (max-width: 449px){\n.line[data-v-520b5d54]{\n        height: 474px;\n}\n}\n@media only screen and (max-width: 344px){\n.line[data-v-520b5d54]{\n        height: 612px;\n}\n}\n\n", ""]);
 
 // exports
 
