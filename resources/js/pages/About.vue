@@ -11,7 +11,9 @@
 
     .image-about{
         width: 9vw;
-        margin: 0 10px;
+        margin: 5px 10px;
+        min-width: 85px;
+
     }
 
     .container-image{
@@ -76,6 +78,23 @@
         font-weight: bold;
     }
 
+    .main-container{
+        margin-top: 9em;
+    }
+    @media only screen and (max-width: 991px){
+        .line{
+            height: 352px;
+        }
+    }
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+        .line{
+            height: 340px;
+        }
+    }
+
     @media only screen and (max-width: 600px){
         .main-container .row:nth-child(14) .line{
             margin-right: 0;
@@ -83,6 +102,16 @@
 
         .line{
             margin-right: 0;
+        }
+    }
+    @media only screen and (max-width: 449px){
+        .line{
+            height: 474px;
+        }
+    }
+    @media only screen and (max-width: 344px){
+        .line{
+            height: 612px;
         }
     }
 
@@ -112,7 +141,7 @@
             <!-- seccion 3 -->
             <section class="row">
                 <div class="line" />
-                <div class="col-md-12">
+                <div class="col-md-12" style="flex-wrap: wrap">
                     <div class="image-about">
                         <div class="container-image">
                             <img src="/images/luis.png" width="100%" alt="Luis Andrade">
@@ -150,7 +179,7 @@
                     </div>
                     <div class="image-about">
                         <div class="container-image">
-
+                            <img src="/images/horacio.jpg" width="100%" alt="Horacio Adame">
                         </div>
                     </div>
                 </div>

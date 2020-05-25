@@ -7,6 +7,14 @@
         padding: 0;
         margin: 0;
     }
+    .main-container{
+        margin-top: 9em;
+    }
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+    }
 
     .container-image{
         width: 100%;
