@@ -3535,6 +3535,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -10530,7 +10532,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n    margin: 0 10px;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container[data-v-520b5d54]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-520b5d54]{\n        margin-top: 11em;\n}\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        margin-right: 0;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n    margin: 5px 10px;\n    min-width: 85px;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container[data-v-520b5d54]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-520b5d54]{\n        margin-top: 11em;\n}\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        margin-right: 0;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -65184,103 +65186,107 @@ var staticRenderFns = [
       _c("section", { staticClass: "row" }, [
         _c("div", { staticClass: "line" }),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/luis.png",
-                  width: "100%",
-                  alt: "Luis Andrade"
-                }
-              })
+        _c(
+          "div",
+          { staticClass: "col-md-12", staticStyle: { "flex-wrap": "wrap" } },
+          [
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/luis.png",
+                    width: "100%",
+                    alt: "Luis Andrade"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/judith.png",
+                    width: "100%",
+                    alt: "Judith Delgado"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/lalo.png",
+                    width: "100%",
+                    alt: "Samuel Acosta"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/gera.png",
+                    width: "100%",
+                    alt: "Gerardo González"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/meny.png",
+                    width: "100%",
+                    alt: "Manuel Higuera"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/talita.png",
+                    width: "100%",
+                    alt: "Talita Roldán"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/monica.png",
+                    width: "100%",
+                    alt: "Monica Soto"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "image-about" }, [
+              _c("div", { staticClass: "container-image" }, [
+                _c("img", {
+                  attrs: {
+                    src: "/images/horacio.jpg",
+                    width: "100%",
+                    alt: "Horacio Adame"
+                  }
+                })
+              ])
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/judith.png",
-                  width: "100%",
-                  alt: "Judith Delgado"
-                }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/lalo.png",
-                  width: "100%",
-                  alt: "Samuel Acosta"
-                }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/gera.png",
-                  width: "100%",
-                  alt: "Gerardo González"
-                }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/meny.png",
-                  width: "100%",
-                  alt: "Manuel Higuera"
-                }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/talita.png",
-                  width: "100%",
-                  alt: "Talita Roldán"
-                }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/monica.png",
-                  width: "100%",
-                  alt: "Monica Soto"
-                }
-              })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "image-about" }, [
-            _c("div", { staticClass: "container-image" }, [
-              _c("img", {
-                attrs: {
-                  src: "/images/horacio.jpg",
-                  width: "100%",
-                  alt: "Horacio Adame"
-                }
-              })
-            ])
-          ])
-        ])
+          ]
+        )
       ]),
       _vm._v(" "),
       _c("section", { staticClass: "row" }, [

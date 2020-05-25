@@ -11,7 +11,9 @@
 
     .image-about{
         width: 9vw;
-        margin: 0 10px;
+        margin: 5px 10px;
+        min-width: 85px;
+
     }
 
     .container-image{
@@ -121,7 +123,7 @@
             <!-- seccion 3 -->
             <section class="row">
                 <div class="line" />
-                <div class="col-md-12">
+                <div class="col-md-12" style="flex-wrap: wrap">
                     <div class="image-about">
                         <div class="container-image">
                             <img src="/images/luis.png" width="100%" alt="Luis Andrade">
