@@ -229,13 +229,32 @@
         }
         #nuestros-clientes{
             height: 180px;
+            flex-direction: column;
+            margin-top: 80px;
+        }
+        #nuestros-clientes img{
+            margin-top: 40px;
+        }
+
+        .main-container .row:nth-child(11){
+            margin-top: 10em;
+        }
+
+        .main-container .row:nth-child(13), .row:nth-child(11){
+            margin-top: 12em;
         }
     }
 
     @media screen and (max-width: 767px){
-      #proyectos{
-          margin-left: 22%;
-      }
+        #proyectos{
+            text-align: center;
+            
+        }
+
+        .main-container .row:nth-child(10) .line{
+            margin-right: 0;
+            height: 100%;
+        }
     }
 
     .que-hacemos-img{
@@ -327,7 +346,7 @@
                     <div class="horizontal-scroll-lower">
                         <p>Desarrollo del proyecto</p>
                         <img src="/images/component (4).png" class="img-75w" alt="software a la medida mexico">
-                    </div class="horizontal-scroll-upper">
+                    </div>
                     <div class="horizontal-scroll-upper">
                         <img src="/images/component (5).png" class="img-75w" alt="desarrollo web html y css">
                         <p>Demos y aprobación</p>
@@ -393,7 +412,7 @@
 
             <!-- seccion 9 -->
             <section class="row">
-                <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex;">
+                <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex; justify-content-center align-items-center">
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
                         <p class="que-hacemos-caption">B2C & B2B <br> Web system apps</p>
@@ -454,7 +473,7 @@
 
             <!-- seccion 12 -->
             <section class="row">
-                <div id="nuestros-clientes" class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
+                <div id="nuestros-clientes" class="col-md-12 d-flex justify-content-around align-items-center">
                     <img src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
                     <img src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
                     <img src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
