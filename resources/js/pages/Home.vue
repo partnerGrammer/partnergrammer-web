@@ -234,7 +234,8 @@
 
     @media screen and (max-width: 767px){
       #proyectos{
-          margin-left: 22%;
+          top: -84px;
+          left: 86px;
       }
     }
 
@@ -264,6 +265,10 @@
 
         .projects img{
             width: 50%;
+        }
+        #proyectos{
+            top: -84px;
+            left: 10px;
         }
     }
 
