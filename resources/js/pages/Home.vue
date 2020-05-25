@@ -207,14 +207,19 @@
         margin-left: 15px;
         z-index: -1;
     }
-
-
     .main-container{
         margin-top: 9em;
+    }
+    #nuestros-expertos{
+        margin: 20px 0;
     }
     @media only screen and (max-width: 767px){
         .main-container{
             margin-top: 11em;
+        }
+        #nuestros-expertos{
+            left: 110px;
+            width: 410px;
         }
     }
 
@@ -269,6 +274,10 @@
         #proyectos{
             top: -84px;
             left: 10px;
+        }
+        #nuestros-expertos{
+            left: 0;
+            width: auto;
         }
     }
 
@@ -496,7 +505,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 d-flex justify-content-center align-items-start flex-column pl-3">
+                <div class="col-md-5 d-flex justify-content-center align-items-start flex-column pl-3" id="nuestros-expertos">
                     <p>Nuestro diverso equipo está compuesto por personas creativas, ingeniosas y está preparado con las mejores herramientas y conocimiento necesario para llevar tu idea al siguiente nivel.</p>
                     <a class="btn btn-ver-mas-2" href="#">ver mas</a>
                 </div>
