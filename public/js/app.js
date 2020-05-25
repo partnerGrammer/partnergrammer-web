@@ -5262,6 +5262,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -10608,7 +10619,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-b2730c98]{\n    position: relative;\n}\nh1[data-v-b2730c98]{\n    font-size: 4em;\n}\n.main-container *[data-v-b2730c98]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-b2730c98]{\n    width: 9vw;\n}\n.container-image[data-v-b2730c98]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b2730c98] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(1), .row[data-v-b2730c98]:nth-child(2){\n    margin-top: 5em;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.line[data-v-b2730c98]{\n    width: 140%;\n    height: 250px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -10%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-b2730c98]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.partner[data-v-b2730c98]{\n    background-color: white;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    position: relative;\n    height: auto;\n    padding-left: 20%;\n    padding-top: 50px;\n    padding-bottom: 50px;\n    padding-right: 50px;\n    margin-left: -20%;\n}\n.btn-next[data-v-b2730c98]{\n    display: inline-block;\n    background-color: #EE1331;\n    color: white;\n    padding: 5px 30px;\n    position: absolute;\n    bottom: -20px;\n    right: -25px;\n    border-radius: 0px;\n    width: 150px;\n    height: 40px;\n}\n.form[data-v-b2730c98]{\n    margin-top: 3em;\n}\n.form input[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n.form textarea[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n.main-container[data-v-b2730c98]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-b2730c98]{\n        margin-top: 11em;\n}\n}\n@media only screen and (max-width: 600px){\n.line[data-v-b2730c98]{\n        width: 100%;\n        margin:0;\n}\n.partner[data-v-b2730c98]{\n        margin-left: 0;\n}\n.btn-next[data-v-b2730c98]{\n        bottom: 0;\n        right: 0;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n.container[data-v-b2730c98]{\n    position: relative;\n}\nh1[data-v-b2730c98]{\n    font-size: 4em;\n}\n.main-container *[data-v-b2730c98]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-b2730c98]{\n    width: 9vw;\n}\n.container-image[data-v-b2730c98]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b2730c98] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(1), .row[data-v-b2730c98]:nth-child(2){\n    margin-top: 5em;\n}\n.main-container > .row[data-v-b2730c98]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.line[data-v-b2730c98]{\n    width: 140%;\n    height: 250px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -10%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-b2730c98]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.partner[data-v-b2730c98]{\n    background-color: white;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    position: relative;\n    height: auto;\n    padding-left: 20%;\n    padding-top: 50px;\n    padding-bottom: 50px;\n    padding-right: 50px;\n    margin-left: -20%;\n}\n.btn-next[data-v-b2730c98]{\n    display: inline-block;\n    background-color: #EE1331;\n    color: white;\n    padding: 5px 30px;\n    position: absolute;\n    bottom: -20px;\n    right: -25px;\n    border-radius: 0px;\n    width: 150px;\n    height: 40px;\n}\n.form[data-v-b2730c98]{\n    margin-top: 3em;\n}\n.form input[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n.form textarea[data-v-b2730c98]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid #949A9D;\n    padding: 10px;\n}\n.main-container[data-v-b2730c98]{\n    margin-top: 9em;\n}\n#banner-texto[data-v-b2730c98]{\n    padding-top: 5em;\n    margin-left: 20px;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-b2730c98]{\n        margin-top: 11em;\n}\n}\n@media only screen and (max-width: 600px){\n.line[data-v-b2730c98]{\n        width: 100%;\n        margin:0;\n}\n.partner[data-v-b2730c98]{\n        margin-left: 0;\n}\n.btn-next[data-v-b2730c98]{\n        bottom: 0;\n        right: 0;\n}\n}\n@media only screen and (max-width: 500px){\n#banner-texto[data-v-b2730c98]{\n        padding-top: 1em;\n        font-size: 0.7rem;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -67033,16 +67044,23 @@ var staticRenderFns = [
         {
           staticClass:
             "col-md-6 d-flex justify-content-start align-items-center flex-column",
-          staticStyle: { "padding-top": "5em", "margin-left": "20px" }
+          attrs: { id: "banner-texto" }
         },
         [
           _c("h1", [_vm._v("¡Conviértete en un Agency Partner!")]),
           _vm._v(" "),
-          _c("p", { staticClass: "mt-3", staticStyle: { color: "#949A9D" } }, [
-            _vm._v(
-              "Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte."
-            )
-          ])
+          _c(
+            "p",
+            {
+              staticClass: "mt-3",
+              staticStyle: { color: "#949A9D", "font-size": "0.9rem" }
+            },
+            [
+              _vm._v(
+                "Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte."
+              )
+            ]
+          )
         ]
       )
     ])
