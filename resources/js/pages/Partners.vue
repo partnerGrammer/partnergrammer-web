@@ -154,10 +154,10 @@
         <section class="main-container" >
             <!-- seccion 1 -->
             <section class="row">
-                <div class="col-md-6" style="max-width: 40%">
+                <div class="col-md-6 animate__animated animate__fadeInLeft" style="max-width: 40%">
                     <img src="/images/partner.png" width="100%" alt="">
                 </div>
-                <div class="col-md-6 d-flex justify-content-start align-items-center flex-column" id="banner-texto">
+                <div class="col-md-6 d-flex justify-content-start align-items-center flex-column animate__animated animate__fadeInRight" id="banner-texto">
                     <h1>¡Conviértete en un Agency Partner!</h1>
                     <p class="mt-3" style="color: #949A9D; font-size: 0.9rem;">Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte.</p>
                 </div>

@@ -297,18 +297,18 @@
         <section class="main-container" >
             <!-- seccion 1 -->
             <section class="row">
-                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column animate__animated animate__fadeInLeft">
                     <h1 id="titulo-banner">Desarrollo de software de calidad de inicio a fin</h1>
                     <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 animate__animated animate__fadeInRight">
                     <img src="/images/computer-bg-1.png" width="100%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 
             <!-- seccion 2 -->
             <section class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">nuestro</h2>
                     <h2>proceso</h2>
                 </div>
@@ -341,7 +341,7 @@
                     <div class="horizontal-scroll-lower">
                         <p>Desarrollo del proyecto</p>
                         <img src="/images/component (4).png" class="img-75w" alt="software a la medida mexico">
-                    </div class="horizontal-scroll-upper">
+                    </div>
                     <div class="horizontal-scroll-upper">
                         <img src="/images/component (5).png" class="img-75w" alt="desarrollo web html y css">
                         <p>Demos y aprobación</p>
@@ -352,7 +352,7 @@
 
             <!-- seccion 5 -->
             <section class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">¿qué nos hace</h2>
                     <h2>diferente a los demás?</h2>
                 </div>
@@ -383,13 +383,13 @@
                             <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Penalización por tiempos</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; animate__animated animate__fadeInTop">Penalización por tiempos</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Garantía de 90 días</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; animate__animated animate__fadeInTop">Garantía de 90 días</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Todo se especifica en un contrato</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; animate__animated animate__fadeInTop">Todo se especifica en un contrato</p>
                                 </li>
                             </ul>
                         </div>
@@ -399,7 +399,7 @@
 
             <!-- seccion 8 -->
             <section class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">¿que</h2>
                     <h2>hacemos?</h2>
                 </div>
@@ -479,7 +479,7 @@
 
             <!-- seccion 13 -->
             <section class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">nuestros</h2>
                     <h2>expertos</h2>
                 </div>
@@ -491,17 +491,17 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
+                            <img class="animate__animated animate__fadeIn" src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
                         </div>
                         <div class="col-md-12 mt-2">
-                            <img src="/images/grupal-2.png" style=" width: 100%; height: auto;" alt="grupal 2">
+                            <img class="animate__animated animate__fadeIn" src="/images/grupal-2.png" style=" width: 100%; height: auto;" alt="grupal 2">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <div class="col-md-12 ml-2">
-                            <img src="/images/grupal-3.png" style=" width: 100%; height: auto;" alt="grupal 3">
+                            <img class="animate__animated animate__fadeIn" src="/images/grupal-3.png" style=" width: 100%; height: auto;" alt="grupal 3">
                         </div>
                     </div>
                 </div>
@@ -513,7 +513,7 @@
 
             <!-- seccion 15 -->
             <section class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
                     <h2>¡contáctanos!</h2>
                 </div>
