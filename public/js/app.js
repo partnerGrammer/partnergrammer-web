@@ -67364,8 +67364,8 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "col-md-6 d-flex justify-content-start align-items-center flex-column",
-          attrs: { id: "banner-texto" }
+            "col-12 col-md-6 d-flex justify-content-start align-items-center flex-column",
+          staticStyle: { "padding-top": "5em" }
         },
         [
           _c("h1", [_vm._v("¡Conviértete en un Agency Partner!")]),
