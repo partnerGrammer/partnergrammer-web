@@ -154,7 +154,7 @@
         <section class="main-container" >
             <!-- seccion 1 -->
             <section class="row">
-                <div class="col-md-6" style="max-width: 40%">
+                <div class="col-12 col-md-6">
                     <img src="/images/partner.png" width="100%" alt="">
                 </div>
                 <div class="col-md-6 d-flex justify-content-start align-items-center flex-column" id="banner-texto">
