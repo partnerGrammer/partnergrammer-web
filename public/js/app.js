@@ -65494,112 +65494,174 @@ var staticRenderFns = [
           { staticClass: "col-md-12", staticStyle: { "flex-wrap": "wrap" } },
           [
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/luis.png",
-                    width: "100%",
-                    alt: "Luis Andrade"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/luis.png",
+                      width: "100%",
+                      alt: "Luis Andrade"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/judith.png",
-                    width: "100%",
-                    alt: "Judith Delgado"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/judith.png",
+                      width: "100%",
+                      alt: "Judith Delgado"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/lalo.png",
-                    width: "100%",
-                    alt: "Samuel Acosta"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/lalo.png",
+                      width: "100%",
+                      alt: "Samuel Acosta"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/gera.png",
-                    width: "100%",
-                    alt: "Gerardo González"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/gera.png",
+                      width: "100%",
+                      alt: "Gerardo González"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/meny.png",
-                    width: "100%",
-                    alt: "Manuel Higuera"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/meny.png",
+                      width: "100%",
+                      alt: "Manuel Higuera"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/talita.png",
-                    width: "100%",
-                    alt: "Talita Roldán"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/talita.png",
+                      width: "100%",
+                      alt: "Talita Roldán"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/monica.png",
-                    width: "100%",
-                    alt: "Monica Soto"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/monica.png",
+                      width: "100%",
+                      alt: "Monica Soto"
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/horacio.jpg",
-                    width: "100%",
-                    alt: "Horacio Adame"
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/horacio.jpg",
+                      width: "100%",
+                      alt: "Horacio Adame"
+                    }
+                  })
+                ]
+              )
             ])
           ]
         )
       ]),
       _vm._v(" "),
       _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("h2", { staticStyle: { color: "#949A9D" } }, [
-            _vm._v("tu historia y la nuestra")
-          ]),
-          _vm._v(" "),
-          _c("h2", [_vm._v("son muy similares")])
-        ])
+        _c(
+          "div",
+          {
+            staticClass: "col-md-12 wow animate__animated animate__fadeInLeft"
+          },
+          [
+            _c("h2", { staticStyle: { color: "#949A9D" } }, [
+              _vm._v("tu historia y la nuestra")
+            ]),
+            _vm._v(" "),
+            _c("h2", [_vm._v("son muy similares")])
+          ]
+        )
       ]),
       _vm._v(" "),
       _c("section", { staticClass: "row" }, [
@@ -65620,39 +65682,60 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-12 col-md-6" }, [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-4 col-md-4" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/SCRUM-CSD.png",
-                    width: "100%",
-                    alt: ""
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/SCRUM-CSD.png",
+                      width: "100%",
+                      alt: ""
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-4 col-md-4" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/SCRUM-CSPO.png",
-                    width: "100%",
-                    alt: ""
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/SCRUM-CSPO.png",
+                      width: "100%",
+                      alt: ""
+                    }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-4 col-md-4" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/SCRUM-CSPSM.png",
-                    width: "100%",
-                    alt: ""
-                  }
-                })
-              ])
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "container-image wow animate__animated animate__fadeIn"
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/SCRUM-CSPSM.png",
+                      width: "100%",
+                      alt: ""
+                    }
+                  })
+                ]
+              )
             ])
           ])
         ])
@@ -65990,47 +66073,74 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "col-md-6 d-flex justify-content-center align-items-center flex-column"
-        },
-        [
-          _c("h1", { attrs: { id: "titulo-banner" } }, [
-            _vm._v("Desarrollo de software de calidad de inicio a fin")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mt-3" }, [
-            _vm._v(
-              "Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas."
+    return _c(
+      "section",
+      { staticClass: "row", staticStyle: { "min-height": "100vh" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-6 d-flex justify-content-center align-items-center flex-column"
+          },
+          [
+            _c(
+              "h1",
+              {
+                staticClass: " wow animate__animated animate__fadeInLeft",
+                attrs: { id: "titulo-banner" }
+              },
+              [_vm._v("Desarrollo de software de calidad de inicio a fin")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass:
+                  "mt-3 wow animate__animated animate__fadeInUp animate__delay-1s"
+              },
+              [
+                _vm._v(
+                  "Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas."
+                )
+              ]
             )
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("img", {
-          attrs: {
-            src: "/images/computer-bg-1.png",
-            width: "100%",
-            alt: "Desarrollo web y software a la medida"
-          }
-        })
-      ])
-    ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "col-md-6 wow animate__animated animate__fadeInRight",
+            staticStyle: { "padding-top": "15vh" }
+          },
+          [
+            _c("img", {
+              attrs: {
+                src: "/images/computer-bg-1.png",
+                width: "100%",
+                alt: "Desarrollo web y software a la medida"
+              }
+            })
+          ]
+        )
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestro")]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("proceso")])
-      ])
+      _c(
+        "div",
+        { staticClass: "col-md-12 wow animate__animated animate__fadeInLeft" },
+        [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestro")]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("proceso")])
+        ]
+      )
     ])
   },
   function() {
@@ -66129,13 +66239,17 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [
-          _vm._v("¿qué nos hace")
-        ]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("diferente a los demás?")])
-      ])
+      _c(
+        "div",
+        { staticClass: "col-md-12 wow animate__animated animate__fadeInLeft" },
+        [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [
+            _vm._v("¿qué nos hace")
+          ]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("diferente a los demás?")])
+        ]
+      )
     ])
   },
   function() {
@@ -66204,6 +66318,7 @@ var staticRenderFns = [
                   _c(
                     "p",
                     {
+                      staticClass: "wow animate__animated animate__fadeInDown",
                       staticStyle: {
                         "margin-left": "50px",
                         "font-size": "1.2em",
@@ -66219,6 +66334,8 @@ var staticRenderFns = [
                   _c(
                     "p",
                     {
+                      staticClass:
+                        "wow animate__animated animate__fadeInDown animate__delay-1s",
                       staticStyle: {
                         "margin-left": "50px",
                         "font-size": "1.2em",
@@ -66234,6 +66351,8 @@ var staticRenderFns = [
                   _c(
                     "p",
                     {
+                      staticClass:
+                        "wow animate__animated animate__fadeInDown animate__delay-2s",
                       staticStyle: {
                         "margin-left": "50px",
                         "font-size": "1.2em",
@@ -66255,13 +66374,26 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("hacemos?")])
-      ])
-    ])
+    return _c(
+      "section",
+      {
+        staticClass: "row",
+        staticStyle: { "padding-top": "20vh", "padding-bottom": "7vh" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "col-md-12 wow animate__animated animate__fadeInLeft"
+          },
+          [
+            _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
+            _vm._v(" "),
+            _c("h2", [_vm._v("hacemos?")])
+          ]
+        )
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -66276,99 +66408,179 @@ var staticRenderFns = [
           attrs: { id: "hacemos-nosotros" }
         },
         [
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-1.png", alt: "que-hacemos-1" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("B2C & B2B "),
-              _c("br"),
-              _vm._v(" Web system apps")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-1s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-1.png",
+                  alt: "que-hacemos-1"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("B2C & B2B "),
+                _c("br"),
+                _vm._v(" Web system apps")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-2.png", alt: "que-hacemos-2" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Outstaffing")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-1s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-2.png",
+                  alt: "que-hacemos-2"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Outstaffing")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-3.png", alt: "que-hacemos-3" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Ecommerce")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-2s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-3.png",
+                  alt: "que-hacemos-3"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Ecommerce")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-4.png", alt: "que-hacemos-4" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Themes &"),
-              _c("br"),
-              _vm._v("Plugins")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-2s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-4.png",
+                  alt: "que-hacemos-4"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Themes &"),
+                _c("br"),
+                _vm._v("Plugins")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-5.png", alt: "que-hacemos-5" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Mobile Apps")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-3s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-5.png",
+                  alt: "que-hacemos-5"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Mobile Apps")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-6.png", alt: "que-hacemos-6" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Digital Marketing"),
-              _c("br"),
-              _vm._v("& SEO")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-3s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-6.png",
+                  alt: "que-hacemos-6"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Digital Marketing"),
+                _c("br"),
+                _vm._v("& SEO")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-7.png", alt: "que-hacemos-7" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Rich Media")
-            ])
-          ]),
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-4s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-7.png",
+                  alt: "que-hacemos-7"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Rich Media")
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "img-con-texto" }, [
-            _c("img", {
-              staticClass: "que-hacemos-img",
-              attrs: { src: "/images/que-hacemos-8.png", alt: "que-hacemos-8" }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "que-hacemos-caption" }, [
-              _vm._v("Websites")
-            ])
-          ])
+          _c(
+            "div",
+            {
+              staticClass:
+                "img-con-texto wow animate__animated animate__fadeInLeft animate__delay-4s"
+            },
+            [
+              _c("img", {
+                staticClass: "que-hacemos-img",
+                attrs: {
+                  src: "/images/que-hacemos-8.png",
+                  alt: "que-hacemos-8"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "que-hacemos-caption" }, [
+                _vm._v("Websites")
+              ])
+            ]
+          )
         ]
       )
     ])
@@ -66381,19 +66593,26 @@ var staticRenderFns = [
       _c("div", { staticClass: "line" }),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "container-image-2" }, [
-          _c("img", {
-            staticStyle: { width: "100%", height: "auto" },
-            attrs: { src: "/images/grupo-disp.png", alt: "disp" }
-          })
-        ])
+        _c(
+          "div",
+          {
+            staticClass:
+              "container-image-2  wow animate__animated animate__fadeInLeft"
+          },
+          [
+            _c("img", {
+              staticStyle: { width: "100%", height: "auto" },
+              attrs: { src: "/images/grupo-disp.png", alt: "disp" }
+            })
+          ]
+        )
       ]),
       _vm._v(" "),
       _c(
         "div",
         {
           staticClass:
-            "col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5",
+            "col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5 wow animate__animated animate__fadeInRight animate__delay-1s",
           staticStyle: { color: "white", padding: "20px 0" },
           attrs: { id: "proyectos" }
         },
@@ -66417,7 +66636,12 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "row", staticStyle: { "margin-bottom": "50px" } },
+      {
+        staticClass: "row",
+        staticStyle: {
+          "margin-bottom": "15vh wow animate__animated animate__fadeInLeft"
+        }
+      },
       [
         _c("div", { staticClass: "col-md-12" }, [
           _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
@@ -66431,53 +66655,71 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "col-md-12 d-flex justify-content-around align-items-center flex-wrap",
-          attrs: { id: "nuestros-clientes" }
-        },
-        [
-          _c("img", {
-            staticStyle: { width: "150px", height: "auto" },
-            attrs: { src: "/images/checkout.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticStyle: { width: "150px", height: "auto" },
-            attrs: { src: "/images/new-castle.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticStyle: { width: "150px", height: "auto" },
-            attrs: { src: "/images/caledro.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticStyle: { width: "150px", height: "auto" },
-            attrs: { src: "/images/ghm.png", alt: "" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticStyle: { width: "150px", height: "auto" },
-            attrs: { src: "/images/dix04.png", alt: "" }
-          })
-        ]
-      )
-    ])
+    return _c(
+      "section",
+      { staticClass: "row", staticStyle: { "margin-bottom": "15vh" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-12 d-flex justify-content-around align-items-center flex-wrap",
+            attrs: { id: "nuestros-clientes" }
+          },
+          [
+            _c("img", {
+              staticClass:
+                "wow animate__animated animate__fadeInUp animate__delay-1s",
+              staticStyle: { width: "150px", height: "auto" },
+              attrs: { src: "/images/checkout.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass:
+                "wow animate__animated animate__fadeInDown animate__delay-1s",
+              staticStyle: { width: "150px", height: "auto" },
+              attrs: { src: "/images/new-castle.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass:
+                "wow animate__animated animate__fadeInUp animate__delay-1s",
+              staticStyle: { width: "150px", height: "auto" },
+              attrs: { src: "/images/caledro.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass:
+                "wow animate__animated animate__fadeInDown animate__delay-1s",
+              staticStyle: { width: "150px", height: "auto" },
+              attrs: { src: "/images/ghm.png", alt: "" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass:
+                "wow animate__animated animate__fadeInUp animate__delay-1s",
+              staticStyle: { width: "150px", height: "auto" },
+              attrs: { src: "/images/dix04.png", alt: "" }
+            })
+          ]
+        )
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("expertos")])
-      ])
+      _c(
+        "div",
+        { staticClass: "col-md-12 wow animate__animated animate__fadeInLeft" },
+        [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("expertos")])
+        ]
+      )
     ])
   },
   function() {
@@ -66491,6 +66733,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-md-12" }, [
             _c("img", {
+              staticClass: "animate__animated animate__fadeIn animate__delay",
               staticStyle: { width: "100%", height: "auto" },
               attrs: { src: "/images/grupal-1.png", alt: "grupal 1" }
             })
@@ -66498,6 +66741,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-md-12 mt-2" }, [
             _c("img", {
+              staticClass: "animate__animated animate__fadeIn",
               staticStyle: { width: "100%", height: "auto" },
               attrs: { src: "/images/grupal-2.png", alt: "grupal 2" }
             })
@@ -66509,6 +66753,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-md-12 ml-2" }, [
             _c("img", {
+              staticClass: "animate__animated animate__fadeIn",
               staticStyle: { width: "100%", height: "auto" },
               attrs: { src: "/images/grupal-3.png", alt: "grupal 3" }
             })
@@ -66541,15 +66786,25 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [
-          _vm._v("¿qué tienes en mente?")
-        ]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("¡contáctanos!")])
-      ])
-    ])
+    return _c(
+      "section",
+      { staticClass: "row", staticStyle: { "padding-top": "20vh" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "col-md-12 wow animate__animated animate__fadeInLeft"
+          },
+          [
+            _c("h2", { staticStyle: { color: "#949A9D" } }, [
+              _vm._v("¿qué tienes en mente?")
+            ]),
+            _vm._v(" "),
+            _c("h2", [_vm._v("¡contáctanos!")])
+          ]
+        )
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -67323,7 +67578,10 @@ var staticRenderFns = [
     return _c("section", { staticClass: "row" }, [
       _c(
         "div",
-        { staticClass: "col-md-6", staticStyle: { "max-width": "40%" } },
+        {
+          staticClass: "col-md-6 wow animate__animated animate__fadeInLeft",
+          staticStyle: { "max-width": "40%" }
+        },
         [
           _c("img", {
             attrs: { src: "/images/partner.png", width: "100%", alt: "" }
@@ -67335,7 +67593,7 @@ var staticRenderFns = [
         "div",
         {
           staticClass:
-            "col-md-6 d-flex justify-content-start align-items-center flex-column",
+            "col-md-6 d-flex justify-content-start align-items-center flex-column wow animate__animated animate__fadeInRight",
           attrs: { id: "banner-texto" }
         },
         [
@@ -67670,7 +67928,7 @@ var render = function() {
                 {
                   key: index,
                   staticClass:
-                    "col-md-12 d-flex justify-content-center align-items-center"
+                    "col-md-12 d-flex justify-content-center align-items-center wow animate__animated animate__fadeIn"
                 },
                 [
                   _c("img", {
@@ -67724,13 +67982,17 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [
-          _vm._v("todo empieza con una plática")
-        ]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("nosotros ponemos el café")])
-      ])
+      _c(
+        "div",
+        { staticClass: "col-md-12  wow animate__animated animate__fadeInLeft" },
+        [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [
+            _vm._v("todo empieza con una plática")
+          ]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("nosotros ponemos el café")])
+        ]
+      )
     ])
   },
   function() {
@@ -67738,11 +68000,18 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12 text-center" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿qué")]),
-        _vm._v(" "),
-        _c("h2", [_vm._v("hacemos?")])
-      ])
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-md-12 text-center  wow animate__animated animate__fadeIn"
+        },
+        [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿qué")]),
+          _vm._v(" "),
+          _c("h2", [_vm._v("hacemos?")])
+        ]
+      )
     ])
   }
 ]

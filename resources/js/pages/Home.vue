@@ -296,19 +296,19 @@
 
         <section class="main-container" >
             <!-- seccion 1 -->
-            <section class="row">
-                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column animate__animated animate__fadeInLeft">
-                    <h1 id="titulo-banner">Desarrollo de software de calidad de inicio a fin</h1>
-                    <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
+            <section class="row" style="min-height:100vh">
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                    <h1 id="titulo-banner" class=" wow animate__animated animate__fadeInLeft">Desarrollo de software de calidad de inicio a fin</h1>
+                    <p class="mt-3 wow animate__animated animate__fadeInUp animate__delay-1s">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
-                <div class="col-md-6 animate__animated animate__fadeInRight">
+                <div style="padding-top:15vh" class="col-md-6 wow animate__animated animate__fadeInRight">
                     <img src="/images/computer-bg-1.png" width="100%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 
             <!-- seccion 2 -->
             <section class="row">
-                <div class="col-md-12 animate__animated animate__fadeInLeft">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">nuestro</h2>
                     <h2>proceso</h2>
                 </div>
@@ -352,7 +352,7 @@
 
             <!-- seccion 5 -->
             <section class="row">
-                <div class="col-md-12 animate__animated animate__fadeInLeft">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">¿qué nos hace</h2>
                     <h2>diferente a los demás?</h2>
                 </div>
@@ -383,13 +383,13 @@
                             <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; animate__animated animate__fadeInTop">Penalización por tiempos</p>
+                                    <p class="wow animate__animated animate__fadeInDown" style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; wow animate__animated animate__fadeInTop">Penalización por tiempos</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; animate__animated animate__fadeInTop">Garantía de 90 días</p>
+                                    <p class="wow animate__animated animate__fadeInDown animate__delay-1s" style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; wow animate__animated animate__fadeInTop">Garantía de 90 días</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; animate__animated animate__fadeInTop">Todo se especifica en un contrato</p>
+                                    <p class="wow animate__animated animate__fadeInDown animate__delay-2s" style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; wow animate__animated animate__fadeInTop">Todo se especifica en un contrato</p>
                                 </li>
                             </ul>
                         </div>
@@ -398,8 +398,8 @@
             </section>
 
             <!-- seccion 8 -->
-            <section class="row">
-                <div class="col-md-12 animate__animated animate__fadeInLeft">
+            <section class="row" style="padding-top:20vh; padding-bottom:7vh">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">¿que</h2>
                     <h2>hacemos?</h2>
                 </div>
@@ -408,35 +408,35 @@
             <!-- seccion 9 -->
             <section class="row">
                 <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex;">
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-1s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
                         <p class="que-hacemos-caption">B2C & B2B <br> Web system apps</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-1s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-2.png" alt="que-hacemos-2">
                         <p class="que-hacemos-caption">Outstaffing</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-2s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-3.png" alt="que-hacemos-3">
                         <p class="que-hacemos-caption">Ecommerce</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-2s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-4.png" alt="que-hacemos-4">
                         <p class="que-hacemos-caption">Themes &<br>Plugins</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-3s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-5.png" alt="que-hacemos-5">
                         <p class="que-hacemos-caption">Mobile Apps</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-3s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-6.png" alt="que-hacemos-6">
                         <p class="que-hacemos-caption">Digital Marketing<br>& SEO</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-4s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-7.png" alt="que-hacemos-7">
                         <p class="que-hacemos-caption">Rich Media</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-4s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-8.png" alt="que-hacemos-8">
                         <p class="que-hacemos-caption">Websites</p>
                     </div>
@@ -447,11 +447,11 @@
             <section class="row">
                 <div class="line" />
                 <div class="col-md-4">
-                    <div class="container-image-2">
+                    <div class="container-image-2  wow animate__animated animate__fadeInLeft">
                         <img src="/images/grupo-disp.png" style="width:100%; height: auto;" alt="disp">
                     </div>
                 </div>
-                <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
+                <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5 wow animate__animated animate__fadeInRight animate__delay-1s" style="color: white;padding: 20px 0;">
                     <h2>Proyectos</h2>
                     <p>Checa nuestro portafolio para que veas de qué hablamos.</p>
                     <a class="btn btn-ver-mas" href="#">Ver mas</a>
@@ -459,7 +459,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row" style="margin-bottom: 50px">
+            <section class="row" style="margin-bottom: 15vh wow animate__animated animate__fadeInLeft">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
                     <h2>clientes</h2>
@@ -467,19 +467,19 @@
             </section>
 
             <!-- seccion 12 -->
-            <section class="row">
+            <section class="row" style="margin-bottom: 15vh">
                 <div id="nuestros-clientes" class="col-md-12 d-flex justify-content-around align-items-center flex-wrap">
-                    <img src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/ghm.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/dix04.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInUp animate__delay-1s" src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInDown animate__delay-1s" src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInUp animate__delay-1s" src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInDown animate__delay-1s" src="/images/ghm.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInUp animate__delay-1s" src="/images/dix04.png" style=" width: 150px; height: auto;" alt="">
                 </div>
             </section>
 
             <!-- seccion 13 -->
             <section class="row">
-                <div class="col-md-12 animate__animated animate__fadeInLeft">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">nuestros</h2>
                     <h2>expertos</h2>
                 </div>
@@ -491,7 +491,7 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <img class="animate__animated animate__fadeIn" src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
+                            <img class="animate__animated animate__fadeIn animate__delay" src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
                         </div>
                         <div class="col-md-12 mt-2">
                             <img class="animate__animated animate__fadeIn" src="/images/grupal-2.png" style=" width: 100%; height: auto;" alt="grupal 2">
@@ -512,8 +512,8 @@
             </section>
 
             <!-- seccion 15 -->
-            <section class="row">
-                <div class="col-md-12 animate__animated animate__fadeInLeft">
+            <section class="row" style="padding-top:20vh">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
                     <h2>¡contáctanos!</h2>
                 </div>

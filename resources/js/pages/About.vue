@@ -143,42 +143,42 @@
                 <div class="line" />
                 <div class="col-md-12" style="flex-wrap: wrap">
                     <div class="image-about">
-                        <div class="container-image">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/luis.png" width="100%" alt="Luis Andrade">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/judith.png" width="100%" alt="Judith Delgado">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/lalo.png" width="100%" alt="Samuel Acosta">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/gera.png" width="100%" alt="Gerardo González">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/meny.png" width="100%" alt="Manuel Higuera">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/talita.png" width="100%" alt="Talita Roldán">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/monica.png" width="100%" alt="Monica Soto">
                         </div>
                     </div>
                     <div class="image-about">
-                        <div class="container-image animate__animated animate__fadeIn">
+                        <div class="container-image wow animate__animated animate__fadeIn">
                             <img src="/images/horacio.jpg" width="100%" alt="Horacio Adame">
                         </div>
                     </div>
@@ -187,7 +187,7 @@
 
             <!-- seccion 4 -->
             <section class="row">
-                <div class="col-md-12 animate__animated animate__fadeInLeft">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">tu historia y la nuestra</h2>
                     <h2>son muy similares</h2>
                 </div>
@@ -207,17 +207,17 @@
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="col-4 col-md-4">
-                            <div class="container-image animate__animated animate__fadeIn">
+                            <div class="container-image wow animate__animated animate__fadeIn">
                                 <img src="/images/SCRUM-CSD.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
-                            <div class="container-image animate__animated animate__fadeIn">
+                            <div class="container-image wow animate__animated animate__fadeIn">
                                 <img src="/images/SCRUM-CSPO.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
-                            <div class="container-image animate__animated animate__fadeIn">
+                            <div class="container-image wow animate__animated animate__fadeIn">
                                 <img src="/images/SCRUM-CSPSM.png" width="100%" alt="">
                             </div>
                         </div>

@@ -182,7 +182,7 @@
             <section class="main-container" >
                 <!-- seccion 1 -->
                 <section class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12  wow animate__animated animate__fadeInLeft">
                         <h2 style="color: #949A9D;">todo empieza con una plática</h2>
                         <h2>nosotros ponemos el café</h2>
                     </div>
@@ -190,7 +190,7 @@
 
                 <!-- seccion 2 -->
                 <section class="row">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center  wow animate__animated animate__fadeIn">
                         <h2 style="color: #949A9D;">¿qué</h2>
                         <h2>hacemos?</h2>
                     </div>
@@ -198,7 +198,7 @@
 
                 <!-- seccion 3 -->
                 <section class="row">
-                    <div class="col-md-12 d-flex justify-content-center align-items-center" v-for="(item, index) in projects" :key="index">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center wow animate__animated animate__fadeIn" v-for="(item, index) in projects" :key="index">
                         <img :src="item.image" alt="image" :class="[item.control ? 'img-left': 'img-right']">
                         <div :class="[item.control ? 'line-left ': 'line-right']" class="d-flex justify-content-center">
                             <div :class="[item.control ? 'left': 'right']">
