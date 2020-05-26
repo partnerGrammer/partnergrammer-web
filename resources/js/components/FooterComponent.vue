@@ -98,7 +98,7 @@
         <footer>
             <div class="row">
                 <div class="col-md-6 footer-section-1">
-                    <p>Av. Heroico Colegio Militar 3700, Bodegas del Estado, 31300 Chihuahua, Chih.</p>
+                    <p>PIT2 Parque de Innovación y Transferencia de Tecnología, ITESM Heroico Colegio Militar 4709, Chihuahua, Chihuahua. Mexico CP. 31300</p>
                     <p>(614) 303-8662</p>
                     <div class="d-flex">
                         <div class="icons d-flex justify-content-center align-items-center">

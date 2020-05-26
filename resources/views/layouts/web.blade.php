@@ -38,9 +38,9 @@
     ,cuanto cuesta un software a la medida">
 
     <meta name="og:phone_number" content="(614) 303-8662"/>
-    <meta name="og:street-address" content="Av. Heroico Colegio Militar 3700"/>
+    <meta name="og:street-address" content="PIT2 Parque de Innovación y Transferencia de Tecnología, Av. Heroico Colegio Militar 4709"/>
     <meta name="og:locality" content="Chihuahua"/>
-    <meta name="og:region" content="Chih"/>
+    <meta name="og:region" content="Chihuahua"/>
     <meta name="og:postal-code" content="31300"/>
     <meta name="og:country-name" content="MEX"/>
 
