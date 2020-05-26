@@ -5,7 +5,9 @@ namespace App\Http\Controllers\System;
 use App\Post;
 use App\Category;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 use App\Http\Controllers\Controller;
+use Symfony\Component\Console\Input\Input;
 
 class PostController extends Controller
 {
@@ -40,6 +42,29 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $v = \Validator::make($request->all(), [
+            'title' => 'required',
+            'category_id' => 'required',
+            'excerpt' => 'required',
+            'body' => 'required',
+            'banner' => 'required|mimes:jpeg,png,jpg',
+        ]);
+ 
+        if ($v->fails())
+        {
+            return redirect()->back()->withInput()->withErrors($v->errors());
+        }
+
+        // $input  = array('image' => Input::file('banner'));
+        // $reglas = array('image' => 'mimes:jpeg,png,jpg');
+
+        // $v = \Validator::make($input,  $reglas);
+ 
+        // if ($v->fails())
+        // {
+        //     return redirect()->back()->withInput()->withErrors($v->errors());
+        // }
+
         $post = Post::create($request->all());
         
         // Store in AWS S3
@@ -94,6 +119,18 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $v = \Validator::make($request->all(), [
+            'title' => 'required',
+            'category_id' => 'required',
+            'excerpt' => 'required',
+            'body' => 'required',
+        ]);
+ 
+        if ($v->fails())
+        {
+            return redirect()->back()->withInput()->withErrors($v->errors());
+        }
+
         $post = Post::find($id);
 
         $post->fill($request->all())->save();

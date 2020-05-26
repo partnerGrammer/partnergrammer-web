@@ -171,6 +171,14 @@
         .main-container .row:nth-child(3) > div{
             margin-bottom: 50px;
         }
+
+        .excerpt-text{
+            padding: 5px;
+        }
+
+        .title-text{
+            text-align: center;
+        }
     }
 </style>
 
@@ -202,8 +210,8 @@
                         <img :src="item.image" alt="image" :class="[item.control ? 'img-left': 'img-right']">
                         <div :class="[item.control ? 'line-left ': 'line-right']" class="d-flex justify-content-center">
                             <div :class="[item.control ? 'left': 'right']">
-                                <h3>{{ item.title }}</h3>
-                                <p>{{ item.excerpt }}</p>
+                                <h3 class="title-text">{{ item.title }}</h3>
+                                <p class="excerpt-text">{{ item.excerpt }}</p>
                                 <button class="line-button" @click="goToProject(item.id)">ver mas</button>
                             </div>
                         </div>

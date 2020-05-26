@@ -83,6 +83,14 @@
         .main-container{
             margin-top: 11em;
         }
+        .image-about{
+            width: 40vw;
+            margin: 10px 10px;
+        }
+
+        .main-container .row:nth-child(3) div{
+            flex-wrap: wrap;
+        }
     }
 
     @media only screen and (max-width: 600px){
@@ -91,6 +99,8 @@
         }
 
         .line{
+            width: 100%;
+            height: 103%;
             margin-right: 0;
         }
     }
