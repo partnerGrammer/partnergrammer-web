@@ -43,6 +43,8 @@
         font-size: 14px
         border-radius: 0px
         margin-top: 20px
+        &:hover
+            background-color: #f3687c
 
     .main-box
         position: absolute
