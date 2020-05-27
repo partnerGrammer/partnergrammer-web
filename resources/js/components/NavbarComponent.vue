@@ -31,7 +31,8 @@
         display: inline-block
         background-color: #EE1331
         padding: 5px 15px
-        
+        &:hover
+            background-color: #f3687c
 
 
     .btn-ver-mas-2
