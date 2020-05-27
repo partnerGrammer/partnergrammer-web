@@ -233,7 +233,7 @@
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div> -->
-                    <div class="modal-body">
+                    <div class="modal-body" style="padding-top:0">
                         <div class="row" style="position: relative;">
                             <div class="col-md-12" style="background-color: #EE1331; height: 350px;">
                                 <button type="button" class="close mr-2 mt-2" style="z-index: 1000; position: absolute; right: 0;" data-dismiss="modal" aria-label="Close">

@@ -64875,183 +64875,194 @@ var render = function() {
           },
           [
             _c("div", { staticClass: "modal-content" }, [
-              _c("div", { staticClass: "modal-body" }, [
-                _c(
-                  "div",
-                  { staticClass: "row", staticStyle: { position: "relative" } },
-                  [
-                    _vm._m(1),
-                    _vm._v(" "),
-                    _c("div", {
-                      staticClass: "col-md-12",
-                      staticStyle: {
-                        "background-color": "white",
-                        height: "350px"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-11 main-box" }, [
-                      _vm._m(2),
+              _c(
+                "div",
+                {
+                  staticClass: "modal-body",
+                  staticStyle: { "padding-top": "0" }
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "row",
+                      staticStyle: { position: "relative" }
+                    },
+                    [
+                      _vm._m(1),
                       _vm._v(" "),
-                      _vm._m(3),
+                      _c("div", {
+                        staticClass: "col-md-12",
+                        staticStyle: {
+                          "background-color": "white",
+                          height: "350px"
+                        }
+                      }),
                       _vm._v(" "),
-                      _c("section", { staticClass: "row" }, [
-                        _c("div", { staticClass: "col-md-1" }),
+                      _c("div", { staticClass: "col-md-11 main-box" }, [
+                        _vm._m(2),
                         _vm._v(" "),
-                        _c("div", { staticClass: "col-md-10 contacto" }, [
-                          _c(
-                            "form",
-                            {
-                              attrs: { action: "#" },
-                              on: {
-                                submit: function($event) {
-                                  $event.preventDefault()
-                                  return _vm.sendForm($event)
+                        _vm._m(3),
+                        _vm._v(" "),
+                        _c("section", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-md-1" }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-md-10 contacto" }, [
+                            _c(
+                              "form",
+                              {
+                                attrs: { action: "#" },
+                                on: {
+                                  submit: function($event) {
+                                    $event.preventDefault()
+                                    return _vm.sendForm($event)
+                                  }
                                 }
-                              }
-                            },
-                            [
-                              _c("div", { staticClass: "col-md-12" }, [
-                                _c("input", {
-                                  directives: [
-                                    {
-                                      name: "model",
-                                      rawName: "v-model",
-                                      value: _vm.form.name,
-                                      expression: "form.name"
-                                    }
-                                  ],
-                                  attrs: {
-                                    type: "text",
-                                    placeholder: "Tu nombre"
-                                  },
-                                  domProps: { value: _vm.form.name },
-                                  on: {
-                                    blur: function($event) {
-                                      return _vm.$v.form.name.$touch()
+                              },
+                              [
+                                _c("div", { staticClass: "col-md-12" }, [
+                                  _c("input", {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.form.name,
+                                        expression: "form.name"
+                                      }
+                                    ],
+                                    attrs: {
+                                      type: "text",
+                                      placeholder: "Tu nombre"
                                     },
-                                    input: function($event) {
-                                      if ($event.target.composing) {
-                                        return
+                                    domProps: { value: _vm.form.name },
+                                    on: {
+                                      blur: function($event) {
+                                        return _vm.$v.form.name.$touch()
+                                      },
+                                      input: function($event) {
+                                        if ($event.target.composing) {
+                                          return
+                                        }
+                                        _vm.$set(
+                                          _vm.form,
+                                          "name",
+                                          $event.target.value
+                                        )
                                       }
-                                      _vm.$set(
-                                        _vm.form,
-                                        "name",
-                                        $event.target.value
-                                      )
                                     }
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "col-md-12" }, [
-                                _c("input", {
-                                  directives: [
-                                    {
-                                      name: "model",
-                                      rawName: "v-model",
-                                      value: _vm.form.email,
-                                      expression: "form.email"
-                                    }
-                                  ],
-                                  attrs: {
-                                    type: "email",
-                                    placeholder: "Tu correo"
-                                  },
-                                  domProps: { value: _vm.form.email },
-                                  on: {
-                                    blur: function($event) {
-                                      return _vm.$v.form.email.$touch()
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "col-md-12" }, [
+                                  _c("input", {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.form.email,
+                                        expression: "form.email"
+                                      }
+                                    ],
+                                    attrs: {
+                                      type: "email",
+                                      placeholder: "Tu correo"
                                     },
-                                    input: function($event) {
-                                      if ($event.target.composing) {
-                                        return
+                                    domProps: { value: _vm.form.email },
+                                    on: {
+                                      blur: function($event) {
+                                        return _vm.$v.form.email.$touch()
+                                      },
+                                      input: function($event) {
+                                        if ($event.target.composing) {
+                                          return
+                                        }
+                                        _vm.$set(
+                                          _vm.form,
+                                          "email",
+                                          $event.target.value
+                                        )
                                       }
-                                      _vm.$set(
-                                        _vm.form,
-                                        "email",
-                                        $event.target.value
-                                      )
                                     }
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "col-md-12" }, [
-                                _c("input", {
-                                  directives: [
-                                    {
-                                      name: "model",
-                                      rawName: "v-model",
-                                      value: _vm.form.information,
-                                      expression: "form.information"
-                                    }
-                                  ],
-                                  attrs: {
-                                    type: "text",
-                                    placeholder: "¿Que quieres hacer?"
-                                  },
-                                  domProps: { value: _vm.form.information },
-                                  on: {
-                                    input: function($event) {
-                                      if ($event.target.composing) {
-                                        return
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "col-md-12" }, [
+                                  _c("input", {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.form.information,
+                                        expression: "form.information"
                                       }
-                                      _vm.$set(
-                                        _vm.form,
-                                        "information",
-                                        $event.target.value
-                                      )
-                                    }
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "col-md-12" }, [
-                                _c("textarea", {
-                                  directives: [
-                                    {
-                                      name: "model",
-                                      rawName: "v-model",
-                                      value: _vm.form.message,
-                                      expression: "form.message"
-                                    }
-                                  ],
-                                  attrs: {
-                                    name: "",
-                                    id: "",
-                                    cols: "30",
-                                    rows: "4",
-                                    placeholder: "Cuentanos mas de tu proyecto"
-                                  },
-                                  domProps: { value: _vm.form.message },
-                                  on: {
-                                    blur: function($event) {
-                                      return _vm.$v.form.message.$touch()
+                                    ],
+                                    attrs: {
+                                      type: "text",
+                                      placeholder: "¿Que quieres hacer?"
                                     },
-                                    input: function($event) {
-                                      if ($event.target.composing) {
-                                        return
+                                    domProps: { value: _vm.form.information },
+                                    on: {
+                                      input: function($event) {
+                                        if ($event.target.composing) {
+                                          return
+                                        }
+                                        _vm.$set(
+                                          _vm.form,
+                                          "information",
+                                          $event.target.value
+                                        )
                                       }
-                                      _vm.$set(
-                                        _vm.form,
-                                        "message",
-                                        $event.target.value
-                                      )
                                     }
-                                  }
-                                })
-                              ]),
-                              _vm._v(" "),
-                              _vm._m(4)
-                            ]
-                          )
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "col-md-12" }, [
+                                  _c("textarea", {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.form.message,
+                                        expression: "form.message"
+                                      }
+                                    ],
+                                    attrs: {
+                                      name: "",
+                                      id: "",
+                                      cols: "30",
+                                      rows: "4",
+                                      placeholder:
+                                        "Cuentanos mas de tu proyecto"
+                                    },
+                                    domProps: { value: _vm.form.message },
+                                    on: {
+                                      blur: function($event) {
+                                        return _vm.$v.form.message.$touch()
+                                      },
+                                      input: function($event) {
+                                        if ($event.target.composing) {
+                                          return
+                                        }
+                                        _vm.$set(
+                                          _vm.form,
+                                          "message",
+                                          $event.target.value
+                                        )
+                                      }
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _vm._m(4)
+                              ]
+                            )
+                          ])
                         ])
                       ])
-                    ])
-                  ]
-                )
-              ])
+                    ]
+                  )
+                ]
+              )
             ])
           ]
         )
