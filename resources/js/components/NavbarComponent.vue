@@ -31,6 +31,7 @@
         display: inline-block
         background-color: #EE1331
         padding: 5px 15px
+        
 
 
     .btn-ver-mas-2
@@ -88,6 +89,9 @@
 
     .navbar-movil
         display: none
+    a:hover,.nav-section-2-btn-contact:hover
+        font-weight: 800
+
 
 
     @media only screen and (max-width: 960px) and (min-width: 768px)
@@ -162,6 +166,7 @@
             opacity: 0
         .box-btn
             padding: 0
+
 </style>
 
 <template>
