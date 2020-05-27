@@ -402,7 +402,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row" style="margin-top:0">
                         <div class="col-md-12" style="position: relative;">
                             <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
