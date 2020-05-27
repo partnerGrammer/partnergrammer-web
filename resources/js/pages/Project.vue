@@ -69,6 +69,10 @@
         font-weight: bold;
     }
 
+    .segundo-titulo{
+        margin-left: 3%
+    }
+
 </style>
 
 <template>
@@ -80,7 +84,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que</h2>
-                    <h2>hacemos?</h2>
+                    <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
             </section>
 
@@ -103,7 +107,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">conoce más</h2>
-                    <h2>de nuestros proyectos</h2>
+                    <h2 class="segundo-titulo">de nuestros proyectos</h2>
                 </div>
             </section>
 
@@ -118,7 +122,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que tienes en mente?</h2>
-                    <h2>contactanos</h2>
+                    <h2 class="segundo-titulo">contactanos</h2>
                 </div>
             </section>
 

@@ -3590,6 +3590,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -3715,6 +3719,10 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
+//
 //
 //
 //
@@ -4155,6 +4163,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -4295,6 +4307,9 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
 //
 //
 //
@@ -5633,6 +5648,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -5716,6 +5735,9 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
 //
 //
 //
@@ -10658,7 +10680,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-520b5d54],h2[data-v-520b5d54],h3[data-v-520b5d54]{\n  font-weight: 800;\n}\np[data-v-520b5d54]{\n  font-weight: 500;\n}\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n    margin: 5px 10px;\n    min-width: 85px;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container[data-v-520b5d54]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 991px){\n.line[data-v-520b5d54]{\n        height: 352px;\n}\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-520b5d54]{\n        margin-top: 11em;\n}\n.image-about[data-v-520b5d54]{\n        width: 40vw;\n        margin: 10px 10px;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n        flex-wrap: wrap;\n}\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        width: 100%;\n        height: 103%;\n        margin-right: 0;\n}\n}\n@media only screen and (max-width: 449px){\n.line[data-v-520b5d54]{\n        height: 474px;\n}\n}\n@media only screen and (max-width: 344px){\n.line[data-v-520b5d54]{\n        height: 612px;\n}\n}\n\n", ""]);
+exports.push([module.i, "\nh1[data-v-520b5d54],h2[data-v-520b5d54],h3[data-v-520b5d54]{\n  font-weight: 800;\n}\np[data-v-520b5d54]{\n  font-weight: 500;\n}\n.container[data-v-520b5d54]{\n    position: relative;\n}\n.main-container *[data-v-520b5d54]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-520b5d54]{\n    width: 9vw;\n    margin: 5px 10px;\n    min-width: 85px;\n}\n.container-image[data-v-520b5d54]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-520b5d54] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-520b5d54]:nth-child(1), .row[data-v-520b5d54]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(2), .row[data-v-520b5d54]:nth-child(5), .row[data-v-520b5d54]:nth-child(6){\n    margin-top: 2em;\n}\n.main-container .row[data-v-520b5d54]:nth-child(3){\n    position: relative;\n    margin-top: 10em;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n    display: flex;\n    justify-content: space-between;\n}\n.main-container .row:nth-child(6) .container-image[data-v-520b5d54]{\n    padding-top: 100%;\n}\n.main-container .row:nth-child(7) .container-image[data-v-520b5d54]{\n    padding-top: 40%;\n}\n.line[data-v-520b5d54]{\n    width: 100%;\n    height: 200px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    right: 0;\n    margin-top: -5%;\n    margin-right: -20%;\n}\n.main-container h2[data-v-520b5d54]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container[data-v-520b5d54]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 991px){\n.line[data-v-520b5d54]{\n        height: 352px;\n}\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-520b5d54]{\n        margin-top: 11em;\n}\n.image-about[data-v-520b5d54]{\n        width: 40vw;\n        margin: 10px 10px;\n}\n.main-container .row:nth-child(3) div[data-v-520b5d54]{\n        flex-wrap: wrap;\n}\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-520b5d54]{\n        margin-right: 0;\n}\n.line[data-v-520b5d54]{\n        width: 100%;\n        height: 103%;\n        margin-right: 0;\n}\n}\n@media only screen and (max-width: 449px){\n.line[data-v-520b5d54]{\n        height: 474px;\n}\n}\n@media only screen and (max-width: 344px){\n.line[data-v-520b5d54]{\n        height: 612px;\n}\n}\n.segundo-titulo[data-v-520b5d54]{\n    margin-left: 3%\n}\n", ""]);
 
 // exports
 
@@ -10677,7 +10699,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-2d7b7a7d],h2[data-v-2d7b7a7d],h3[data-v-2d7b7a7d]{\n  font-weight: 800;\n}\np[data-v-2d7b7a7d]{\n  font-weight: 500;\n}\n.main-box[data-v-2d7b7a7d]{\n    padding: 0;\n    margin: 0;\n}\n.container[data-v-2d7b7a7d]{\n    position: relative;\n}\n.bg-1[data-v-2d7b7a7d]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 100%;\n}\n.main-container *[data-v-2d7b7a7d]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h2[data-v-2d7b7a7d]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.box-1[data-v-2d7b7a7d]{\n    height: calc(100vh - 3em);\n}\n.container-image[data-v-2d7b7a7d]{\n    width: 100%;\n    padding-top: 75%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-2d7b7a7d] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.line[data-v-2d7b7a7d]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    width: 100%;\n    height: 300px;\n    background-color: #EE1331;\n}\n.main-container .row:nth-child(2) p[data-v-2d7b7a7d]{\n    margin-top: 1em;\n    color: #B5B5B5;\n}\n.main-container .row[data-v-2d7b7a7d]:nth-child(3), .row[data-v-2d7b7a7d]:nth-child(4), .row[data-v-2d7b7a7d]:nth-child(5), .row[data-v-2d7b7a7d]:nth-child(6), .row[data-v-2d7b7a7d]:nth-child(7){\n    margin-top: 5em;\n}\n.form[data-v-2d7b7a7d]{\n    background-color: white;\n    box-shadow: 3px 3px 10px #949A9D;\n    padding: 2em 4em;\n}\nform input[data-v-2d7b7a7d], textarea[data-v-2d7b7a7d]{\n    border: none;\n    border: 1px solid #949A9D;\n}\nform input[data-v-2d7b7a7d]{\n    width: 250px;\n    height: 50px;\n}\nform textarea[data-v-2d7b7a7d]{\n    margin-top: 10px;\n    width: 100%;\n}\nform .btn-submit[data-v-2d7b7a7d]{\n    display: inline-block;\n    border: none;\n    padding: 10px 35px;\n    background-color: #EE1331;\n    color: white;\n    font-size: 0.9em;\n    margin-top: -4em;\n}\n.line-2[data-v-2d7b7a7d]{\n    width: 110%;\n    height: 60%;\n    background-color: #EE1331;\n    position: absolute;\n    bottom: -10%;\n    right: 0;\n    margin-right: -20%;\n}\n\n", ""]);
+exports.push([module.i, "\nh1[data-v-2d7b7a7d],h2[data-v-2d7b7a7d],h3[data-v-2d7b7a7d]{\n  font-weight: 800;\n}\np[data-v-2d7b7a7d]{\n  font-weight: 500;\n}\n.main-box[data-v-2d7b7a7d]{\n    padding: 0;\n    margin: 0;\n}\n.container[data-v-2d7b7a7d]{\n    position: relative;\n}\n.bg-1[data-v-2d7b7a7d]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 100%;\n}\n.main-container *[data-v-2d7b7a7d]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h2[data-v-2d7b7a7d]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.box-1[data-v-2d7b7a7d]{\n    height: calc(100vh - 3em);\n}\n.container-image[data-v-2d7b7a7d]{\n    width: 100%;\n    padding-top: 75%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-2d7b7a7d] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.line[data-v-2d7b7a7d]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    width: 100%;\n    height: 300px;\n    background-color: #EE1331;\n}\n.main-container .row:nth-child(2) p[data-v-2d7b7a7d]{\n    margin-top: 1em;\n    color: #B5B5B5;\n}\n.main-container .row[data-v-2d7b7a7d]:nth-child(3), .row[data-v-2d7b7a7d]:nth-child(4), .row[data-v-2d7b7a7d]:nth-child(5), .row[data-v-2d7b7a7d]:nth-child(6), .row[data-v-2d7b7a7d]:nth-child(7){\n    margin-top: 5em;\n}\n.form[data-v-2d7b7a7d]{\n    background-color: white;\n    box-shadow: 3px 3px 10px #949A9D;\n    padding: 2em 4em;\n}\nform input[data-v-2d7b7a7d], textarea[data-v-2d7b7a7d]{\n    border: none;\n    border: 1px solid #949A9D;\n}\nform input[data-v-2d7b7a7d]{\n    width: 250px;\n    height: 50px;\n}\nform textarea[data-v-2d7b7a7d]{\n    margin-top: 10px;\n    width: 100%;\n}\nform .btn-submit[data-v-2d7b7a7d]{\n    display: inline-block;\n    border: none;\n    padding: 10px 35px;\n    background-color: #EE1331;\n    color: white;\n    font-size: 0.9em;\n    margin-top: -4em;\n}\n.line-2[data-v-2d7b7a7d]{\n    width: 110%;\n    height: 60%;\n    background-color: #EE1331;\n    position: absolute;\n    bottom: -10%;\n    right: 0;\n    margin-right: -20%;\n}\n.segundo-titulo[data-v-2d7b7a7d]{\n    margin-left: 3%\n}\n\n", ""]);
 
 // exports
 
@@ -10696,7 +10718,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-c8ad8caa],h2[data-v-c8ad8caa],h3[data-v-c8ad8caa]{\n  font-weight: 800;\n}\np[data-v-c8ad8caa]{\n  font-weight: 500;\n}\n.container[data-v-c8ad8caa]{\n    position: relative;\n}\n.main-container *[data-v-c8ad8caa]{\n    padding: 0;\n    margin: 0;\n}\n.main-container[data-v-c8ad8caa]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-c8ad8caa]{\n        margin-top: 11em;\n}\n}\n.container-image[data-v-c8ad8caa]{\n    width: 100%;\n    padding-top: 75%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-c8ad8caa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.btn-leer-mas[data-v-c8ad8caa]{\n    display: inline-block;\n    padding: 10px 35px;\n    background-color: #EE1331;\n    color: white;\n}\n.main-container .row[data-v-c8ad8caa]:nth-child(1), .row[data-v-c8ad8caa]:nth-child(2), .row[data-v-c8ad8caa]:nth-child(3), .row[data-v-c8ad8caa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-c8ad8caa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.entrada-principal div[data-v-c8ad8caa]:nth-child(2){\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: flex-start;\n    padding: 2em;\n}\n.entrada-principal div:nth-child(2) p[data-v-c8ad8caa]{\n    font-size: 0.9em;\n}\n\n", ""]);
+exports.push([module.i, "\nh1[data-v-c8ad8caa],h2[data-v-c8ad8caa],h3[data-v-c8ad8caa]{\n  font-weight: 800;\n}\np[data-v-c8ad8caa]{\n  font-weight: 500;\n}\n.container[data-v-c8ad8caa]{\n    position: relative;\n}\n.main-container *[data-v-c8ad8caa]{\n    padding: 0;\n    margin: 0;\n}\n.main-container[data-v-c8ad8caa]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-c8ad8caa]{\n        margin-top: 11em;\n}\n}\n.container-image[data-v-c8ad8caa]{\n    width: 100%;\n    padding-top: 75%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-c8ad8caa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.btn-leer-mas[data-v-c8ad8caa]{\n    display: inline-block;\n    padding: 10px 35px;\n    background-color: #EE1331;\n    color: white;\n}\n.main-container .row[data-v-c8ad8caa]:nth-child(1), .row[data-v-c8ad8caa]:nth-child(2), .row[data-v-c8ad8caa]:nth-child(3), .row[data-v-c8ad8caa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-c8ad8caa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.entrada-principal div[data-v-c8ad8caa]:nth-child(2){\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: flex-start;\n    padding: 2em;\n}\n.entrada-principal div:nth-child(2) p[data-v-c8ad8caa]{\n    font-size: 0.9em;\n}\n.segundo-titulo[data-v-c8ad8caa]{\n    margin-left: 3%\n}\n\n", ""]);
 
 // exports
 
@@ -10715,7 +10737,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-b3c5cf30]{\n    position: relative;\n}\n.main-container *[data-v-b3c5cf30]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h1[data-v-b3c5cf30]{\n    font-size: 3.5em;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 9vw;\n}\n.container-image[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image-2[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.container-image-2 img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(1), .row[data-v-b3c5cf30]:nth-child(5), .row[data-v-b3c5cf30]:nth-child(8), .row[data-v-b3c5cf30]:nth-child(11), .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(15){\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(2), .row[data-v-b3c5cf30]:nth-child(3), .row[data-v-b3c5cf30]:nth-child(6), .row[data-v-b3c5cf30]:nth-child(9), .row[data-v-b3c5cf30]:nth-child(12), .row[data-v-b3c5cf30]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(10){\n    position: relative;\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(14){\n    position: relative;\n}\n.carrousel[data-v-b3c5cf30]{\n    width: 100%;\n    height: 200px;\n    background-color: purple;\n}\n.horizontal-scroll-wrapper[data-v-b3c5cf30]{\n    width: 300px;\n    height: 84vw;\n    overflow-y: auto;\n    overflow-x: visible;\n    transform: rotate(-90deg) translateY(-300px);\n    transform-origin: right top;\n    -ms-overflow-style: none; /*ocultar scrollbar en IE y Edge*/\n}\n.horizontal-scroll-wrapper > div[data-v-b3c5cf30] {\n    height: 100px;\n    width: 400px;\n    padding: 16px 0px;\n    margin: 289px 0px;\n    /*transform: rotate(90deg) translateY(200px) translateX(300px);*/\n  \ttransform-origin: right top;\n}\n.horizontal-scroll-upper[data-v-b3c5cf30] {\n    transform: rotate(90deg) translateY(150px) translateX(218px);\n    border-bottom-color: gray;\n    border-bottom-width: 5px;\n    border-bottom-style: solid;\n}\n.horizontal-scroll-upper > p[data-v-b3c5cf30] {\n    transform: translateY(-50px) translateX(80px);\n}\n.horizontal-scroll-lower[data-v-b3c5cf30] {\n    transform: rotate(90deg) translateY(245px) translateX(229px);\n    border-top-color: grey;\n    border-top-style: solid;\n    border-top-width: 5px;\n}\n.horizontal-scroll-lower > img[data-v-b3c5cf30]{\n    transform: translateY(-45px) translateX(205px);\n}\n.horizontal-scroll-wrapper[data-v-b3c5cf30]::-webkit-scrollbar {\n    display: none; /*ocultar scrollbar en chrome, safari, y opera*/\n}\n.main-container h2[data-v-b3c5cf30]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 20vw;\n}\n.line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 80%;\n    background-color: #EE1331;\n    position: absolute;\n    top: 12%;\n    right: 0;\n    margin-right: -20%;\n    z-index: -100; /*para que este hasta el fondo*/\n}\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 30%;\n    background-color: #EAECED;\n    opacity: 0.8;\n    position: absolute;\n    top: 70%;\n    right: 0;\n    margin-right: -20%;\n}\n.btn-ver-mas[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    border: 1px solid white;\n    font-size: 14px;\n    border-radius: 0px;\n}\n.btn-ver-mas-2[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    background-color: #EE1331;\n    font-size: 14px;\n    border-radius: 0px;\n    margin-top: 20px;\n}\n.contacto[data-v-b3c5cf30]{\n    margin-top: 1em;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    padding: 20px 10%;\n}\n.contacto input[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.contacto textarea[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.line-pointer[data-v-b3c5cf30]{\n    position: absolute;\n    width: 1px;\n    height: 158px;\n    top: -30px;\n    left: 0;\n    background-color: #707070;\n    margin-left: 15px;\n    z-index: -1;\n}\n.main-container[data-v-b3c5cf30]{\n    margin-top: 9em;\n}\n#nuestros-expertos[data-v-b3c5cf30]{\n    margin: 20px 0;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-b3c5cf30]{\n        margin-top: 11em;\n}\n#nuestros-expertos[data-v-b3c5cf30]{\n        left: 110px;\n        width: 410px;\n}\n}\n.img-75w[data-v-b3c5cf30]{\n    width: auto;\n    height: 75px;\n}\n@media screen and (max-width: 992px){\n#hacemos-nosotros[data-v-b3c5cf30]{\n        flex-wrap: wrap;\n}\n#nuestros-clientes[data-v-b3c5cf30]{\n        height: 180px;\n        flex-direction: column;\n        margin-top: 80px;\n}\n#nuestros-clientes img[data-v-b3c5cf30]{\n        margin-top: 40px;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(11){\n        margin-top: 10em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(11){\n        margin-top: 12em;\n}\n}\n@media screen and (max-width: 767px){\n#proyectos[data-v-b3c5cf30]{\n        text-align: center;\n}\n.main-container .row:nth-child(10) .line[data-v-b3c5cf30]{\n        margin-right: 0;\n        height: 100%;\n}\n}\n.que-hacemos-img[data-v-b3c5cf30]{\n    height: 80px;\n    width: auto;\n}\n.img-con-texto[data-v-b3c5cf30] {\n    text-align: center;\n    width: 200px;\n    margin: 0 5px;\n}\n.img-con-texto img[data-v-b3c5cf30] {\n    display: block;\n    margin: 20px auto;\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n        margin-right: 0;\n}\n.line[data-v-b3c5cf30]{\n        margin-right: 0;\n}\n.projects img[data-v-b3c5cf30]{\n        width: 50%;\n}\n#proyectos[data-v-b3c5cf30]{\n        top: -84px;\n        left: 10px;\n}\n#nuestros-expertos[data-v-b3c5cf30]{\n        left: 0;\n        width: auto;\n}\n}\n@media only screen and (max-width: 372px){\n#titulo-banner[data-v-b3c5cf30]{\n        text-align: justify;\n}\n}\nh1[data-v-b3c5cf30],h2[data-v-b3c5cf30],h3[data-v-b3c5cf30]{\n  font-weight: 800;\n}\np[data-v-b3c5cf30]{\n  font-weight: 500;\n}\n", ""]);
+exports.push([module.i, "\n.container[data-v-b3c5cf30]{\n    position: relative;\n}\n.main-container *[data-v-b3c5cf30]{\n    padding: 0;\n    margin: 0;\n}\n.main-container h1[data-v-b3c5cf30]{\n    font-size: 3.5em;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 9vw;\n}\n.container-image[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 160%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image-2[data-v-b3c5cf30]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.container-image-2 img[data-v-b3c5cf30] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(1), .row[data-v-b3c5cf30]:nth-child(5), .row[data-v-b3c5cf30]:nth-child(8), .row[data-v-b3c5cf30]:nth-child(11), .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(15){\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(2), .row[data-v-b3c5cf30]:nth-child(3), .row[data-v-b3c5cf30]:nth-child(6), .row[data-v-b3c5cf30]:nth-child(9), .row[data-v-b3c5cf30]:nth-child(12), .row[data-v-b3c5cf30]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(10){\n    position: relative;\n    margin-top: 5em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(14){\n    position: relative;\n}\n.carrousel[data-v-b3c5cf30]{\n    width: 100%;\n    height: 200px;\n    background-color: purple;\n}\n.horizontal-scroll-wrapper[data-v-b3c5cf30]{\n    width: 300px;\n    height: 84vw;\n    overflow-y: auto;\n    overflow-x: visible;\n    transform: rotate(-90deg) translateY(-300px);\n    transform-origin: right top;\n    -ms-overflow-style: none; /*ocultar scrollbar en IE y Edge*/\n}\n.horizontal-scroll-wrapper > div[data-v-b3c5cf30] {\n    height: 100px;\n    width: 400px;\n    padding: 16px 0px;\n    margin: 289px 0px;\n    /*transform: rotate(90deg) translateY(200px) translateX(300px);*/\n  \ttransform-origin: right top;\n}\n.horizontal-scroll-upper[data-v-b3c5cf30] {\n    transform: rotate(90deg) translateY(150px) translateX(218px);\n    border-bottom-color: gray;\n    border-bottom-width: 5px;\n    border-bottom-style: solid;\n}\n.horizontal-scroll-upper > p[data-v-b3c5cf30] {\n    transform: translateY(-50px) translateX(80px);\n}\n.horizontal-scroll-lower[data-v-b3c5cf30] {\n    transform: rotate(90deg) translateY(245px) translateX(229px);\n    border-top-color: grey;\n    border-top-style: solid;\n    border-top-width: 5px;\n}\n.horizontal-scroll-lower > img[data-v-b3c5cf30]{\n    transform: translateY(-45px) translateX(205px);\n}\n.horizontal-scroll-wrapper[data-v-b3c5cf30]::-webkit-scrollbar {\n    display: none; /*ocultar scrollbar en chrome, safari, y opera*/\n}\n.main-container h2[data-v-b3c5cf30]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.image-about[data-v-b3c5cf30]{\n    width: 20vw;\n}\n.line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 80%;\n    background-color: #EE1331;\n    position: absolute;\n    top: 12%;\n    right: 0;\n    margin-right: -20%;\n    z-index: -100; /*para que este hasta el fondo*/\n}\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n    width: 100%;\n    height: 30%;\n    background-color: #EAECED;\n    opacity: 0.8;\n    position: absolute;\n    top: 70%;\n    right: 0;\n    margin-right: -20%;\n}\n.btn-ver-mas[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    border: 1px solid white;\n    font-size: 14px;\n    border-radius: 0px;\n}\n.btn-ver-mas-2[data-v-b3c5cf30]{\n    display: inline-block;\n    padding: 10px 35px;\n    color: white;\n    background-color: #EE1331;\n    font-size: 14px;\n    border-radius: 0px;\n    margin-top: 20px;\n}\n.contacto[data-v-b3c5cf30]{\n    margin-top: 1em;\n    box-shadow: 3px 3px 10px #BFBFBF;\n    padding: 20px 10%;\n}\n.contacto input[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    height: 35px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.contacto textarea[data-v-b3c5cf30]{\n    width: 100%;\n    margin-top: 10px;\n    border: none;\n    border: 1px solid black;\n    padding: 10px;\n}\n.line-pointer[data-v-b3c5cf30]{\n    position: absolute;\n    width: 1px;\n    height: 158px;\n    top: -30px;\n    left: 0;\n    background-color: #707070;\n    margin-left: 15px;\n    z-index: -1;\n}\n.main-container[data-v-b3c5cf30]{\n    margin-top: 9em;\n}\n#nuestros-expertos[data-v-b3c5cf30]{\n    margin: 20px 0;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-b3c5cf30]{\n        margin-top: 11em;\n}\n#nuestros-expertos[data-v-b3c5cf30]{\n        left: 110px;\n        width: 410px;\n}\n}\n.img-75w[data-v-b3c5cf30]{\n    width: auto;\n    height: 75px;\n}\n@media screen and (max-width: 992px){\n#hacemos-nosotros[data-v-b3c5cf30]{\n        flex-wrap: wrap;\n}\n#nuestros-clientes[data-v-b3c5cf30]{\n        height: 180px;\n        flex-direction: column;\n        margin-top: 80px;\n}\n#nuestros-clientes img[data-v-b3c5cf30]{\n        margin-top: 40px;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(11){\n        margin-top: 10em;\n}\n.main-container .row[data-v-b3c5cf30]:nth-child(13), .row[data-v-b3c5cf30]:nth-child(11){\n        margin-top: 12em;\n}\n}\n@media screen and (max-width: 767px){\n#proyectos[data-v-b3c5cf30]{\n        text-align: center;\n}\n.main-container .row:nth-child(10) .line[data-v-b3c5cf30]{\n        margin-right: 0;\n        height: 100%;\n}\n}\n.que-hacemos-img[data-v-b3c5cf30]{\n    height: 80px;\n    width: auto;\n}\n.img-con-texto[data-v-b3c5cf30] {\n    text-align: center;\n    width: 200px;\n    margin: 0 5px;\n}\n.img-con-texto img[data-v-b3c5cf30] {\n    display: block;\n    margin: 20px auto;\n}\n@media only screen and (max-width: 600px){\n.main-container .row:nth-child(14) .line[data-v-b3c5cf30]{\n        margin-right: 0;\n}\n.line[data-v-b3c5cf30]{\n        margin-right: 0;\n}\n.projects img[data-v-b3c5cf30]{\n        width: 50%;\n}\n#proyectos[data-v-b3c5cf30]{\n        top: -84px;\n        left: 10px;\n}\n#nuestros-expertos[data-v-b3c5cf30]{\n        left: 0;\n        width: auto;\n}\n}\n@media only screen and (max-width: 372px){\n#titulo-banner[data-v-b3c5cf30]{\n        text-align: justify;\n}\n}\nh1[data-v-b3c5cf30],h2[data-v-b3c5cf30],h3[data-v-b3c5cf30]{\n  font-weight: 800;\n}\np[data-v-b3c5cf30]{\n  font-weight: 500;\n}\n.segundo-titulo[data-v-b3c5cf30]{\n    margin-left: 3%\n}\n", ""]);
 
 // exports
 
@@ -10753,7 +10775,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-769da1c0],h2[data-v-769da1c0],h3[data-v-769da1c0]{\n  font-weight: 800;\n}\np[data-v-769da1c0]{\n  font-weight: 500;\n}\n.container[data-v-769da1c0]{\n    position: relative;\n}\n.main-container *[data-v-769da1c0]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-769da1c0]{\n    width: 9vw;\n}\n.container-image[data-v-769da1c0]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-769da1c0] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-769da1c0]:nth-child(1), .row[data-v-769da1c0]:nth-child(2), .row[data-v-769da1c0]:nth-child(3), .row[data-v-769da1c0]:nth-child(4), .row[data-v-769da1c0]:nth-child(5){\n    margin-top: 5em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(2){\n    position: relative;\n}\n.line[data-v-769da1c0]{\n    width: 100%;\n    height: 300px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    margin-right: -20%;\n}\n.main-container h2[data-v-769da1c0]{\n    font-size: 3em;\n    font-weight: bold;\n}\n\n", ""]);
+exports.push([module.i, "\nh1[data-v-769da1c0],h2[data-v-769da1c0],h3[data-v-769da1c0]{\n  font-weight: 800;\n}\np[data-v-769da1c0]{\n  font-weight: 500;\n}\n.container[data-v-769da1c0]{\n    position: relative;\n}\n.main-container *[data-v-769da1c0]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-769da1c0]{\n    width: 9vw;\n}\n.container-image[data-v-769da1c0]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-769da1c0] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-769da1c0]:nth-child(1), .row[data-v-769da1c0]:nth-child(2), .row[data-v-769da1c0]:nth-child(3), .row[data-v-769da1c0]:nth-child(4), .row[data-v-769da1c0]:nth-child(5){\n    margin-top: 5em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(2){\n    position: relative;\n}\n.line[data-v-769da1c0]{\n    width: 100%;\n    height: 300px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    margin-right: -20%;\n}\n.main-container h2[data-v-769da1c0]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.segundo-titulo[data-v-769da1c0]{\n    margin-left: 3%\n}\n\n", ""]);
 
 // exports
 
@@ -10772,7 +10794,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-55bf53fa],h2[data-v-55bf53fa],h3[data-v-55bf53fa]{\n  font-weight: 800;\n}\np[data-v-55bf53fa]{\n  font-weight: 500;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.projects-container[data-v-55bf53fa]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 0;\n    width: 100%;\n    background-color: white;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.container-image[data-v-55bf53fa]{\n    width: 100%;\n    padding-top: 90%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-55bf53fa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-55bf53fa]:nth-child(1), .row[data-v-55bf53fa]:nth-child(2), .row[data-v-55bf53fa]:nth-child(3), .row[data-v-55bf53fa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-55bf53fa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container .row:nth-child(3) > div[data-v-55bf53fa]{\n    margin-bottom: 150px;\n}\n.main-container[data-v-55bf53fa]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-55bf53fa]{\n        margin-top: 11em;\n}\n}\n.line-right[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-left: 250px;\n    height: 200px;\n    background-color: #EE1331;\n    color: white;\n    margin-right: -15%;\n    padding-right: 15%;\n}\n.img-right[data-v-55bf53fa]{\n    position: absolute;\n    left: 0;\n    height: 300px;\n}\n.line-left[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-right: 250px;\n    height: 200px;\n    background-color: gray;\n    color: white;\n    margin-left: -15%;\n    padding-left: 15%;\n}\n.img-left[data-v-55bf53fa]{\n    position: absolute;\n    right: 0;\n    height: 300px\n}\n.line-button[data-v-55bf53fa]{\n    background-color: transparent;\n    margin-top: 10px;\n    padding: 10px 35px;\n    border-radius: 0px;\n    border: 1px solid white;\n    color: white;\n}\n.left[data-v-55bf53fa]{\n    float: left;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n    float: right;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n}\n@media only screen and (max-width: 600px){\n.line-right[data-v-55bf53fa]{\n        margin: 0;\n        padding: 0;\n        padding-left: 0;\n        height: 200px;\n        margin-right: 0;\n        padding-right: 0;\n}\n.line-left[data-v-55bf53fa]{\n        margin: 0;\n        padding: 0;\n        padding-right: 0;\n        height: 200px;\n        margin-left: 0;\n        padding-left: 0;\n}\nimg[data-v-55bf53fa]{\n        display: none;\n}\n.left[data-v-55bf53fa]{\n        float: initial;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n        float: initial;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n}\np[data-v-55bf53fa]{\n        text-align: justify;\n}\n.main-container .row:nth-child(3) > div[data-v-55bf53fa]{\n        margin-bottom: 50px;\n}\n.excerpt-text[data-v-55bf53fa]{\n        padding: 5px;\n}\n.title-text[data-v-55bf53fa]{\n        text-align: center;\n}\n}\n", ""]);
+exports.push([module.i, "\nh1[data-v-55bf53fa],h2[data-v-55bf53fa],h3[data-v-55bf53fa]{\n  font-weight: 800;\n}\np[data-v-55bf53fa]{\n  font-weight: 500;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.projects-container[data-v-55bf53fa]{\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 0;\n    width: 100%;\n    background-color: white;\n}\n.container[data-v-55bf53fa]{\n    position: relative;\n}\n.main-container *[data-v-55bf53fa]{\n    padding: 0;\n    margin: 0;\n}\n.container-image[data-v-55bf53fa]{\n    width: 100%;\n    padding-top: 90%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-55bf53fa] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-55bf53fa]:nth-child(1), .row[data-v-55bf53fa]:nth-child(2), .row[data-v-55bf53fa]:nth-child(3), .row[data-v-55bf53fa]:nth-child(4){\n    margin-top: 5em;\n}\n.main-container h2[data-v-55bf53fa]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.main-container .row:nth-child(3) > div[data-v-55bf53fa]{\n    margin-bottom: 150px;\n}\n.main-container[data-v-55bf53fa]{\n    margin-top: 9em;\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-55bf53fa]{\n        margin-top: 11em;\n}\n}\n.line-right[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-left: 250px;\n    height: 200px;\n    background-color: #EE1331;\n    color: white;\n    margin-right: -15%;\n    padding-right: 15%;\n}\n.img-right[data-v-55bf53fa]{\n    position: absolute;\n    left: 0;\n    height: 300px;\n}\n.line-left[data-v-55bf53fa]{\n    margin: auto;\n    width: 100%;\n    padding: 20px;\n    padding-right: 250px;\n    height: 200px;\n    background-color: gray;\n    color: white;\n    margin-left: -15%;\n    padding-left: 15%;\n}\n.img-left[data-v-55bf53fa]{\n    position: absolute;\n    right: 0;\n    height: 300px\n}\n.line-button[data-v-55bf53fa]{\n    background-color: transparent;\n    margin-top: 10px;\n    padding: 10px 35px;\n    border-radius: 0px;\n    border: 1px solid white;\n    color: white;\n}\n.left[data-v-55bf53fa]{\n    float: left;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n    float: right;\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n}\n@media only screen and (max-width: 600px){\n.line-right[data-v-55bf53fa]{\n        margin: 0;\n        padding: 0;\n        padding-left: 0;\n        height: 200px;\n        margin-right: 0;\n        padding-right: 0;\n}\n.line-left[data-v-55bf53fa]{\n        margin: 0;\n        padding: 0;\n        padding-right: 0;\n        height: 200px;\n        margin-left: 0;\n        padding-left: 0;\n}\nimg[data-v-55bf53fa]{\n        display: none;\n}\n.left[data-v-55bf53fa]{\n        float: initial;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n}\n.right[data-v-55bf53fa]{\n        float: initial;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n}\np[data-v-55bf53fa]{\n        text-align: justify;\n}\n.main-container .row:nth-child(3) > div[data-v-55bf53fa]{\n        margin-bottom: 50px;\n}\n.excerpt-text[data-v-55bf53fa]{\n        padding: 5px;\n}\n.title-text[data-v-55bf53fa]{\n        text-align: center;\n}\n}\n.segundo-titulo[data-v-55bf53fa]{\n    margin-left: 3%\n}\n", ""]);
 
 // exports
 
@@ -65289,7 +65311,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12" }, [
           _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("your")]),
           _vm._v(" "),
-          _c("h2", [_vm._v("partners")])
+          _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("partners")])
         ])
       ]),
       _vm._v(" "),
@@ -65421,7 +65443,9 @@ var staticRenderFns = [
             _vm._v("tu historia y la nuestra")
           ]),
           _vm._v(" "),
-          _c("h2", [_vm._v("son muy similares")])
+          _c("h2", { staticClass: "segundo-titulo" }, [
+            _vm._v("son muy similares")
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -65622,7 +65646,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿tienes un")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("comentario?")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("comentario?")])
       ])
     ])
   },
@@ -65722,7 +65746,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("tendencias")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("blog")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("blog")])
       ])
     ])
   },
@@ -65852,7 +65876,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestro")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("proceso")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("proceso")])
       ])
     ])
   },
@@ -65957,7 +65981,9 @@ var staticRenderFns = [
           _vm._v("¿qué nos hace")
         ]),
         _vm._v(" "),
-        _c("h2", [_vm._v("diferente a los demás?")])
+        _c("h2", { staticClass: "segundo-titulo" }, [
+          _vm._v("diferente a los demás?")
+        ])
       ])
     ])
   },
@@ -66082,7 +66108,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("hacemos?")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
       ])
     ])
   },
@@ -66247,7 +66273,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12" }, [
           _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
           _vm._v(" "),
-          _c("h2", [_vm._v("clientes")])
+          _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("clientes")])
         ])
       ]
     )
@@ -66301,7 +66327,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("expertos")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("expertos")])
       ])
     ])
   },
@@ -66374,7 +66400,7 @@ var staticRenderFns = [
           _vm._v("¿qué tienes en mente?")
         ]),
         _vm._v(" "),
-        _c("h2", [_vm._v("¡contáctanos!")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("¡contáctanos!")])
       ])
     ])
   },
@@ -67406,7 +67432,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("hacemos?")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
       ])
     ])
   },
@@ -67418,7 +67444,9 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("conoce más")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("de nuestros proyectos")])
+        _c("h2", { staticClass: "segundo-titulo" }, [
+          _vm._v("de nuestros proyectos")
+        ])
       ])
     ])
   },
@@ -67432,7 +67460,7 @@ var staticRenderFns = [
           _vm._v("¿que tienes en mente?")
         ]),
         _vm._v(" "),
-        _c("h2", [_vm._v("contactanos")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("contactanos")])
       ])
     ])
   },
@@ -67556,7 +67584,9 @@ var staticRenderFns = [
           _vm._v("todo empieza con una plática")
         ]),
         _vm._v(" "),
-        _c("h2", [_vm._v("nosotros ponemos el café")])
+        _c("h2", { staticClass: "segundo-titulo" }, [
+          _vm._v("nosotros ponemos el café")
+        ])
       ])
     ])
   },
@@ -67568,7 +67598,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-12 text-center" }, [
         _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿qué")]),
         _vm._v(" "),
-        _c("h2", [_vm._v("hacemos?")])
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
       ])
     ])
   }

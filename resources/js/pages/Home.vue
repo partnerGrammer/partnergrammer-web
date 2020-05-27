@@ -310,6 +310,9 @@
     p{
       font-weight: 500;
     }
+    .segundo-titulo{
+        margin-left: 3%
+    }
 </style>
 
 <template>
@@ -334,7 +337,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestro</h2>
-                    <h2>proceso</h2>
+                    <h2 class="segundo-titulo">proceso</h2>
                 </div>
             </section>
 
@@ -378,7 +381,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿qué nos hace</h2>
-                    <h2>diferente a los demás?</h2>
+                    <h2 class="segundo-titulo">diferente a los demás?</h2>
                 </div>
             </section>
 
@@ -425,7 +428,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que</h2>
-                    <h2>hacemos?</h2>
+                    <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
             </section>
 
@@ -486,7 +489,7 @@
             <section class="row" style="margin-bottom: 50px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
-                    <h2>clientes</h2>
+                    <h2 class="segundo-titulo">clientes</h2>
                 </div>
             </section>
 
@@ -505,7 +508,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
-                    <h2>expertos</h2>
+                    <h2 class="segundo-titulo">expertos</h2>
                 </div>
             </section>
 
@@ -539,7 +542,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
-                    <h2>¡contáctanos!</h2>
+                    <h2 class="segundo-titulo">¡contáctanos!</h2>
                 </div>
             </section>
 

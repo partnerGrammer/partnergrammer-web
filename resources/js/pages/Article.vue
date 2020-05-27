@@ -121,6 +121,10 @@
 
     }
 
+    .segundo-titulo{
+        margin-left: 3%
+    }
+
 </style>
 
 <template>
@@ -166,7 +170,7 @@
                 <section class="row">
                     <div class="col-md-12">
                         <h2 style="color: #949A9D;">¿tienes un</h2>
-                        <h2>comentario?</h2>
+                        <h2 class="segundo-titulo">comentario?</h2>
                     </div>
                 </section>
 
