@@ -299,6 +299,11 @@
         }
     }
 
+    @media only screen and (max-width: 449px){
+        .img-con-texto {
+            width: 150px;
+        }
+    }
     @media only screen and (max-width: 372px){
         #titulo-banner{
             text-align: justify;
