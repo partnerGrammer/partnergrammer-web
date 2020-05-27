@@ -5652,6 +5652,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -10775,7 +10784,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1[data-v-769da1c0],h2[data-v-769da1c0],h3[data-v-769da1c0]{\n  font-weight: 800;\n}\np[data-v-769da1c0]{\n  font-weight: 500;\n}\n.container[data-v-769da1c0]{\n    position: relative;\n}\n.main-container *[data-v-769da1c0]{\n    padding: 0;\n    margin: 0;\n}\n.image-about[data-v-769da1c0]{\n    width: 9vw;\n}\n.container-image[data-v-769da1c0]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-769da1c0] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-769da1c0]:nth-child(1), .row[data-v-769da1c0]:nth-child(2), .row[data-v-769da1c0]:nth-child(3), .row[data-v-769da1c0]:nth-child(4), .row[data-v-769da1c0]:nth-child(5){\n    margin-top: 5em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(2){\n    position: relative;\n}\n.line[data-v-769da1c0]{\n    width: 100%;\n    height: 300px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    margin-right: -20%;\n}\n.main-container h2[data-v-769da1c0]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.segundo-titulo[data-v-769da1c0]{\n    margin-left: 3%\n}\n\n", ""]);
+exports.push([module.i, "\nh1[data-v-769da1c0],h2[data-v-769da1c0],h3[data-v-769da1c0]{\n  font-weight: 800;\n}\np[data-v-769da1c0]{\n  font-weight: 500;\n}\n.container[data-v-769da1c0]{\n    position: relative;\n}\n.main-container *[data-v-769da1c0]{\n    padding: 0;\n    margin: 0;\n}\n.main-container[data-v-769da1c0]{\n    margin-top: 9em;\n}\n.image-about[data-v-769da1c0]{\n    width: 9vw;\n}\n.container-image[data-v-769da1c0]{\n    width: 100%;\n    padding-top: 100%; /* 1:1 Aspect Ratio */\n    position: relative; /* If you want text inside of it */\n    background-position: center;\n    background-size: cover;\n}\n.container-image img[data-v-769da1c0] {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    -o-object-fit: cover;\n       object-fit: cover;\n    -o-object-position: center;\n       object-position: center;\n}\n.main-container .row[data-v-769da1c0]:nth-child(1), .row[data-v-769da1c0]:nth-child(2), .row[data-v-769da1c0]:nth-child(3), .row[data-v-769da1c0]:nth-child(4), .row[data-v-769da1c0]:nth-child(5){\n    margin-top: 5em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(16){\n    margin-top: 2em;\n}\n.main-container .row[data-v-769da1c0]:nth-child(2){\n    position: relative;\n}\n.line[data-v-769da1c0]{\n    width: 100%;\n    height: 300px;\n    background-color: #EE1331;\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: auto;\n    margin-right: -20%;\n}\n.main-container h2[data-v-769da1c0]{\n    font-size: 3em;\n    font-weight: bold;\n}\n.segundo-titulo[data-v-769da1c0]{\n    margin-left: 3%\n}\n@media only screen and (max-width: 767px){\n.main-container[data-v-769da1c0]{\n        margin-top: 11em;\n}\n}\n\n", ""]);
 
 // exports
 

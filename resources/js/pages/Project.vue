@@ -14,6 +14,9 @@
         margin: 0;
 
     }
+    .main-container{
+        margin-top: 9em;
+    }
 
     .image-about{
         width: 9vw;
@@ -71,6 +74,12 @@
 
     .segundo-titulo{
         margin-left: 3%
+    }
+
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
     }
 
 </style>
