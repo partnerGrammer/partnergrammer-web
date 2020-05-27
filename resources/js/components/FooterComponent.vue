@@ -97,6 +97,9 @@
             margin-top: 2em;
         }
     }
+    a{
+        color:black;
+    }
 
 </style>
 
