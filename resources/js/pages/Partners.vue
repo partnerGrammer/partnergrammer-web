@@ -6,6 +6,12 @@
     h1{
         font-size: 4em;
     }
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
 
     .main-container *{
         padding: 0;

@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .container{
         position: relative;
     }
@@ -6,7 +12,7 @@
     .main-container *{
         padding: 0;
         margin: 0;
-        
+
     }
 
     .image-about{
@@ -68,7 +74,7 @@
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container" v-if="mainProject != null">
             <!-- seccion 1 -->
             <section class="row">

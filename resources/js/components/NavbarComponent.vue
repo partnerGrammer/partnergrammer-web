@@ -1,4 +1,8 @@
 <style lang="sass" scoped>
+    h1,h2,h3
+      font-weight: 800
+    p
+      font-weight: 500
     .navbar
         position: fixed
         left: 0

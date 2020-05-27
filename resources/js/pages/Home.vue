@@ -253,7 +253,7 @@
     @media screen and (max-width: 767px){
         #proyectos{
             text-align: center;
-            
+
         }
 
         .main-container .row:nth-child(10) .line{
@@ -303,6 +303,12 @@
         #titulo-banner{
             text-align: justify;
         }
+    }
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
     }
 </style>
 

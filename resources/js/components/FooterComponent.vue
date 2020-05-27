@@ -1,4 +1,10 @@
 <style>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     footer{
         padding: 10em 5em 0 5em;
         display: flex;
@@ -91,6 +97,7 @@
             margin-top: 2em;
         }
     }
+
 </style>
 
 <template>
