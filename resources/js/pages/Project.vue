@@ -80,6 +80,10 @@
         .main-container{
             margin-top: 11em;
         }
+        #img-proyecto{
+            max-width: 40%;
+        }
+
     }
 
 </style>
@@ -102,7 +106,7 @@
                 <div class="line">
                     <div class="col-md-12 d-flex justify-content-around align-items-start flex-column" style="color: white; padding: 20px 25%; height: 300px;">
                         <div class="col-md-4">
-                            <img :src="mainProject.logo" width="100%" alt="">
+                            <img id="img-proyecto" :src="mainProject.logo" alt="">
                         </div>
                         <p>{{ mainProject.body }}</p>
                     </div>
