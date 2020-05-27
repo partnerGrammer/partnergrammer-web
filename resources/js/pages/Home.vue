@@ -478,7 +478,7 @@
                 <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
                     <h2>Proyectos</h2>
                     <p>Checa nuestro portafolio para que veas de qué hablamos.</p>
-                    <a class="btn btn-ver-mas" href="#">Ver mas</a>
+                    <a class="btn btn-ver-mas" href="#/projects">Ver más</a>
                 </div>
             </section>
 
@@ -531,7 +531,7 @@
                 </div>
                 <div class="col-md-5 d-flex justify-content-center align-items-start flex-column pl-3" id="nuestros-expertos">
                     <p>Nuestro diverso equipo está compuesto por personas creativas, ingeniosas y está preparado con las mejores herramientas y conocimiento necesario para llevar tu idea al siguiente nivel.</p>
-                    <a class="btn btn-ver-mas-2" href="#">ver mas</a>
+                    <a class="btn btn-ver-mas-2" href="#/about">ver más</a>
                 </div>
             </section>
 

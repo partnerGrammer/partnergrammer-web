@@ -66227,9 +66227,11 @@ var staticRenderFns = [
             _vm._v("Checa nuestro portafolio para que veas de qué hablamos.")
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "btn btn-ver-mas", attrs: { href: "#" } }, [
-            _vm._v("Ver mas")
-          ])
+          _c(
+            "a",
+            { staticClass: "btn btn-ver-mas", attrs: { href: "#/projects" } },
+            [_vm._v("Ver más")]
+          )
         ]
       )
     ])
@@ -66353,9 +66355,11 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "btn btn-ver-mas-2", attrs: { href: "#" } }, [
-            _vm._v("ver mas")
-          ])
+          _c(
+            "a",
+            { staticClass: "btn btn-ver-mas-2", attrs: { href: "#/about" } },
+            [_vm._v("ver más")]
+          )
         ]
       )
     ])
