@@ -161,7 +161,7 @@
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-12 col-md-6">
-                    <img src="/images/partner.png" width="100%" alt="">
+                    <img src="/gifs/PARTNERS.gif" width="100%" alt="">
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-start align-items-center flex-column" style="padding-top: 5em;">
                     <h1>¡Conviértete en un Agency Partner!</h1>

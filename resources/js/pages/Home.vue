@@ -335,7 +335,7 @@
                     <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="/images/computer-bg-1.png" width="100%" alt="Desarrollo web y software a la medida">
+                    <img src="/gifs/HOME.gif" width="100%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 

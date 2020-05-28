@@ -65901,7 +65901,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("img", {
           attrs: {
-            src: "/images/computer-bg-1.png",
+            src: "/gifs/HOME.gif",
             width: "100%",
             alt: "Desarrollo web y software a la medida"
           }
@@ -67217,7 +67217,7 @@ var staticRenderFns = [
     return _c("section", { staticClass: "row" }, [
       _c("div", { staticClass: "col-12 col-md-6" }, [
         _c("img", {
-          attrs: { src: "/images/partner.png", width: "100%", alt: "" }
+          attrs: { src: "/gifs/PARTNERS.gif", width: "100%", alt: "" }
         })
       ]),
       _vm._v(" "),
