@@ -82,6 +82,7 @@
     .horizontal-scroll-wrapper{
         width: 300px;
         height: 84vw;
+        max-height: 1140px;
         overflow-y: auto;
         overflow-x: visible;
         transform: rotate(-90deg) translateY(-300px);
@@ -99,7 +100,7 @@
     }
 
     .horizontal-scroll-upper {
-        transform: rotate(90deg) translateY(150px) translateX(218px);
+        transform: rotate(90deg) translateY(150px) translateX(115px);
         border-bottom-color: gray;
         border-bottom-width: 5px;
         border-bottom-style: solid;
@@ -110,7 +111,7 @@
     }
 
     .horizontal-scroll-lower {
-        transform: rotate(90deg) translateY(245px) translateX(229px);
+        transform: rotate(90deg) translateY(245px) translateX(125px);
         border-top-color: grey;
         border-top-style: solid;
         border-top-width: 5px;
