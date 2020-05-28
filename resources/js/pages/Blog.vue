@@ -91,7 +91,7 @@
 
                     <p>{{ mainArticle.excerpt }}</p>
 
-                    <a class="btn-leer-mas" href="#" @click="goToArticle(mainArticle.id)">leer más</a>
+                    <a class="btn-leer-mas" href="#" @click="goToArticle(mainArticle.slug)">leer más</a>
                 </div>
             </article>
 
@@ -150,7 +150,7 @@ export default {
 
     methods: {
         goToArticle(args){
-            this.$router.push({ name: 'Article', params: { id: args } })
+            this.$router.push({ name: 'Article', params: { slug: args } })
         },
 
         async getArticle(){

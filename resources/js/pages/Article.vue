@@ -231,7 +231,7 @@ export default {
     name: 'Article',
 
     props: [
-        'id'
+        'slug'
     ],
 
     components: {
@@ -260,7 +260,7 @@ export default {
     methods: {
         async getArticle(){
             try {
-                let URL = `/api/articles/${this.id}`
+                let URL = `/api/articles/${this.slug}`
 
                 let response = await axios.get(URL)
 

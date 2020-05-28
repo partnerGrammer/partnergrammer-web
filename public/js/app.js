@@ -2099,7 +2099,7 @@ var moment = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js"
       this.$router.push({
         name: 'Article',
         params: {
-          id: args
+          slug: args
         }
       });
     },
@@ -3899,7 +3899,7 @@ var moment = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js"
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Article',
-  props: ['id'],
+  props: ['slug'],
   components: {
     Navbar: _components_NavbarComponent__WEBPACK_IMPORTED_MODULE_1__["default"],
     Footer: _components_FooterComponent__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -3930,7 +3930,7 @@ var moment = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js"
             switch (_context.prev = _context.next) {
               case 0:
                 _context.prev = 0;
-                URL = "/api/articles/".concat(_this.id);
+                URL = "/api/articles/".concat(_this.slug);
                 _context.next = 4;
                 return axios.get(URL);
 
@@ -4130,7 +4130,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       this.$router.push({
         name: 'Article',
         params: {
-          id: args
+          slug: args
         }
       });
     },
@@ -64367,7 +64367,7 @@ var render = function() {
             staticClass: "col-md-4 entradas",
             on: {
               click: function($event) {
-                return _vm.goToArticle(item.id)
+                return _vm.goToArticle(item.slug)
               }
             }
           },
@@ -65856,7 +65856,7 @@ var render = function() {
                     attrs: { href: "#" },
                     on: {
                       click: function($event) {
-                        return _vm.goToArticle(_vm.mainArticle.id)
+                        return _vm.goToArticle(_vm.mainArticle.slug)
                       }
                     }
                   },
@@ -86055,7 +86055,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     } // component: () => import('./pages/Blog.vue')
 
   }, {
-    path: '/blog/:id',
+    path: '/blog/:slug',
     props: true,
     name: 'Article',
     component: __webpack_require__(/*! ./pages/Article */ "./resources/js/pages/Article.vue")["default"],

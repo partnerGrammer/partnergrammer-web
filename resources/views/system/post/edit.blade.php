@@ -19,7 +19,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <h5 class="card-header">
-                        CREAR POST
+                        EDITAR POST
                     </h5>
                     
                     <div class="card-body">

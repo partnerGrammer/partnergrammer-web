@@ -47,6 +47,7 @@ class PostController extends Controller
             'category_id' => 'required',
             'excerpt' => 'required',
             'body' => 'required',
+            'slug' => 'required|unique:posts,slug',
             'banner' => 'required|mimes:jpeg,png,jpg',
         ]);
  
@@ -133,6 +134,16 @@ class PostController extends Controller
 
         $post = Post::find($id);
 
+        //Comprobamos que el slug no se repita pero ignoramos el slug propio
+        $v = \Validator::make($request->all(), [
+            'slug' => ['required', Rule::unique('posts')->ignore($post->id)],
+        ]);
+ 
+        if ($v->fails())
+        {
+            return redirect()->back()->withInput()->withErrors($v->errors());
+        }
+
         $post->fill($request->all())->save();
         // Store in AWS S3
         if($archivo = $request->file('banner')){
@@ -171,9 +182,9 @@ class PostController extends Controller
         return $post;
     }
 
-    public function showMainArticle($id)
+    public function showMainArticle($slug)
     {
-        $post = Post::find($id);
+        $post = Post::where('slug', $slug)->first();
         return $post;
     }
 

@@ -104,7 +104,7 @@
     <section class="main-container-articles">
         <!-- seccion 4 -->
         <section class="row">
-            <div class="col-md-4 entradas" v-for="(item, index) in articles" :key="index" @click="goToArticle(item.id)">
+            <div class="col-md-4 entradas" v-for="(item, index) in articles" :key="index" @click="goToArticle(item.slug)">
                 <article>
                     <div class="col-md-12">
                         <div class="container-image">
@@ -176,7 +176,7 @@ export default {
 
     methods: {
         goToArticle(args){
-            this.$router.push({ name: 'Article', params: { id: args } })
+            this.$router.push({ name: 'Article', params: { slug: args } })
         },
 
         async getArticles(){

@@ -20,7 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 //Articulos
 Route::get('/article', 'System\PostController@mainArticle');
-Route::get('/articles/{id}', 'System\PostController@showMainArticle');
+Route::get('/articles/{slug}', 'System\PostController@showMainArticle');
 Route::get('/articles', 'System\PostController@getArticles');
 
 //Proyectos
