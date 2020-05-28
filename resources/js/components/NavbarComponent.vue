@@ -176,7 +176,7 @@
     <section>
         <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }" style="margin-left: 0px; margin-right: 0px;">
             <div class="col-md-6 nav-section-1">
-                <router-link to="/"><img id="logo-navbar" src="/images/logos/logo.svg" alt="LOGO" ></router-link>
+                <router-link to="/"><img id="logo-navbar" src="/images/logos/logo.svg" alt="LOGO" style="position: relative; z-index: 1001"></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
@@ -206,7 +206,7 @@
             </div>
 
             <transition name="slide-fade">
-                <div v-if="menuMovil" class="col-md-12 section-2">
+                <div v-if="menuMovil" class="col-md-12 section-2" style="z-index: 1000">
                     <div class="row">
                         <div class="col-6"></div>
                         <div class="col-6 section-2-nav">
