@@ -96,6 +96,9 @@
         font-weight: 800
 
 
+    @media only screen and (max-height: 860px)
+        .modal-content
+            top: 70px
 
     @media only screen and (max-width: 960px) and (min-width: 768px)
         .nav-section-2 > a
