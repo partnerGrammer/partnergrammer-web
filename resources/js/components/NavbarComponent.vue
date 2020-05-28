@@ -1,4 +1,8 @@
 <style lang="sass" scoped>
+    h1,h2,h3
+      font-weight: 800
+    p
+      font-weight: 500
     .navbar
         position: fixed
         left: 0
@@ -27,6 +31,8 @@
         display: inline-block
         background-color: #EE1331
         padding: 5px 15px
+        &:hover
+            background-color: #f3687c
 
 
     .btn-ver-mas-2
@@ -37,6 +43,8 @@
         font-size: 14px
         border-radius: 0px
         margin-top: 20px
+        &:hover
+            background-color: #f3687c
 
     .main-box
         position: absolute
@@ -84,7 +92,13 @@
 
     .navbar-movil
         display: none
+    a:hover,.nav-section-2-btn-contact:hover
+        font-weight: 800
 
+
+    @media only screen and (max-height: 860px)
+        .modal-content
+            top: 70px
 
     @media only screen and (max-width: 960px) and (min-width: 768px)
         .nav-section-2 > a
@@ -158,13 +172,14 @@
             opacity: 0
         .box-btn
             padding: 0
+
 </style>
 
 <template>
     <section>
         <nav class="row navbar" :class="{ 'nav-showNavbar': !showNavbar }" style="margin-left: 0px; margin-right: 0px;">
             <div class="col-md-6 nav-section-1">
-                <router-link to="/"><img id="logo-navbar" src="/images/logos/logo.svg" alt="LOGO" ></router-link>
+                <router-link to="/"><img id="logo-navbar" src="/images/logos/logo.svg" alt="LOGO" style="position: relative; z-index: 1001"></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
                 <router-link to="/">inicio</router-link>
@@ -194,7 +209,7 @@
             </div>
 
             <transition name="slide-fade">
-                <div v-if="menuMovil" class="col-md-12 section-2">
+                <div v-if="menuMovil" class="col-md-12 section-2" style="z-index: 1000">
                     <div class="row">
                         <div class="col-6"></div>
                         <div class="col-6 section-2-nav">
@@ -221,7 +236,7 @@
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div> -->
-                    <div class="modal-body">
+                    <div class="modal-body" style="padding-top:0">
                         <div class="row" style="position: relative;">
                             <div class="col-md-12" style="background-color: #EE1331; height: 350px;">
                                 <button type="button" class="close mr-2 mt-2" style="z-index: 1000; position: absolute; right: 0;" data-dismiss="modal" aria-label="Close">

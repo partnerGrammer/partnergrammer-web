@@ -1,4 +1,10 @@
 <style lang="scss" scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .main-box{
         margin: 0;
         padding: 0;
@@ -10,12 +16,12 @@
     .box-1{
         height: calc(100vh - 3em);
     }
-        
+
     .box-1 h1{
         font-weight: bolder;
         font-size: 4em;
     }
-        
+
     .bg-1{
         margin: 0;
         padding: 0;
@@ -35,7 +41,7 @@
         height: 100vh;
         width: 100%;
     }
-        
+
     .box-2{
         height: calc(100vh);
         width: 100%;
@@ -63,17 +69,17 @@
 
                 <img src="/images/computer-bg-1.png" width="100%" alt="">
             </div>
-        </div>  
+        </div>
 
         <div class="row bg-2">
             <div class="col-md-6 d-flex justify-content-start align-items-end">
                 <img src="/images/bg-2.png" width="70%" alt="" style="margin-left: -20%; margin-bottom: -20%;">
             </div>
-        </div>  
+        </div>
 
         <div class="container">
             <Navbar />
-            
+
             <!-- seccion 1 -->
             <section class="row box-1">
                 <div class="col-md-7 d-flex justify-content-center align-items-around">

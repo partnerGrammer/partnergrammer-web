@@ -1,4 +1,10 @@
 <style>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     footer{
         padding: 10em 5em 0 5em;
         display: flex;
@@ -91,6 +97,10 @@
             margin-top: 2em;
         }
     }
+    a{
+        color:black;
+    }
+
 </style>
 
 <template>
@@ -98,7 +108,7 @@
         <footer>
             <div class="row">
                 <div class="col-md-6 footer-section-1">
-                    <p>Av. Heroico Colegio Militar 3700, Bodegas del Estado, 31300 Chihuahua, Chih.</p>
+                    <p>PIT2 Parque de Innovación y Transferencia de Tecnología, ITESM Heroico Colegio Militar 4709, Chihuahua, Chihuahua. Mexico CP. 31300</p>
                     <p>(614) 303-8662</p>
                     <div class="d-flex">
                         <div class="icons d-flex justify-content-center align-items-center">

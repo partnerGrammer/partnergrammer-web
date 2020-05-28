@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .container{
         position: relative;
     }
@@ -11,7 +17,9 @@
 
     .image-about{
         width: 9vw;
-        margin: 0 10px;
+        margin: 5px 10px;
+        min-width: 85px;
+
     }
 
     .container-image{
@@ -79,6 +87,11 @@
     .main-container{
         margin-top: 9em;
     }
+    @media only screen and (max-width: 991px){
+        .line{
+            height: 352px;
+        }
+    }
     @media only screen and (max-width: 767px){
         .main-container{
             margin-top: 11em;
@@ -104,6 +117,20 @@
             margin-right: 0;
         }
     }
+    @media only screen and (max-width: 449px){
+        .line{
+            height: 474px;
+        }
+    }
+    @media only screen and (max-width: 344px){
+        .line{
+            height: 612px;
+        }
+    }
+    .segundo-titulo{
+        margin-left: 3%
+    }
+</style>
 
 </style>
 
@@ -116,7 +143,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">your</h2>
-                    <h2>partners</h2>
+                    <h2 class="segundo-titulo">partners</h2>
                 </div>
             </section>
 
@@ -131,7 +158,7 @@
             <!-- seccion 3 -->
             <section class="row">
                 <div class="line" />
-                <div class="col-md-12">
+                <div class="col-md-12" style="flex-wrap: wrap">
                     <div class="image-about">
                         <div class="container-image">
                             <img src="/images/luis.png" width="100%" alt="Luis Andrade">
@@ -179,7 +206,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">tu historia y la nuestra</h2>
-                    <h2>son muy similares</h2>
+                    <h2 class="segundo-titulo">son muy similares</h2>
                 </div>
             </section>
 

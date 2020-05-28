@@ -6,6 +6,12 @@
     h1{
         font-size: 4em;
     }
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
 
     .main-container *{
         padding: 0;
@@ -111,6 +117,10 @@
     .main-container{
         margin-top: 9em;
     }
+    #banner-texto{
+        padding-top: 5em;
+        margin-left: 20px;
+    }
     @media only screen and (max-width: 767px){
         .main-container{
             margin-top: 11em;
@@ -134,6 +144,13 @@
         }
     }
 
+    @media only screen and (max-width: 500px){
+        #banner-texto{
+            padding-top: 1em;
+            font-size: 0.7rem;
+        }
+    }
+
 </style>
 
 <template>
@@ -144,11 +161,11 @@
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-12 col-md-6">
-                    <img src="/images/partner.png" width="100%" alt="">
+                    <img src="/gifs/PARTNERS.gif" width="100%" alt="">
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-start align-items-center flex-column" style="padding-top: 5em;">
                     <h1>¡Conviértete en un Agency Partner!</h1>
-                    <p class="mt-3" style="color: #949A9D;">Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte.</p>
+                    <p class="mt-3" style="color: #949A9D; font-size: 0.9rem;">Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte.</p>
                 </div>
             </section>
 

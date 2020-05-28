@@ -38,9 +38,9 @@
     ,cuanto cuesta un software a la medida">
 
     <meta name="og:phone_number" content="(614) 303-8662"/>
-    <meta name="og:street-address" content="Av. Heroico Colegio Militar 3700"/>
+    <meta name="og:street-address" content="PIT2 Parque de Innovación y Transferencia de Tecnología, Av. Heroico Colegio Militar 4709"/>
     <meta name="og:locality" content="Chihuahua"/>
-    <meta name="og:region" content="Chih"/>
+    <meta name="og:region" content="Chihuahua"/>
     <meta name="og:postal-code" content="31300"/>
     <meta name="og:country-name" content="MEX"/>
 
@@ -56,7 +56,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
