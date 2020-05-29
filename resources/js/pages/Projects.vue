@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .container{
         position: relative;
     }
@@ -180,6 +186,9 @@
             text-align: center;
         }
     }
+    .segundo-titulo{
+        margin-left: 3%
+    }
 </style>
 
 <template>
@@ -192,7 +201,7 @@
                 <section class="row">
                     <div class="col-md-12">
                         <h2 style="color: #949A9D;">todo empieza con una plática</h2>
-                        <h2>nosotros ponemos el café</h2>
+                        <h2 class="segundo-titulo">nosotros ponemos el café</h2>
                     </div>
                 </section>
 
@@ -200,7 +209,7 @@
                 <section class="row">
                     <div class="col-md-12 text-center">
                         <h2 style="color: #949A9D;">¿qué</h2>
-                        <h2>hacemos?</h2>
+                        <h2 class="segundo-titulo">hacemos?</h2>
                     </div>
                 </section>
 

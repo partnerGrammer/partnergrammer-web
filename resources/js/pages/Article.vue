@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .main-box{
         padding: 0;
         margin: 0;
@@ -112,7 +118,11 @@
         bottom: -10%;
         right: 0;
         margin-right: -20%;
-        
+
+    }
+
+    .segundo-titulo{
+        margin-left: 3%
     }
 
 </style>
@@ -137,7 +147,7 @@
                 <!-- seccion 1 -->
                 <section class="row box-1">
                     <div class="col-md-12">
-                        
+
                     </div>
                 </section>
 
@@ -152,7 +162,7 @@
                 <!-- seccion 3 -->
                 <section class="row">
                     <div class="col-md-12" v-html="mainArticle.body">
-                        
+
                     </div>
                 </section>
 
@@ -160,7 +170,7 @@
                 <section class="row">
                     <div class="col-md-12">
                         <h2 style="color: #949A9D;">¿tienes un</h2>
-                        <h2>comentario?</h2>
+                        <h2 class="segundo-titulo">comentario?</h2>
                     </div>
                 </section>
 
@@ -175,7 +185,7 @@
                                     <input type="email" placeholder="Tu email">
                                 </div>
                             </div>
-                            
+
                             <div class="row mt-3">
                                 <div class="col-md-12">
                                     <textarea name="" id="" cols="30" rows="5" placeholder="Tu comentario"></textarea>

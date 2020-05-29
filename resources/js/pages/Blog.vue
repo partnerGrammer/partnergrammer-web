@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .container{
         position: relative;
     }
@@ -64,6 +70,10 @@
         font-size: 0.9em;
     }
 
+    .segundo-titulo{
+        margin-left: 3%
+    }
+
 </style>
 
 <template>
@@ -75,7 +85,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">tendencias</h2>
-                    <h2>blog</h2>
+                    <h2 class="segundo-titulo">blog</h2>
                 </div>
             </section>
 

@@ -81,7 +81,8 @@
 
     .horizontal-scroll-wrapper{
         width: 300px;
-        height: 84vw;
+        height: 75vw;
+        max-height: 1140px;
         overflow-y: auto;
         overflow-x: visible;
         transform: rotate(-90deg) translateY(-300px);
@@ -99,7 +100,7 @@
     }
 
     .horizontal-scroll-upper {
-        transform: rotate(90deg) translateY(150px) translateX(218px);
+        transform: rotate(90deg) translateY(150px) translateX(115px);
         border-bottom-color: gray;
         border-bottom-width: 5px;
         border-bottom-style: solid;
@@ -110,7 +111,7 @@
     }
 
     .horizontal-scroll-lower {
-        transform: rotate(90deg) translateY(245px) translateX(229px);
+        transform: rotate(90deg) translateY(245px) translateX(125px);
         border-top-color: grey;
         border-top-style: solid;
         border-top-width: 5px;
@@ -253,7 +254,7 @@
     @media screen and (max-width: 767px){
         #proyectos{
             text-align: center;
-            
+
         }
 
         .main-container .row:nth-child(10) .line{
@@ -299,10 +300,24 @@
         }
     }
 
+    @media only screen and (max-width: 449px){
+        .img-con-texto {
+            width: 150px;
+        }
+    }
     @media only screen and (max-width: 372px){
         #titulo-banner{
             text-align: justify;
         }
+    }
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
+    .segundo-titulo{
+        margin-left: 3%
     }
 </style>
 
@@ -320,7 +335,7 @@
                     <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="/images/computer-bg-1.png" width="100%" alt="Desarrollo web y software a la medida">
+                    <img src="/gifs/HOME.gif" width="100%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 
@@ -328,7 +343,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestro</h2>
-                    <h2>proceso</h2>
+                    <h2 class="segundo-titulo">proceso</h2>
                 </div>
             </section>
 
@@ -372,7 +387,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿qué nos hace</h2>
-                    <h2>diferente a los demás?</h2>
+                    <h2 class="segundo-titulo">diferente a los demás?</h2>
                 </div>
             </section>
 
@@ -396,7 +411,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row" style="margin-top:0">
                         <div class="col-md-12" style="position: relative;">
                             <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
@@ -419,7 +434,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que</h2>
-                    <h2>hacemos?</h2>
+                    <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
             </section>
 
@@ -472,7 +487,7 @@
                 <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
                     <h2>Proyectos</h2>
                     <p>Checa nuestro portafolio para que veas de qué hablamos.</p>
-                    <a class="btn btn-ver-mas" href="#">Ver mas</a>
+                    <a class="btn btn-ver-mas" href="#/projects">Ver más</a>
                 </div>
             </section>
 
@@ -480,7 +495,7 @@
             <section class="row" style="margin-bottom: 50px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
-                    <h2>clientes</h2>
+                    <h2 class="segundo-titulo">clientes</h2>
                 </div>
             </section>
 
@@ -499,7 +514,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
-                    <h2>expertos</h2>
+                    <h2 class="segundo-titulo">expertos</h2>
                 </div>
             </section>
 
@@ -525,7 +540,7 @@
                 </div>
                 <div class="col-md-5 d-flex justify-content-center align-items-start flex-column pl-3" id="nuestros-expertos">
                     <p>Nuestro diverso equipo está compuesto por personas creativas, ingeniosas y está preparado con las mejores herramientas y conocimiento necesario para llevar tu idea al siguiente nivel.</p>
-                    <a class="btn btn-ver-mas-2" href="#">ver mas</a>
+                    <a class="btn btn-ver-mas-2" href="#/about">ver más</a>
                 </div>
             </section>
 
@@ -533,7 +548,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
-                    <h2>¡contáctanos!</h2>
+                    <h2 class="segundo-titulo">¡contáctanos!</h2>
                 </div>
             </section>
 

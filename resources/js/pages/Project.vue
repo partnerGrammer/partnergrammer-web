@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .container{
         position: relative;
     }
@@ -6,7 +12,10 @@
     .main-container *{
         padding: 0;
         margin: 0;
-        
+
+    }
+    .main-container{
+        margin-top: 9em;
     }
 
     .image-about{
@@ -63,18 +72,32 @@
         font-weight: bold;
     }
 
+    .segundo-titulo{
+        margin-left: 3%
+    }
+
+    @media only screen and (max-width: 767px){
+        .main-container{
+            margin-top: 11em;
+        }
+        #img-proyecto{
+            max-width: 40%;
+        }
+
+    }
+
 </style>
 
 <template>
     <div class="container">
         <Navbar />
-        
+
         <section class="main-container" v-if="mainProject != null">
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que</h2>
-                    <h2>hacemos?</h2>
+                    <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
             </section>
 
@@ -83,7 +106,7 @@
                 <div class="line">
                     <div class="col-md-12 d-flex justify-content-around align-items-start flex-column" style="color: white; padding: 20px 25%; height: 300px;">
                         <div class="col-md-4">
-                            <img :src="mainProject.logo" width="100%" alt="">
+                            <img id="img-proyecto" :src="mainProject.logo" alt="">
                         </div>
                         <p>{{ mainProject.body }}</p>
                     </div>
@@ -97,7 +120,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">conoce más</h2>
-                    <h2>de nuestros proyectos</h2>
+                    <h2 class="segundo-titulo">de nuestros proyectos</h2>
                 </div>
             </section>
 
@@ -112,7 +135,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que tienes en mente?</h2>
-                    <h2>contactanos</h2>
+                    <h2 class="segundo-titulo">contactanos</h2>
                 </div>
             </section>
 

@@ -51,7 +51,7 @@
 
     .entradas article .container-image{
         width: 100%;
-        padding-top: 40%; /* 1:1 Aspect Ratio */
+        padding-top: 75%; /* 1:1 Aspect Ratio */
         position: relative; /* If you want text inside of it */
         background-position: center;
         background-size: cover;
@@ -113,7 +113,7 @@
                     </div>
                     <div class="col-md-12">
                         <h5>{{ item.title }}</h5>
-                        
+
                         <div>
                             <p style="color: #B5B5B5;">{{ item.created_at | formatDate }}</p>
                             <p>{{ item.excerpt }}</p>
@@ -145,7 +145,7 @@ export default {
     name: 'Blog',
 
     components: {
-        
+
     },
 
     data(){
@@ -199,4 +199,3 @@ export default {
     }
 }
 </script>
-

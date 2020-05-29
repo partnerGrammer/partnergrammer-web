@@ -1,4 +1,10 @@
 <style scoped>
+    h1,h2,h3{
+      font-weight: 800;
+    }
+    p{
+      font-weight: 500;
+    }
     .container{
         position: relative;
     }
@@ -121,6 +127,10 @@
             height: 612px;
         }
     }
+    .segundo-titulo{
+        margin-left: 3%
+    }
+</style>
 
 </style>
 
@@ -133,7 +143,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">your</h2>
-                    <h2>partners</h2>
+                    <h2 class="segundo-titulo">partners</h2>
                 </div>
             </section>
 
@@ -196,7 +206,7 @@
             <section class="row">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">tu historia y la nuestra</h2>
-                    <h2>son muy similares</h2>
+                    <h2 class="segundo-titulo">son muy similares</h2>
                 </div>
             </section>
 
