@@ -5478,7 +5478,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   computed: {
     saludo: function saludo() {
-      var nombreCompleto = '¡Mucho gusto, ' + this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!';
+      var nombreCompleto = this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!';
       return nombreCompleto;
     }
   },
@@ -66793,15 +66793,15 @@ var render = function() {
                 _c(
                   "router-link",
                   { staticClass: "main-link", attrs: { to: "/projects" } },
-                  [_vm._v("portafolio")]
+                  [_vm._v(_vm._s(_vm.$t("footer.portafolio")))]
                 ),
                 _vm._v(" "),
                 _c("router-link", { attrs: { to: "/" } }, [
-                  _vm._v("Web / móvil")
+                  _vm._v(_vm._s(_vm.$t("footer.web")))
                 ]),
                 _vm._v(" "),
                 _c("router-link", { attrs: { to: "/" } }, [
-                  _vm._v("Software a la medida")
+                  _vm._v(_vm._s(_vm.$t("footer.software")))
                 ])
               ],
               1
@@ -66814,12 +66814,16 @@ var render = function() {
                 _c(
                   "router-link",
                   { staticClass: "main-link", attrs: { to: "/about" } },
-                  [_vm._v("nosotros")]
+                  [_vm._v(_vm._s(_vm.$t("footer.nosotros")))]
                 ),
                 _vm._v(" "),
-                _c("router-link", { attrs: { to: "/" } }, [_vm._v("Nosotros")]),
+                _c("router-link", { attrs: { to: "/" } }, [
+                  _vm._v(_vm._s(_vm.$t("footer.nosotros")))
+                ]),
                 _vm._v(" "),
-                _c("router-link", { attrs: { to: "/" } }, [_vm._v("Equipo")])
+                _c("router-link", { attrs: { to: "/" } }, [
+                  _vm._v(_vm._s(_vm.$t("footer.equipo")))
+                ])
               ],
               1
             ),
@@ -66831,15 +66835,15 @@ var render = function() {
                 _c(
                   "router-link",
                   { staticClass: "main-link", attrs: { to: "/" } },
-                  [_vm._v("servicio")]
+                  [_vm._v(_vm._s(_vm.$t("footer.servicios")))]
                 ),
                 _vm._v(" "),
                 _c("router-link", { attrs: { to: "/" } }, [
-                  _vm._v("Web / móvil")
+                  _vm._v(_vm._s(_vm.$t("footer.web")))
                 ]),
                 _vm._v(" "),
                 _c("router-link", { attrs: { to: "/" } }, [
-                  _vm._v("Software a la medida")
+                  _vm._v(_vm._s(_vm.$t("footer.software")))
                 ])
               ],
               1
@@ -66852,7 +66856,7 @@ var render = function() {
                 _c(
                   "router-link",
                   { staticClass: "main-link", attrs: { to: "/blog" } },
-                  [_vm._v("blog")]
+                  [_vm._v(_vm._s(_vm.$t("footer.blog")))]
                 )
               ],
               1
@@ -67607,7 +67611,53 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "container" },
-    [_c("Navbar"), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("Footer")],
+    [
+      _c("Navbar"),
+      _vm._v(" "),
+      _c("section", { staticClass: "main-container" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("section", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-3" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-7 offset-4 text-left" }, [
+            _c("p", [
+              _vm._v(_vm._s(_vm.$t("about.sec_02")) + " "),
+              _c("br"),
+              _vm._v(_vm._s(_vm.$t("about.sec_02_1")))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _c("section", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-12" }, [
+            _c("h2", { staticStyle: { color: "#949A9D" } }, [
+              _vm._v(_vm._s(_vm.$t("about.sec_04")))
+            ]),
+            _vm._v(" "),
+            _c("h2", { staticClass: "segundo-titulo" }, [
+              _vm._v(_vm._s(_vm.$t("about.sec_04_1")))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("section", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-3" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-7 offset-4 text-left" }, [
+            _c("p", [_vm._v(_vm._s(_vm.$t("about.sec_05")))])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3)
+      ]),
+      _vm._v(" "),
+      _c("Footer")
+    ],
     1
   )
 }
@@ -67616,215 +67666,177 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "main-container" }, [
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("your")]),
-          _vm._v(" "),
-          _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("partners")])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-3" }),
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("your")]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-7 offset-4 text-left" }, [
-          _c("p", [
-            _vm._v(
-              "Partnergrammer es una agencia que cree en el talento mexicano."
-            ),
-            _c("br"),
-            _vm._v(
-              "Somos una compañía que desarrolla software personalizado, que entiende de negocios y que busca ser tu socio estratégico para innovar en tu negocio."
-            )
-          ])
-        ])
-      ]),
+        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("partners")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "line" }),
       _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "line" }),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-md-12", staticStyle: { "flex-wrap": "wrap" } },
-          [
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/luis.png",
-                    width: "100%",
-                    alt: "Luis Andrade"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/judith.png",
-                    width: "100%",
-                    alt: "Judith Delgado"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/lalo.png",
-                    width: "100%",
-                    alt: "Samuel Acosta"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/gera.png",
-                    width: "100%",
-                    alt: "Gerardo González"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/meny.png",
-                    width: "100%",
-                    alt: "Manuel Higuera"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/talita.png",
-                    width: "100%",
-                    alt: "Talita Roldán"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/monica.png",
-                    width: "100%",
-                    alt: "Monica Soto"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "image-about" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/horacio.jpg",
-                    width: "100%",
-                    alt: "Horacio Adame"
-                  }
-                })
-              ])
-            ])
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("h2", { staticStyle: { color: "#949A9D" } }, [
-            _vm._v("tu historia y la nuestra")
-          ]),
-          _vm._v(" "),
-          _c("h2", { staticClass: "segundo-titulo" }, [
-            _vm._v("son muy similares")
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-3" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-7 offset-4 text-left" }, [
-          _c("p", [
-            _vm._v(
-              "Es por eso que hemos invertido en procesos, certificaciones y mejores prácticas para brindarte la seguridad de que tu proyecto estará terminado de manera puntual."
-            )
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-3" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12 col-md-6" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-4 col-md-4" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/SCRUM-CSD.png",
-                    width: "100%",
-                    alt: ""
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-4 col-md-4" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/SCRUM-CSPO.png",
-                    width: "100%",
-                    alt: ""
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-4 col-md-4" }, [
-              _c("div", { staticClass: "container-image" }, [
-                _c("img", {
-                  attrs: {
-                    src: "/images/SCRUM-CSPSM.png",
-                    width: "100%",
-                    alt: ""
-                  }
-                })
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-4" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-12" }, [
+      _c(
+        "div",
+        { staticClass: "col-md-12", staticStyle: { "flex-wrap": "wrap" } },
+        [
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
               _c("img", {
-                attrs: { src: "/images/SCRUM.png", width: "100%", alt: "" }
+                attrs: {
+                  src: "/images/luis.png",
+                  width: "100%",
+                  alt: "Luis Andrade"
+                }
               })
             ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/judith.png",
+                  width: "100%",
+                  alt: "Judith Delgado"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/lalo.png",
+                  width: "100%",
+                  alt: "Samuel Acosta"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/gera.png",
+                  width: "100%",
+                  alt: "Gerardo González"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/meny.png",
+                  width: "100%",
+                  alt: "Manuel Higuera"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/talita.png",
+                  width: "100%",
+                  alt: "Talita Roldán"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/monica.png",
+                  width: "100%",
+                  alt: "Monica Soto"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "image-about" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/horacio.jpg",
+                  width: "100%",
+                  alt: "Horacio Adame"
+                }
+              })
+            ])
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-3" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-md-6" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-4 col-md-4" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: { src: "/images/SCRUM-CSD.png", width: "100%", alt: "" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-4 col-md-4" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: { src: "/images/SCRUM-CSPO.png", width: "100%", alt: "" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-4 col-md-4" }, [
+            _c("div", { staticClass: "container-image" }, [
+              _c("img", {
+                attrs: {
+                  src: "/images/SCRUM-CSPSM.png",
+                  width: "100%",
+                  alt: ""
+                }
+              })
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-4" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-12" }, [
+            _c("img", {
+              attrs: { src: "/images/SCRUM.png", width: "100%", alt: "" }
+            })
           ])
         ])
       ])
@@ -68740,9 +68752,36 @@ var render = function() {
       _c("Navbar"),
       _vm._v(" "),
       _c("section", { staticClass: "main-container" }, [
-        _vm._m(0),
+        _c("section", { staticClass: "row" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-12 col-md-6 d-flex justify-content-start align-items-center flex-column",
+              staticStyle: { "padding-top": "5em" }
+            },
+            [
+              _c("h1", [_vm._v(_vm._s(_vm.$t("partners.sec_01")))]),
+              _vm._v(" "),
+              _c(
+                "p",
+                {
+                  staticClass: "mt-3",
+                  staticStyle: { color: "#949A9D", "font-size": "0.9rem" }
+                },
+                [_vm._v(_vm._s(_vm.$t("partners.sec_01_1")))]
+              )
+            ]
+          )
+        ]),
         _vm._v(" "),
-        _vm._m(1),
+        _c("section", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("p", [_vm._v(_vm._s(_vm.$t("partners.sec_02")))])
+          ])
+        ]),
         _vm._v(" "),
         _c("section", { staticClass: "row" }, [
           _c("div", { staticClass: "line" }),
@@ -68750,13 +68789,17 @@ var render = function() {
           _vm.control == 1
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(2),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_03")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("Empecemos con tu nombre y correo electrónico")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_03_1")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -68776,7 +68819,10 @@ var render = function() {
                                 expression: "form.name"
                               }
                             ],
-                            attrs: { type: "text", placeholder: "Tu nombre" },
+                            attrs: {
+                              type: "text",
+                              placeholder: _vm.$t("partners.sec_03_2")
+                            },
                             domProps: { value: _vm.form.name },
                             on: {
                               input: function($event) {
@@ -68806,7 +68852,10 @@ var render = function() {
                                 expression: "form.lastName"
                               }
                             ],
-                            attrs: { type: "text", placeholder: "Tu apellido" },
+                            attrs: {
+                              type: "text",
+                              placeholder: _vm.$t("partners.sec_03_3")
+                            },
                             domProps: { value: _vm.form.lastName },
                             on: {
                               input: function($event) {
@@ -68842,7 +68891,7 @@ var render = function() {
                             ],
                             attrs: {
                               type: "email",
-                              placeholder: "Tu correo electronico"
+                              placeholder: _vm.$t("partners.sec_03_4")
                             },
                             domProps: { value: _vm.form.email },
                             on: {
@@ -68870,7 +68919,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("¡listo!")]
+                  [_vm._v(_vm._s(_vm.$t("partners.sec_03_5")))]
                 )
               ])
             : _vm._e(),
@@ -68880,7 +68929,11 @@ var render = function() {
                 _c("div", { staticClass: "row" }, [
                   _c("div", { staticClass: "col-md-12" }, [
                     _c("h2", { staticStyle: { color: "#949A9D" } }, [
-                      _vm._v(_vm._s(_vm.saludo))
+                      _vm._v(
+                        _vm._s(_vm.$t("partners.sec_04")) +
+                          " " +
+                          _vm._s(_vm.saludo)
+                      )
                     ])
                   ]),
                   _vm._v(" "),
@@ -68888,7 +68941,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿Ya cuentas con tu propio negocio?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_05")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -68927,7 +68980,7 @@ var render = function() {
                           }),
                           _vm._v(" "),
                           _c("label", { attrs: { for: "input-1" } }, [
-                            _vm._v("Si")
+                            _vm._v(_vm._s(_vm.$t("partners.sec_05_1")))
                           ])
                         ]
                       ),
@@ -68965,7 +69018,7 @@ var render = function() {
                           }),
                           _vm._v(" "),
                           _c("label", { attrs: { for: "input-2" } }, [
-                            _vm._v("No")
+                            _vm._v(_vm._s(_vm.$t("partners.sec_05_2")))
                           ])
                         ]
                       )
@@ -68983,7 +69036,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("siguiente")]
+                  [_vm._v(_vm._s(_vm.$t("partners.siguiente")))]
                 )
               ])
             : _vm._e(),
@@ -68991,13 +69044,17 @@ var render = function() {
           _vm.control == 3 && _vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(3),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_06")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿Cómo se llama?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_06_1")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69019,7 +69076,7 @@ var render = function() {
                             ],
                             attrs: {
                               type: "text",
-                              placeholder: "Nombre de tu empresa"
+                              placeholder: _vm.$t("partners.sec_06_2")
                             },
                             domProps: { value: _vm.form.empresa },
                             on: {
@@ -69051,7 +69108,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("siguiente")]
+                  [_vm._v(_vm._s(_vm.$t("partners.siguiente")))]
                 )
               ])
             : _vm._e(),
@@ -69059,13 +69116,17 @@ var render = function() {
           _vm.control == 4 && _vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(4),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_06")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿A cuál sector pertenece?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_07")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69085,7 +69146,10 @@ var render = function() {
                                 expression: "form.sector"
                               }
                             ],
-                            attrs: { type: "text", placeholder: "Sector" },
+                            attrs: {
+                              type: "text",
+                              placeholder: _vm.$t("partners.sec_07_1")
+                            },
                             domProps: { value: _vm.form.sector },
                             on: {
                               input: function($event) {
@@ -69116,7 +69180,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("siguiente")]
+                  [_vm._v(_vm._s(_vm.$t("partners.siguiente")))]
                 )
               ])
             : _vm._e(),
@@ -69124,13 +69188,17 @@ var render = function() {
           _vm.control == 5 && _vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(5),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_06")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿Tienes un correo electrónico comercial?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_08")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69150,7 +69218,10 @@ var render = function() {
                                 expression: "form.emailComercial"
                               }
                             ],
-                            attrs: { type: "text", placeholder: "Sector" },
+                            attrs: {
+                              type: "text",
+                              placeholder: _vm.$t("partners.sec_08_1")
+                            },
                             domProps: { value: _vm.form.emailComercial },
                             on: {
                               input: function($event) {
@@ -69181,7 +69252,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("siguiente")]
+                  [_vm._v(_vm._s(_vm.$t("partners.siguiente")))]
                 )
               ])
             : _vm._e(),
@@ -69189,13 +69260,17 @@ var render = function() {
           _vm.control == 6 && _vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(6),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_06")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿Cuál es el teléfono de la empresa?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_09")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69215,7 +69290,10 @@ var render = function() {
                                 expression: "form.telephone"
                               }
                             ],
-                            attrs: { type: "text", placeholder: "Sector" },
+                            attrs: {
+                              type: "text",
+                              placeholder: _vm.$t("partners.sec_09_1")
+                            },
                             domProps: { value: _vm.form.telephone },
                             on: {
                               input: function($event) {
@@ -69246,7 +69324,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("enviar")]
+                  [_vm._v(_vm._s(_vm.$t("partners.sec_10")))]
                 )
               ])
             : _vm._e(),
@@ -69254,13 +69332,17 @@ var render = function() {
           _vm.control == 3 && !_vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(7),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_11")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿Cuál es tu teléfono celular?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_11_1")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69282,7 +69364,7 @@ var render = function() {
                             ],
                             attrs: {
                               type: "text",
-                              placeholder: "Tel. 000 000 0000"
+                              placeholder: "Cel. 000 000 0000"
                             },
                             domProps: { value: _vm.form.number },
                             on: {
@@ -69314,7 +69396,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("siguiente")]
+                  [_vm._v(_vm._s(_vm.$t("partners.siguiente")))]
                 )
               ])
             : _vm._e(),
@@ -69322,13 +69404,17 @@ var render = function() {
           _vm.control == 4 && !_vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(8),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_11")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿En dónde resides actualmente?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_12")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69350,7 +69436,7 @@ var render = function() {
                             ],
                             attrs: {
                               type: "text",
-                              placeholder: "Tu respuesta"
+                              placeholder: _vm.$t("partners.sec_12_1")
                             },
                             domProps: { value: _vm.form.city },
                             on: {
@@ -69378,7 +69464,7 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("siguiente")]
+                  [_vm._v(_vm._s(_vm.$t("partners.siguiente")))]
                 )
               ])
             : _vm._e(),
@@ -69386,13 +69472,17 @@ var render = function() {
           _vm.control == 5 && !_vm.flag
             ? _c("div", { staticClass: "col-md-12 partner" }, [
                 _c("div", { staticClass: "row" }, [
-                  _vm._m(9),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_13")))
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-3" }),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-9 form" }, [
                     _c("h3", { staticClass: "text-center" }, [
-                      _vm._v("¿Tienes alguna pregunta o comentario?")
+                      _vm._v(_vm._s(_vm.$t("partners.sec_13_1")))
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
@@ -69417,7 +69507,7 @@ var render = function() {
                               id: "",
                               cols: "30",
                               rows: "4",
-                              placeholder: "Tus comentarios"
+                              placeholder: _vm.$t("partners.sec_13_2")
                             },
                             domProps: { value: _vm.form.comments },
                             on: {
@@ -69449,13 +69539,31 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("enviar")]
+                  [_vm._v(_vm._s(_vm.$t("partners.sec_10")))]
                 )
               ])
             : _vm._e(),
           _vm._v(" "),
           _vm.control == 7 || (_vm.control == 6 && !_vm.flag)
-            ? _c("div", { staticClass: "col-md-12 partner" }, [_vm._m(10)])
+            ? _c("div", { staticClass: "col-md-12 partner" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_14")))
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3" }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-9 form" }, [
+                    _c("h3", { staticClass: "text-center" }, [
+                      _vm._v(_vm._s(_vm.$t("partners.sec_14_1")))
+                    ]),
+                    _vm._v(" "),
+                    _vm._m(1)
+                  ])
+                ])
+              ])
             : _vm._e()
         ])
       ]),
@@ -69470,131 +69578,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-12 col-md-6" }, [
-        _c("img", {
-          attrs: { src: "/gifs/PARTNERS.gif", width: "100%", alt: "" }
-        })
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "col-12 col-md-6 d-flex justify-content-start align-items-center flex-column",
-          staticStyle: { "padding-top": "5em" }
-        },
-        [
-          _c("h1", [_vm._v("¡Conviértete en un Agency Partner!")]),
-          _vm._v(" "),
-          _c(
-            "p",
-            {
-              staticClass: "mt-3",
-              staticStyle: { color: "#949A9D", "font-size": "0.9rem" }
-            },
-            [
-              _vm._v(
-                "Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte."
-              )
-            ]
-          )
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("p", [
-          _vm._v(
-            "Si te interesa conocer más y estás listo para hacer crecer tu negocio, llena el siguiente formulario y nosotros nos comunicamos contigo:"
-          )
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("¿Estás listo para comenzar?")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Cuéntanos sobre tu negocio")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Cuéntanos sobre tu negocio")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Cuéntanos sobre tu negocio")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Cuéntanos sobre tu negocio")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Ahora cuéntanos un poco sobre ti")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Ahora cuéntanos un poco sobre ti")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [
-      _c("h2", { staticStyle: { color: "#949A9D" } }, [
-        _vm._v("Y para terminar,")
-      ])
+    return _c("div", { staticClass: "col-12 col-md-6" }, [
+      _c("img", {
+        attrs: { src: "/gifs/PARTNERS.gif", width: "100%", alt: "" }
+      })
     ])
   },
   function() {
@@ -69602,26 +69589,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [
-          _vm._v("¡Muchas gracias!")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-3" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-9 form" }, [
-        _c("h3", { staticClass: "text-center" }, [
-          _vm._v("Muy pronto estaremos en contacto contigo.")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
-          _c("div", {
-            staticClass: "col-md-12",
-            staticStyle: { padding: "5px" }
-          })
-        ])
-      ])
+      _c("div", { staticClass: "col-md-12", staticStyle: { padding: "5px" } })
     ])
   }
 ]
@@ -69657,7 +69625,17 @@ var render = function() {
             "section",
             { staticClass: "main-container" },
             [
-              _vm._m(0),
+              _c("section", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12" }, [
+                  _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                    _vm._v(_vm._s(_vm.$t("projects.sec_02")))
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", { staticClass: "segundo-titulo" }, [
+                    _vm._v(_vm._s(_vm.$t("projects.sec_02_1")))
+                  ])
+                ])
+              ]),
               _vm._v(" "),
               _c("section", { staticClass: "row" }, [
                 _c("div", { staticClass: "line" }, [
@@ -69699,15 +69677,25 @@ var render = function() {
                 ])
               ]),
               _vm._v(" "),
-              _vm._m(1),
+              _c("section", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12" }, [
+                  _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                    _vm._v(_vm._s(_vm.$t("projects.sec_03")))
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", { staticClass: "segundo-titulo" }, [
+                    _vm._v(_vm._s(_vm.$t("projects.sec_04")))
+                  ])
+                ])
+              ]),
               _vm._v(" "),
               _c("section", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-md-12" }, [_c("Projects")], 1)
               ]),
               _vm._v(" "),
-              _vm._m(2),
+              _vm._m(0),
               _vm._v(" "),
-              _vm._m(3),
+              _vm._m(1),
               _vm._v(" "),
               _c("Contact")
             ],
@@ -69721,32 +69709,6 @@ var render = function() {
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("conoce más")]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [
-          _vm._v("de nuestros proyectos")
-        ])
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -69805,9 +69767,29 @@ var render = function() {
         _c("Navbar"),
         _vm._v(" "),
         _c("section", { staticClass: "main-container" }, [
-          _vm._m(0),
+          _c("section", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                _vm._v(_vm._s(_vm.$t("projects.sec_01")))
+              ]),
+              _vm._v(" "),
+              _c("h2", { staticClass: "segundo-titulo" }, [
+                _vm._v(_vm._s(_vm.$t("projects.sec_01_1")))
+              ])
+            ])
+          ]),
           _vm._v(" "),
-          _vm._m(1),
+          _c("section", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12 text-center" }, [
+              _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                _vm._v(_vm._s(_vm.$t("projects.sec_02")))
+              ]),
+              _vm._v(" "),
+              _c("h2", { staticClass: "segundo-titulo" }, [
+                _vm._v(_vm._s(_vm.$t("projects.sec_02_1")))
+              ])
+            ])
+          ]),
           _vm._v(" "),
           _c(
             "section",
@@ -69870,36 +69852,7 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [
-          _vm._v("todo empieza con una plática")
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [
-          _vm._v("nosotros ponemos el café")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12 text-center" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿qué")]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -89555,9 +89508,54 @@ __webpack_require__.r(__webpack_exports__);
       "failed": "These credentials do not match our records.",
       "throttle": "Too many login attempts. Please try again in {seconds} seconds."
     },
+    "projects": {
+      "sec_01": "everything starts with a talk",
+      "sec_01_1": "we cover the coffee",
+      "sec_02": "What do",
+      "sec_02_1": "we do?",
+      "sec_03": "Learn more",
+      "sec_04": "about our projects",
+      "sec_05": "what’s in your mind?",
+      "sec_06": "contact us"
+    },
     "pagination": {
       "previous": "&laquo; Previous",
       "next": "Next &raquo;"
+    },
+    "partners": {
+      "sec_01": "Become an agency partner!",
+      "sec_01_1": "Work as one of our partners and offer a variety of high quality services to more people. Our agency partner model allows you to control your business on your own terms. Our program is created for any person that wants to expand their business and get more profit without hiring personnel. You can work under our scheme, or if you’ve got your own agency we can offer you support.",
+      "sec_02": "If you’re interested in getting to know more and you’re ready to make your business grow, fill out the following questions and we’ll get in touch with you.",
+      "sec_03": "Are you ready to begin? ",
+      "sec_03_1": "Let’s start with your name and email",
+      "sec_03_2": "name",
+      "sec_03_3": "lastname",
+      "sec_03_4": "email",
+      "sec_03_5": "Done!",
+      "sec_04": "Nice to meet you",
+      "sec_05": "Do you own a business?",
+      "sec_05_1": "Yes",
+      "sec_05_2": "No",
+      "siguiente": "Next",
+      "sec_06": "Tell us about your business",
+      "sec_06_1": "what’s it called?",
+      "sec_06_2": "Your company name",
+      "sec_07": "Which industry do you work in?",
+      "sec_07_1": "Industry",
+      "sec_08": "Do you have a commercial email?",
+      "sec_08_1": "Email",
+      "sec_09": "what’s your business’ phone number?",
+      "sec_09_1": "Phone number",
+      "sec_10": "Send",
+      "sec_11": "Now tell us a bit about yourself. ",
+      "sec_11_1": "What’s your phone number?",
+      "sec_12": "Where do you currently reside?",
+      "sec_12_1": "Your answear",
+      "sec_13": "Lastly,",
+      "sec_13_1": "do you have any questions or comments?",
+      "sec_13_2": "Comments",
+      "sec_14": "Thank you for your time,",
+      "sec_14_1": "we’ll get in touch with you shortly!"
     },
     "home": {
       "cover": "High quality software development from start to end",
@@ -89568,11 +89566,11 @@ __webpack_require__.r(__webpack_exports__);
       "our_process_planning": "Planning is our speciality",
       "process_1": "Discovery Meeting",
       "process_2": "Research  and Planning",
-      "process_3": "Contrato de implementación de software",
+      "process_3": "Implementation of software contract",
       "process_4": "Project Development",
       "process_5": "Demos and Approval",
-      "secc_5_1": "¿qué nos hace",
-      "secc_5_2": "diferente a los demás?",
+      "secc_5_1": "what make us",
+      "secc_5_2": "different from others?",
       "secc_6_1": "We begin this journey with your idea and we’ll work on it until it’s just as you imagined it; going through the definition of the product, strategy, design, development, quality assurance and finally, the impeccable delivery of your final product.",
       "secc_7_1": "Pay as we deliver results",
       "secc_7_2": "Penalty for late delivery",
@@ -89610,6 +89608,15 @@ __webpack_require__.r(__webpack_exports__);
         "proyecto": "Describe your project, its challenges and everything else that needs to be considered",
         "enviar": "send"
       }
+    },
+    "footer": {
+      "portafolio": "Work",
+      "web": "Web / Mobile",
+      "software": "Custom software development",
+      "nosotros": "About Us",
+      "equipo": "Team",
+      "servicios": "Services",
+      "blog": "blog"
     },
     "validation": {
       "accepted": "The {attribute} must be accepted.",
@@ -89722,6 +89729,13 @@ __webpack_require__.r(__webpack_exports__);
         }
       },
       "attributes": []
+    },
+    "about": {
+      "sec_02": "Partnergrammer is an agency that believes in Mexican talent.",
+      "sec_02_1": "We are a company that develops customized software, that understands business and seeks to be your strategic partner to innovate in your business.",
+      "sec_04": "Your story and ours",
+      "sec_04_1": "are very similar",
+      "sec_05": "That is why we have invested in processes, certifications and best practices to give you the assurance that your project will be completed in a timely manner."
     }
   },
   "es": {
@@ -89732,6 +89746,51 @@ __webpack_require__.r(__webpack_exports__);
       "partners": "partners",
       "blog": "blog",
       "contacto": "contact"
+    },
+    "projects": {
+      "sec_01": "todo empieza con una plática",
+      "sec_01_1": "nosotros ponemos el café",
+      "sec_02": "¿qué",
+      "sec_02_1": "hacemos?",
+      "sec_03": "conoce más",
+      "sec_04": "de nuestros proyectos",
+      "sec_05": "¿que tienes en mente?",
+      "sec_06": "contactanos"
+    },
+    "partners": {
+      "sec_01": "¡Conviértete en un Agency Partner!",
+      "sec_01_1": "Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte.",
+      "sec_02": "Si te interesa conocer más y estás listo para hacer crecer tu negocio, llena el siguiente formulario y nosotros nos comunicamos contigo:",
+      "sec_03": "¿Estás listo para comenzar?",
+      "sec_03_1": "Empecemos con tu nombre y correo electrónico",
+      "sec_03_2": "Tu nombre",
+      "sec_03_3": "Tu apellido",
+      "sec_03_4": "Tu correo electronico",
+      "sec_03_5": "¡listo!",
+      "sec_04": "¡Mucho gusto",
+      "sec_05": "¿Ya cuentas con tu propio negocio?",
+      "sec_05_1": "Si",
+      "sec_05_2": "No",
+      "siguiente": "siguiente",
+      "sec_06": "Cuéntanos sobre tu negocio",
+      "sec_06_1": "¿Cómo se llama?",
+      "sec_06_2": "Nombre de tu empresa",
+      "sec_07": "¿A cuál sector pertenece?",
+      "sec_07_1": "Sector",
+      "sec_08": "¿Tienes un correo electrónico comercial?",
+      "sec_08_1": "Correo electronico",
+      "sec_09": "¿Cuál es el teléfono de la empresa?",
+      "sec_09_1": "Teléfono",
+      "sec_10": "Enviar",
+      "sec_11": "Ahora cuéntanos un poco sobre ti",
+      "sec_11_1": "¿Cuál es tu teléfono celular?",
+      "sec_12": "¿En dónde resides actualmente?",
+      "sec_12_1": "Tu respuesta",
+      "sec_13": "Y para terminar,",
+      "sec_13_1": "¿Tienes alguna pregunta o comentario?",
+      "sec_13_2": "Tus comentarios",
+      "sec_14": "¡Muchas gracias!",
+      "sec_14_1": "Muy pronto estaremos en contacto contigo."
     },
     "home": {
       "cover": "Desarrollo de software de calidad de inicio a fin",
@@ -89784,6 +89843,22 @@ __webpack_require__.r(__webpack_exports__);
         "proyecto": "Cuentanos mas de tu proyecto",
         "enviar": "enviar"
       }
+    },
+    "footer": {
+      "portafolio": "portafolio",
+      "web": "Web / móvil",
+      "software": "Software a la medida",
+      "nosotros": " Nosotros",
+      "equipo": "Equipo",
+      "servicios": "Servicios",
+      "blog": "blog"
+    },
+    "about": {
+      "sec_02": "Partnergrammer es una agencia que cree en el talento mexicano.",
+      "sec_02_1": "Somos una compañía que desarrolla software personalizado, que entiende de negocios y que busca ser tu socio estratégico para innovar en tu negocio.",
+      "sec_04": "tu historia y la nuestra",
+      "sec_04_1": "son muy similares",
+      "sec_05": "Es por eso que hemos invertido en procesos, certificaciones y mejores prácticas para brindarte la seguridad de que tu proyecto estará terminado de manera puntual."
     }
   }
 });
