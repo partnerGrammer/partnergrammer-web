@@ -65900,9 +65900,9 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "col-md-6" }, [
         _c("img", {
+          staticStyle: { width: "135%", "margin-left": "-12%" },
           attrs: {
             src: "/gifs/HOME.gif",
-            width: "100%",
             alt: "Desarrollo web y software a la medida"
           }
         })
@@ -67217,7 +67217,8 @@ var staticRenderFns = [
     return _c("section", { staticClass: "row" }, [
       _c("div", { staticClass: "col-12 col-md-6" }, [
         _c("img", {
-          attrs: { src: "/gifs/PARTNERS.gif", width: "100%", alt: "" }
+          staticStyle: { width: "135%", "margin-left": "-18%" },
+          attrs: { src: "/gifs/PARTNERS.gif", alt: "" }
         })
       ]),
       _vm._v(" "),
