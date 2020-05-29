@@ -81,7 +81,7 @@
 
     .horizontal-scroll-wrapper{
         width: 300px;
-        height: 84vw;
+        height: 75vw;
         max-height: 1140px;
         overflow-y: auto;
         overflow-x: visible;
