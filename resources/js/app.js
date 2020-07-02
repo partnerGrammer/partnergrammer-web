@@ -11,12 +11,23 @@ window.Vue = require('vue');
 import VueDisqus from 'vue-disqus'
 import Vuelidate from 'vuelidate'
 import Toasted from 'vue-toasted';
+import VueInternationalization from 'vue-i18n';
+import Locale from './vue-i18n-locales.generated';
+import store from "./store"
 
 Vue.use(Toasted, {
     iconPack : 'material' // set your iconPack, defaults to material. material|fontawesome|custom-class
 });
 Vue.use(VueDisqus)
 Vue.use(Vuelidate)
+Vue.use(VueInternationalization)
+
+const lang = localStorage.getItem('locale') || 'en';
+
+const i18n = new VueInternationalization({
+    locale: lang,
+    messages: Locale
+ });
 
 /**
  * The following block of code may be used to automatically register your
@@ -44,4 +55,6 @@ import router from './routes'
 const app = new Vue({
     el: '#app',
     router,
+    store,
+    i18n,
 });
