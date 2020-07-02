@@ -200,16 +200,16 @@
                 <!-- seccion 1 -->
                 <section class="row">
                     <div class="col-md-12">
-                        <h2 style="color: #949A9D;">{{ $t('projects.sec_01') }}</h2>
-                        <h2 class="segundo-titulo">{{ $t('projects.sec_01_1') }}</h2>
+                        <h2 style="color: #949A9D;">todo empieza con una plática</h2>
+                        <h2 class="segundo-titulo">nosotros ponemos el café</h2>
                     </div>
                 </section>
 
                 <!-- seccion 2 -->
                 <section class="row">
                     <div class="col-md-12 text-center">
-                        <h2 style="color: #949A9D;">{{ $t('projects.sec_02') }}</h2>
-                        <h2 class="segundo-titulo">{{ $t('projects.sec_02_1') }}</h2>
+                        <h2 style="color: #949A9D;">¿qué</h2>
+                        <h2 class="segundo-titulo">hacemos?</h2>
                     </div>
                 </section>
 

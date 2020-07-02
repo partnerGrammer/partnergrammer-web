@@ -164,15 +164,15 @@
                     <img src="/gifs/PARTNERS.gif" style="width: 135%; margin-left: -18%" alt="">
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-start align-items-center flex-column" style="padding-top: 5em;">
-                    <h1>{{ $t('partners.sec_01') }}</h1>
-                    <p class="mt-3" style="color: #949A9D; font-size: 0.9rem;">{{ $t('partners.sec_01_1') }}</p>
+                    <h1>¡Conviértete en un Agency Partner!</h1>
+                    <p class="mt-3" style="color: #949A9D; font-size: 0.9rem;">Trabaja como uno de nuestros socios y ofrece una variedad de servicios de calidad a más personas. Nuestro modelo de agency partner te permite desarrollar tu negocio a tu manera, todo de acuerdo a tus propios tiempos. Nuestro programa está creado para cualquier persona que quiera expandir su negocio y obtener mayores ganancias sin contratar más personal. Puedes trabajar bajo nuestro esquema o incluso tener tu propia agencia y nosotros te ofrecemos el soporte.</p>
                 </div>
             </section>
 
             <!-- seccion 2 -->
             <section class="row">
                 <div class="col-md-6">
-                    <p>{{ $t('partners.sec_02') }}</p>
+                    <p>Si te interesa conocer más y estás listo para hacer crecer tu negocio, llena el siguiente formulario y nosotros nos comunicamos contigo:</p>
                 </div>
             </section>
 
@@ -183,126 +183,126 @@
                 <div class="col-md-12 partner" v-if="control == 1">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 style="color: #949A9D;">{{ $t('partners.sec_03') }}</h2>
+                            <h2 style="color: #949A9D;">¿Estás listo para comenzar?</h2>
                         </div>
                         <div class="col-md-3" />
                         <div class="col-md-9 form">
-                            <h3 class="text-center">{{ $t('partners.sec_03_1') }}</h3>
+                            <h3 class="text-center">Empecemos con tu nombre y correo electrónico</h3>
                             <div class="row">
                                 <div class="col-md-6" style="padding: 5px;">
-                                    <input type="text" v-bind:placeholder="$t('partners.sec_03_2')" v-model="form.name">
+                                    <input type="text" placeholder="Tu nombre" v-model="form.name">
                                 </div>
                                 <div class="col-md-6" style="padding: 5px;">
-                                    <input type="text" v-bind:placeholder="$t('partners.sec_03_3')" v-model="form.lastName">
+                                    <input type="text" placeholder="Tu apellido" v-model="form.lastName">
                                 </div>
                                 <div class="col-md-12" style="padding: 5px;">
-                                    <input type="email" v-bind:placeholder="$t('partners.sec_03_4')" v-model="form.email">
+                                    <input type="email" placeholder="Tu correo electronico" v-model="form.email">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-next" @click="control++">{{ $t('partners.sec_03_5') }}</button>
+                    <button class="btn btn-next" @click="control++">¡listo!</button>
                 </div>
 
                 <!-- formulario 2 -->
                 <div class="col-md-12 partner" v-if="control == 2">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 style="color: #949A9D;">{{ $t('partners.sec_04') }} {{ saludo }}</h2>
+                            <h2 style="color: #949A9D;">{{ saludo }}</h2>
                         </div>
                         <div class="col-md-3" />
                         <div class="col-md-9 form">
-                            <h3 class="text-center">{{ $t('partners.sec_05') }}</h3>
+                            <h3 class="text-center">¿Ya cuentas con tu propio negocio?</h3>
                             <div class="row">
                                 <div class="col-md-4"></div>
                                 <div class="col-md-2" style="padding: 5px;">
                                     <input type="radio" name="control" :value="true" v-model="flag" id="input-1">
-                                    <label for="input-1">{{ $t('partners.sec_05_1') }}</label>
+                                    <label for="input-1">Si</label>
                                 </div>
                                 <div class="col-md-2" style="padding: 5px;">
                                     <input type="radio" name="control" :value="false" v-model="flag" id="input-2">
-                                    <label for="input-2">{{ $t('partners.sec_05_2') }}</label>
+                                    <label for="input-2">No</label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-next" @click="control++">{{ $t('partners.siguiente') }}</button>
+                    <button class="btn btn-next" @click="control++">siguiente</button>
                 </div>
                 <!-- SI -->
                     <!-- formulario 3 -->
                     <div class="col-md-12 partner" v-if="control == 3 && flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_06') }}</h2>
+                                <h2 style="color: #949A9D;">Cuéntanos sobre tu negocio</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_06_1') }}</h3>
+                                <h3 class="text-center">¿Cómo se llama?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" v-bind:placeholder="$t('partners.sec_06_2')" v-model="form.empresa">
+                                        <input type="text" placeholder="Nombre de tu empresa" v-model="form.empresa">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.siguiente') }}</button>
+                        <button class="btn btn-next" @click="control++">siguiente</button>
                     </div>
 
                     <!-- formulario 4 -->
                     <div class="col-md-12 partner" v-if="control == 4 && flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_06') }}</h2>
+                                <h2 style="color: #949A9D;">Cuéntanos sobre tu negocio</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_07') }}</h3>
+                                <h3 class="text-center">¿A cuál sector pertenece?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" v-bind:placeholder="$t('partners.sec_07_1')" v-model="form.sector">
+                                        <input type="text" placeholder="Sector" v-model="form.sector">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.siguiente') }}</button>
+                        <button class="btn btn-next" @click="control++">siguiente</button>
                     </div>
 
                     <!-- formulario 5 -->
                     <div class="col-md-12 partner" v-if="control == 5 && flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_06') }}</h2>
+                                <h2 style="color: #949A9D;">Cuéntanos sobre tu negocio</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_08') }}</h3>
+                                <h3 class="text-center">¿Tienes un correo electrónico comercial?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" v-bind:placeholder="$t('partners.sec_08_1')" v-model="form.emailComercial">
+                                        <input type="text" placeholder="Sector" v-model="form.emailComercial">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.siguiente') }}</button>
+                        <button class="btn btn-next" @click="control++">siguiente</button>
                     </div>
 
                     <!-- formulario 6 -->
                     <div class="col-md-12 partner" v-if="control == 6 && flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_06') }}</h2>
+                                <h2 style="color: #949A9D;">Cuéntanos sobre tu negocio</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_09') }}</h3>
+                                <h3 class="text-center">¿Cuál es el teléfono de la empresa?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" v-bind:placeholder="$t('partners.sec_09_1')" v-model="form.telephone">
+                                        <input type="text" placeholder="Sector" v-model="form.telephone">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.sec_10') }}</button>
+                        <button class="btn btn-next" @click="control++">enviar</button>
                     </div>
 
                 <!-- NO -->
@@ -310,67 +310,67 @@
                     <div class="col-md-12 partner" v-if="control == 3 && !flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_11') }}</h2>
+                                <h2 style="color: #949A9D;">Ahora cuéntanos un poco sobre ti</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_11_1') }}</h3>
+                                <h3 class="text-center">¿Cuál es tu teléfono celular?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" placeholder="Cel. 000 000 0000" v-model="form.number">
+                                        <input type="text" placeholder="Tel. 000 000 0000" v-model="form.number">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.siguiente') }}</button>
+                        <button class="btn btn-next" @click="control++">siguiente</button>
                     </div>
 
                     <!-- formulario 4 -->
                     <div class="col-md-12 partner" v-if="control == 4 && !flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_11') }}</h2>
+                                <h2 style="color: #949A9D;">Ahora cuéntanos un poco sobre ti</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_12') }}</h3>
+                                <h3 class="text-center">¿En dónde resides actualmente?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" v-bind:placeholder="$t('partners.sec_12_1')" v-model="form.city">
+                                        <input type="text" placeholder="Tu respuesta" v-model="form.city">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.siguiente') }}</button>
+                        <button class="btn btn-next" @click="control++">siguiente</button>
                     </div>
 
                     <!-- formulario 5 -->
                     <div class="col-md-12 partner" v-if="control == 5 && !flag">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 style="color: #949A9D;">{{ $t('partners.sec_13') }}</h2>
+                                <h2 style="color: #949A9D;">Y para terminar,</h2>
                             </div>
                             <div class="col-md-3" />
                             <div class="col-md-9 form">
-                                <h3 class="text-center">{{ $t('partners.sec_13_1') }}</h3>
+                                <h3 class="text-center">¿Tienes alguna pregunta o comentario?</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <textarea name="" id="" cols="30" rows="4" v-bind:placeholder="$t('partners.sec_13_2')" v-model="form.comments"></textarea>
+                                        <textarea name="" id="" cols="30" rows="4" placeholder="Tus comentarios" v-model="form.comments"></textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-next" @click="control++">{{ $t('partners.sec_10') }}</button>
+                        <button class="btn btn-next" @click="control++">enviar</button>
                     </div>
                 <!-- final -->
                 <div class="col-md-12 partner" v-if="(control == 7) || (control == 6 && !flag)">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 style="color: #949A9D;">{{ $t('partners.sec_14') }}</h2>
+                            <h2 style="color: #949A9D;">¡Muchas gracias!</h2>
                         </div>
                         <div class="col-md-3" />
                         <div class="col-md-9 form">
-                            <h3 class="text-center">{{ $t('partners.sec_14_1') }}</h3>
+                            <h3 class="text-center">Muy pronto estaremos en contacto contigo.</h3>
                             <div class="row">
                                 <div class="col-md-12" style="padding: 5px;">
                                 </div>
@@ -431,7 +431,7 @@ export default {
     computed: {
         saludo(){
 
-            let nombreCompleto = this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!'
+            let nombreCompleto = '¡Mucho gusto, ' + this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!'
             return nombreCompleto
         }
     },

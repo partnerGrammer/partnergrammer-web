@@ -151,7 +151,7 @@
             <section class="row">
                 <div class="col-md-3" />
                 <div class="col-md-7 offset-4 text-left">
-                    <p>{{ $t('about.sec_02') }} <br>{{ $t('about.sec_02_1') }}</p>
+                    <p>Partnergrammer es una agencia que cree en el talento mexicano.<br>Somos una compañía que desarrolla software personalizado, que entiende de negocios y que busca ser tu socio estratégico para innovar en tu negocio.</p>
                 </div>
             </section>
 
@@ -205,8 +205,8 @@
             <!-- seccion 4 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('about.sec_04') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('about.sec_04_1') }}</h2>
+                    <h2 style="color: #949A9D;">tu historia y la nuestra</h2>
+                    <h2 class="segundo-titulo">son muy similares</h2>
                 </div>
             </section>
 
@@ -214,7 +214,7 @@
             <section class="row">
                 <div class="col-md-3" />
                 <div class="col-md-7 offset-4 text-left">
-                    <p>{{ $t('about.sec_05') }}</p>
+                    <p>Es por eso que hemos invertido en procesos, certificaciones y mejores prácticas para brindarte la seguridad de que tu proyecto estará terminado de manera puntual.</p>
                 </div>
             </section>
 

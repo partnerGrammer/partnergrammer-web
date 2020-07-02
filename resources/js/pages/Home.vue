@@ -331,8 +331,8 @@
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-                    <h1 id="titulo-banner">{{ $t('home.cover') }}</h1>
-                    <p class="mt-3">{{ $t('home.subHeadline') }}</p>
+                    <h1 id="titulo-banner">Desarrollo de software de calidad de inicio a fin</h1>
+                    <p class="mt-3">Sabemos que es difícil encontrar una agencia desarrolladora de software que entienda tu visión y la importancia de tu software. Nosotros somos diferentes. Estamos aquí para sacar adelante tu proyecto sin importar su tamaño: nosotros creemos en tus ideas.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="/gifs/HOME.gif" style="width: 135%; margin-left:-12%" alt="Desarrollo web y software a la medida">
@@ -342,16 +342,16 @@
             <!-- seccion 2 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('home.our_process_title') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('home.our_process_title2') }}</h2>
+                    <h2 style="color: #949A9D;">nuestro</h2>
+                    <h2 class="segundo-titulo">proceso</h2>
                 </div>
             </section>
 
             <!-- seccion 3 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>{{ $t('home.our_process_text') }}
-                        <br>{{ $t('home.our_process_planning') }}</p>
+                    <p>Déjate sorprender por nuestro proceso de planeación: Somos extremadamente meticulosos. Nos enfocamos en cada detalle antes de llevar iniciar el proyecto, que podrías llevar nuestra planeación con otra agencia de software y podrían realizarlo sin ningún problema. Seguimos el proceso de SCRUM, el cual es un proceso en el que se aplican un conjunto de buenas prácticas para trabajar colaborativamente y así obtener el mejor resultado.
+                        <br>La planeación es nuestra especialidad</p>
                 </div>
             </section>
 
@@ -361,23 +361,23 @@
                 <div class="horizontal-scroll-wrapper">
                     <div class="horizontal-scroll-upper">
                         <img src="/images/component (1).png" class="img-75w" alt="Desarrollo web empresas">
-                        <p>{{ $t('home.process_1') }}</p>
+                        <p>Discovery Meeting</p>
                     </div>
                     <div class="horizontal-scroll-lower">
-                        <p>{{ $t('home.process_2') }}</p>
+                        <p>Investigación y planeación</p>
                         <img src="/images/component (2).png" class="img-75w" alt="Desarrollo web aplicaciones móviles">
                     </div>
                     <div class="horizontal-scroll-upper">
                         <img src="/images/component (3).png" class="img-75w" alt="Desarrollo web e-commerce">
-                        <p>{{ $t('home.process_3') }}</p>
+                        <p>Contrato de implementación de software</p>
                     </div>
                     <div class="horizontal-scroll-lower">
-                        <p>{{ $t('home.process_4') }}</p>
+                        <p>Desarrollo del proyecto</p>
                         <img src="/images/component (4).png" class="img-75w" alt="software a la medida mexico">
                     </div>
                     <div class="horizontal-scroll-upper">
                         <img src="/images/component (5).png" class="img-75w" alt="desarrollo web html y css">
-                        <p>{{ $t('home.process_5') }}</p>
+                        <p>Demos y aprobación</p>
                     </div>
 
                 </div>
@@ -386,15 +386,15 @@
             <!-- seccion 5 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('home.secc_5_1') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('home.secc_5_2') }}</h2>
+                    <h2 style="color: #949A9D;">¿qué nos hace</h2>
+                    <h2 class="segundo-titulo">diferente a los demás?</h2>
                 </div>
             </section>
 
             <!-- seccion 6 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>{{ $t('home.secc_6_1') }}</p>
+                    <p>Iniciamos este viaje con tu idea y la llevamos hasta el final, pasando por la definición del producto, estrategia, diseño, desarrollo, aseguranza de calidad y finalmente, la entrega impecable de tu producto final.</p>
                 </div>
             </section>
 
@@ -407,7 +407,7 @@
                             <p>
                                 <i class="fas fa-arrow-down"></i>
                             </p>
-                            <p style="margin-left: 55px; font-size: 1.2em;">{{ $t('home.secc_7_1') }}</p>
+                            <p style="margin-left: 55px; font-size: 1.2em;">Pagas a medida que te entregamos resultados</p>
                         </div>
                     </div>
 
@@ -416,13 +416,13 @@
                             <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">{{ $t('home.secc_7_2') }}</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Penalización por tiempos</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">{{ $t('home.secc_7_3') }}</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Garantía de 90 días</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">{{ $t('home.secc_7_4') }}</p>
+                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">Todo se especifica en un contrato</p>
                                 </li>
                             </ul>
                         </div>
@@ -433,8 +433,8 @@
             <!-- seccion 8 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('home.secc_8_1') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('home.secc_8_2') }}</h2>
+                    <h2 style="color: #949A9D;">¿que</h2>
+                    <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
             </section>
 
@@ -443,35 +443,35 @@
                 <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex; justify-content-center align-items-center">
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_1') }}<br> {{ $t('home.secc_9_1_1') }}</p>
+                        <p class="que-hacemos-caption">B2C & B2B <br> Web system apps</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-2.png" alt="que-hacemos-2">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_2') }}</p>
+                        <p class="que-hacemos-caption">Outstaffing</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-3.png" alt="que-hacemos-3">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_3') }}</p>
+                        <p class="que-hacemos-caption">Ecommerce</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-4.png" alt="que-hacemos-4">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_4') }}<br>{{ $t('home.secc_9_4_1') }}</p>
+                        <p class="que-hacemos-caption">Themes &<br>Plugins</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-5.png" alt="que-hacemos-5">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_5') }}</p>
+                        <p class="que-hacemos-caption">Mobile Apps</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-6.png" alt="que-hacemos-6">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_6') }}<br>{{ $t('home.secc_9_6_1') }}</p>
+                        <p class="que-hacemos-caption">Digital Marketing<br>& SEO</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-7.png" alt="que-hacemos-7">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_7') }}</p>
+                        <p class="que-hacemos-caption">Rich Media</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-8.png" alt="que-hacemos-8">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_8') }}</p>
+                        <p class="que-hacemos-caption">Websites</p>
                     </div>
                 </div>
             </section>
@@ -485,17 +485,17 @@
                     </div>
                 </div>
                 <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
-                    <h2>{{ $t('home.secc_10') }}</h2>
-                    <p>{{ $t('home.secc_10_1') }}</p>
-                    <a class="btn btn-ver-mas" href="#/projects">{{ $t('home.secc_10_2') }}</a>
+                    <h2>Proyectos</h2>
+                    <p>Checa nuestro portafolio para que veas de qué hablamos.</p>
+                    <a class="btn btn-ver-mas" href="#/projects">Ver más</a>
                 </div>
             </section>
 
             <!-- seccion 11 -->
             <section class="row" style="margin-bottom: 50px">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('home.secc_11') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('home.secc_11_1') }}</h2>
+                    <h2 style="color: #949A9D;">nuestros</h2>
+                    <h2 class="segundo-titulo">clientes</h2>
                 </div>
             </section>
 
@@ -513,8 +513,8 @@
             <!-- seccion 13 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('home.secc_13') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('home.secc_13_1') }}</h2>
+                    <h2 style="color: #949A9D;">nuestros</h2>
+                    <h2 class="segundo-titulo">expertos</h2>
                 </div>
             </section>
 
@@ -539,23 +539,23 @@
                     </div>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center align-items-start flex-column pl-3" id="nuestros-expertos">
-                    <p>{{ $t('home.secc_14') }}</p>
-                    <a class="btn btn-ver-mas-2" href="#/about">{{ $t('home.secc_14_1') }}</a>
+                    <p>Nuestro diverso equipo está compuesto por personas creativas, ingeniosas y está preparado con las mejores herramientas y conocimiento necesario para llevar tu idea al siguiente nivel.</p>
+                    <a class="btn btn-ver-mas-2" href="#/about">ver más</a>
                 </div>
             </section>
 
             <!-- seccion 15 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('home.secc_15') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('home.secc_15_1') }}</h2>
+                    <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
+                    <h2 class="segundo-titulo">¡contáctanos!</h2>
                 </div>
             </section>
 
             <!-- seccion 16 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <h2>{{ $t('home.secc_15_2') }}</h2>
+                    <h2>Empecemos con tu nombre</h2>
                 </div>
             </section>
 

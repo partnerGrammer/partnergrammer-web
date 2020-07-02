@@ -96,8 +96,8 @@
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('projects.sec_02') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('projects.sec_02_1') }}</h2>
+                    <h2 style="color: #949A9D;">¿que</h2>
+                    <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
             </section>
 
@@ -119,8 +119,8 @@
             <!-- seccion 3 -->
             <section class="row">
                 <div class="col-md-12">
-                    <h2 style="color: #949A9D;">{{ $t('projects.sec_03') }}</h2>
-                    <h2 class="segundo-titulo">{{ $t('projects.sec_04') }}</h2>
+                    <h2 style="color: #949A9D;">conoce más</h2>
+                    <h2 class="segundo-titulo">de nuestros proyectos</h2>
                 </div>
             </section>
 

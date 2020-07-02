@@ -46,19 +46,19 @@
                 <div class="col-md-8 contacto">
                     <form action="#" @submit.prevent="sendForm">
                         <div class="col-md-12">
-                            <input type="text" v-bind:placeholder="$t('home.contact.nombre')" v-model="form.name" @blur="$v.form.name.$touch()">
+                            <input type="text" placeholder="Tu nombre" v-model="form.name" @blur="$v.form.name.$touch()">
                         </div>
                         <div class="col-md-12">
-                            <input type="email" v-bind:placeholder="$t('home.contact.correo')" v-model="form.email" @blur="$v.form.email.$touch()">
+                            <input type="email" placeholder="Tu correo" v-model="form.email" @blur="$v.form.email.$touch()">
                         </div>
                         <div class="col-md-12">
-                            <input type="text" v-bind:placeholder="$t('home.contact.quieres')" v-model="form.information">
+                            <input type="text" placeholder="¿Que quieres hacer?" v-model="form.information">
                         </div>
                         <div class="col-md-12">
-                            <textarea name="" id="" cols="30" rows="10" v-model="form.message" @blur="$v.form.message.$touch()" v-bind:placeholder="$t('home.contact.proyecto')"></textarea>
+                            <textarea name="" id="" cols="30" rows="10" v-model="form.message" @blur="$v.form.message.$touch()" placeholder="Cuentanos mas de tu proyecto"></textarea>
                         </div>
                         <div class="col-md-12 d-flex justify-content-end align-items-center">
-                            <button type="submit" class="btn btn-ver-mas-2" href="#">{{ $t('home.contact.enviar') }}</button>
+                            <button type="submit" class="btn btn-ver-mas-2" href="#">Enviar</button>
                         </div>
                     </form>
                 </div>

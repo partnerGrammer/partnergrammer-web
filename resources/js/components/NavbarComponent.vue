@@ -182,14 +182,13 @@
                 <router-link to="/"><img id="logo-navbar" src="/images/logos/logo.svg" alt="LOGO" style="position: relative; z-index: 1001"></router-link>
             </div>
             <div class="col-md-6 nav-section-2">
-                <router-link to="/">{{ $t('navbar.inicio') }}</router-link>
-                <router-link to="/projects">{{ $t('navbar.portafolio') }}</router-link>
-                <router-link to="/about">{{ $t('navbar.nosotros') }}</router-link>
+                <router-link to="/">inicio</router-link>
+                <router-link to="/projects">portafolio</router-link>
+                <router-link to="/about">nosotros</router-link>
                 <!-- <router-link to="/">servicio</router-link> -->
-                <router-link to="/partners">{{ $t('navbar.partners') }}</router-link>
-                <router-link to="/blog">{{ $t('navbar.blog') }}</router-link>
-                <Dropdown />
-                <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact">{{ $t('navbar.contacto') }}</button>
+                <router-link to="/partners">partners</router-link>
+                <router-link to="/blog">blog</router-link>
+                <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact">contacto</button>
             </div>
         </nav>
 
@@ -220,7 +219,6 @@
                             <!-- <router-link to="/">servicio</router-link> -->
                             <router-link to="/partners">partners</router-link>
                             <router-link to="/blog">blog</router-link>
-                            <Dropdown />
                             <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact">contacto</button>
                         </div>
                     </div>
@@ -297,13 +295,9 @@
 <script>
 //Vuelidate
 import { required, minLength, email } from 'vuelidate/lib/validators'
-import Dropdown from './DropdownComponent'
 
 export default {
     name: 'Navbar',
-    components: {
-        Dropdown
-    },
 
     data(){
         return{
