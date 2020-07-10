@@ -50,7 +50,7 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="http://www.partnergrammer.com/js/app.js" defer></script>
     <script id="instagram-embed" src="https://www.instagram.com/embed.js"></script>
 
     <!-- Fonts -->
@@ -62,7 +62,7 @@
       rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="http://www.partnergrammer.com/css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.css">
 
     <style>
