@@ -11,6 +11,7 @@
 
     <!-- Scripts -->
     <script src="http://www.partnergrammer.com/js/app.js" defer></script>
+    <script src="https://www.partnergrammer.com/js/app.js" defer></script>
     <script id="instagram-embed" src="https://www.instagram.com/embed.js"></script>
     <script id="twitter-embed" src="https://platform.twitter.com/widgets.js"></script>
     <script id="tumblr-embed" src="https://assets.tumblr.com/post.js"></script>
@@ -22,6 +23,7 @@
 
     <!-- Styles -->
     <link href="http://www.partnergrammer.com/css/app.css" rel="stylesheet">
+    <link href="https://www.partnergrammer.com/css/app.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
