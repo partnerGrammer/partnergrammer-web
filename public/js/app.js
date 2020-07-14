@@ -65032,6 +65032,7 @@ var render = function() {
               "button",
               {
                 staticClass: "nav-section-2-btn-contact",
+                staticStyle: { border: "none" },
                 attrs: {
                   "data-toggle": "modal",
                   "data-target": "#modalContacto"
@@ -65130,6 +65131,7 @@ var render = function() {
                           "button",
                           {
                             staticClass: "section-2-btn-contact",
+                            staticStyle: { border: "none" },
                             attrs: {
                               "data-toggle": "modal",
                               "data-target": "#modalContacto"
@@ -65382,7 +65384,7 @@ var staticRenderFns = [
       "div",
       {
         staticClass: "col-md-12",
-        staticStyle: { "background-color": "#EE1331", height: "350px" }
+        staticStyle: { "background-color": "#EE1331", height: "150px" }
       },
       [
         _c(
@@ -66420,11 +66422,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
-      ])
+      _c(
+        "div",
+        { staticClass: "col-md-12", staticStyle: { "padding-top": "200px" } },
+        [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("¿que")]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("hacemos?")])
+        ]
+      )
     ])
   },
   function() {
@@ -66583,7 +66589,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "row", staticStyle: { "margin-bottom": "50px" } },
+      {
+        staticClass: "row",
+        staticStyle: { "margin-bottom": "50px", "padding-top": "150px" }
+      },
       [
         _c("div", { staticClass: "col-md-12" }, [
           _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
@@ -66638,13 +66647,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("expertos")])
-      ])
-    ])
+    return _c(
+      "section",
+      { staticClass: "row", staticStyle: { "padding-top": "150px" } },
+      [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [_vm._v("nuestros")]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("expertos")])
+        ])
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -66709,15 +66722,19 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("h2", { staticStyle: { color: "#949A9D" } }, [
-          _vm._v("¿qué tienes en mente?")
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("¡contáctanos!")])
-      ])
-    ])
+    return _c(
+      "section",
+      { staticClass: "row", staticStyle: { "padding-top": "150px" } },
+      [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h2", { staticStyle: { color: "#949A9D" } }, [
+            _vm._v("¿qué tienes en mente?")
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "segundo-titulo" }, [_vm._v("¡contáctanos!")])
+        ])
+      ]
+    )
   },
   function() {
     var _vm = this

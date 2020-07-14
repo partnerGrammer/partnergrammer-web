@@ -364,7 +364,7 @@
                         <p>Discovery Meeting</p>
                     </div>
                     <div class="horizontal-scroll-lower">
-                        <p>Investigación y planeación</p>
+                        <p>Investigación y planeación</p> 
                         <img src="/images/component (2).png" class="img-75w" alt="Desarrollo web aplicaciones móviles">
                     </div>
                     <div class="horizontal-scroll-upper">
