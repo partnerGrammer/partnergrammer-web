@@ -431,7 +431,7 @@
             </section>
 
             <!-- seccion 8 -->
-            <section class="row">
+            <section class="row" style="padding-top:200px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿que</h2>
                     <h2 class="segundo-titulo">hacemos?</h2>
@@ -492,7 +492,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row" style="margin-bottom: 50px">
+            <section class="row" style="margin-bottom: 50px; padding-top:150px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
                     <h2 class="segundo-titulo">clientes</h2>
@@ -511,7 +511,7 @@
             </section>
 
             <!-- seccion 13 -->
-            <section class="row">
+            <section class="row" style="padding-top:150px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">nuestros</h2>
                     <h2 class="segundo-titulo">expertos</h2>
@@ -545,7 +545,7 @@
             </section>
 
             <!-- seccion 15 -->
-            <section class="row">
+            <section class="row" style="padding-top:150px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">¿qué tienes en mente?</h2>
                     <h2 class="segundo-titulo">¡contáctanos!</h2>
