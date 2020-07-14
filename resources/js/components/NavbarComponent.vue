@@ -256,7 +256,7 @@
                                 <div class="row">
                                     <div class="col-md-3" />
                                     <div class="col-md-8">
-                                        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <p style="color: white; display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
                                 </div>
 
