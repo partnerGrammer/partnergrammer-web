@@ -219,7 +219,7 @@
                             <!-- <router-link to="/">servicio</router-link> -->
                             <router-link to="/partners">partners</router-link>
                             <router-link to="/blog">blog</router-link>
-                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact">contacto</button>
+                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact" style="border:none">contacto</button>
                         </div>
                     </div>
                 </div>

@@ -431,8 +431,8 @@
             </section>
 
             <!-- seccion 8 -->
-            <section class="row" style="padding-top:200px">
-                <div class="col-md-12">
+            <section class="row">
+                <div class="col-md-12" style="padding-top:200px">
                     <h2 style="color: #949A9D;">¿que</h2>
                     <h2 class="segundo-titulo">hacemos?</h2>
                 </div>
