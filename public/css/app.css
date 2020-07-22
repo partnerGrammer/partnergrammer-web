@@ -10890,3 +10890,7 @@ a.text-dark:focus {
   margin-left: auto;
 }
 
+button:focus {
+  outline: none;
+}
+

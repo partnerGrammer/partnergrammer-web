@@ -173,6 +173,8 @@
         .box-btn
             padding: 0
 
+
+
 </style>
 
 <template>
@@ -189,7 +191,7 @@
                 <router-link to="/partners">{{ $t('navbar.partners') }}</router-link>
                 <router-link to="/blog">{{ $t('navbar.blog') }}</router-link>
                 <Dropdown />
-                <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact" style="border:none" >{{ $t('navbar.contacto') }}</button>
+                <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact" style="border:none; outline:none" >{{ $t('navbar.contacto') }}</button>
             </div>
         </nav>
 
@@ -221,7 +223,7 @@
                             <router-link to="/partners">partners</router-link>
                             <router-link to="/blog">blog</router-link>
                             <Dropdown />
-                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact" style="border:none" >contacto</button>
+                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact" style="border:none; outline:none"" >contacto</button>
                         </div>
                     </div>
                 </div>

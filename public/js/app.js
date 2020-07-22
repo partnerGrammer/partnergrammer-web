@@ -2954,6 +2954,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
 //Vuelidate
 
 
@@ -67352,7 +67354,7 @@ var render = function() {
               "button",
               {
                 staticClass: "nav-section-2-btn-contact",
-                staticStyle: { border: "none" },
+                staticStyle: { border: "none", outline: "none" },
                 attrs: {
                   "data-toggle": "modal",
                   "data-target": "#modalContacto"
@@ -67453,7 +67455,7 @@ var render = function() {
                           "button",
                           {
                             staticClass: "section-2-btn-contact",
-                            staticStyle: { border: "none" },
+                            staticStyle: { border: "none", outline: "none" },
                             attrs: {
                               "data-toggle": "modal",
                               "data-target": "#modalContacto"
