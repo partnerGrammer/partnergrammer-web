@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <h5>{{ item.title }}</h5>
+                        <!--h5>{{ item.title }}</h5-->
 
                         <div>
                             <p style="color: #B5B5B5;">{{ item.created_at | formatDate }}</p>
