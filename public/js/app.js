@@ -68456,17 +68456,21 @@ var render = function() {
             _vm._m(0)
           ]),
           _vm._v(" "),
-          _c("section", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-12" }, [
-              _c("h2", { staticStyle: { color: "#949A9D" } }, [
-                _vm._v(_vm._s(_vm.$t("home.our_process_title")))
-              ]),
-              _vm._v(" "),
-              _c("h2", { staticClass: "segundo-titulo" }, [
-                _vm._v(_vm._s(_vm.$t("home.our_process_title2")))
+          _c(
+            "section",
+            { staticClass: "row", staticStyle: { "margin-top": "140px" } },
+            [
+              _c("div", { staticClass: "col-md-12" }, [
+                _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                  _vm._v(_vm._s(_vm.$t("home.our_process_title")))
+                ]),
+                _vm._v(" "),
+                _c("h2", { staticClass: "segundo-titulo" }, [
+                  _vm._v(_vm._s(_vm.$t("home.our_process_title2")))
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
           _c("section", { staticClass: "row" }, [
             _c("div", { staticClass: "col-md-12 text-center" }, [
@@ -68552,17 +68556,21 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
-          _c("section", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-12" }, [
-              _c("h2", { staticStyle: { color: "#949A9D" } }, [
-                _vm._v(_vm._s(_vm.$t("home.secc_5_1")))
-              ]),
-              _vm._v(" "),
-              _c("h2", { staticClass: "segundo-titulo" }, [
-                _vm._v(_vm._s(_vm.$t("home.secc_5_2")))
+          _c(
+            "section",
+            { staticClass: "row", staticStyle: { "margin-top": "180px" } },
+            [
+              _c("div", { staticClass: "col-md-12" }, [
+                _c("h2", { staticStyle: { color: "#949A9D" } }, [
+                  _vm._v(_vm._s(_vm.$t("home.secc_5_1")))
+                ]),
+                _vm._v(" "),
+                _c("h2", { staticClass: "segundo-titulo" }, [
+                  _vm._v(_vm._s(_vm.$t("home.secc_5_2")))
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
           _c("section", { staticClass: "row" }, [
             _c("div", { staticClass: "col-md-12 text-center" }, [
@@ -68675,14 +68683,11 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _c("section", { staticClass: "row" }, [
-            _c(
-              "div",
-              {
-                staticClass: "col-md-12",
-                staticStyle: { "padding-top": "200px" }
-              },
-              [
+          _c(
+            "section",
+            { staticClass: "row", staticStyle: { "margin-top": "300px" } },
+            [
+              _c("div", { staticClass: "col-md-12" }, [
                 _c("h2", { staticStyle: { color: "#949A9D" } }, [
                   _vm._v(_vm._s(_vm.$t("home.secc_8_1")))
                 ]),
@@ -68690,9 +68695,9 @@ var render = function() {
                 _c("h2", { staticClass: "segundo-titulo" }, [
                   _vm._v(_vm._s(_vm.$t("home.secc_8_2")))
                 ])
-              ]
-            )
-          ]),
+              ])
+            ]
+          ),
           _vm._v(" "),
           _c("section", { staticClass: "row" }, [
             _c(
@@ -68824,41 +68829,45 @@ var render = function() {
             )
           ]),
           _vm._v(" "),
-          _c("section", { staticClass: "row" }, [
-            _c("div", { staticClass: "line" }),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5",
-                staticStyle: { color: "white", padding: "20px 0" },
-                attrs: { id: "proyectos" }
-              },
-              [
-                _c("h2", [_vm._v(_vm._s(_vm.$t("home.secc_10")))]),
-                _vm._v(" "),
-                _c("p", [_vm._v(_vm._s(_vm.$t("home.secc_10_1")))]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-ver-mas",
-                    attrs: { href: "#/projects" }
-                  },
-                  [_vm._v(_vm._s(_vm.$t("home.secc_10_2")))]
-                )
-              ]
-            )
-          ]),
+          _c(
+            "section",
+            { staticClass: "row", staticStyle: { "margin-top": "325px" } },
+            [
+              _c("div", { staticClass: "line" }),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5",
+                  staticStyle: { color: "white", padding: "20px 0" },
+                  attrs: { id: "proyectos" }
+                },
+                [
+                  _c("h2", [_vm._v(_vm._s(_vm.$t("home.secc_10")))]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v(_vm._s(_vm.$t("home.secc_10_1")))]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "btn btn-ver-mas",
+                      attrs: { href: "#/projects" }
+                    },
+                    [_vm._v(_vm._s(_vm.$t("home.secc_10_2")))]
+                  )
+                ]
+              )
+            ]
+          ),
           _vm._v(" "),
           _c(
             "section",
             {
               staticClass: "row",
-              staticStyle: { "margin-bottom": "50px", "padding-top": "150px" }
+              staticStyle: { "margin-bottom": "50px", "margin-top": "240px" }
             },
             [
               _c("div", { staticClass: "col-md-12" }, [
@@ -68877,7 +68886,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "section",
-            { staticClass: "row", staticStyle: { "padding-top": "150px" } },
+            { staticClass: "row", staticStyle: { "margin-top": "320px" } },
             [
               _c("div", { staticClass: "col-md-12" }, [
                 _c("h2", { staticStyle: { color: "#949A9D" } }, [

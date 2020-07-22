@@ -340,7 +340,7 @@
             </section>
 
             <!-- seccion 2 -->
-            <section class="row">
+            <section class="row" style="margin-top: 140px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.our_process_title') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.our_process_title2') }}</h2>
@@ -384,7 +384,7 @@
             </section>
 
             <!-- seccion 5 -->
-            <section class="row">
+            <section class="row" style="margin-top: 180px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_5_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_5_2') }}</h2>
@@ -431,8 +431,8 @@
             </section>
 
             <!-- seccion 8 -->
-            <section class="row">
-                <div class="col-md-12"  style="padding-top:200px">
+            <section class="row" style="margin-top: 300px;">
+                <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_8_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_8_2') }}</h2>
                 </div>
@@ -477,7 +477,7 @@
             </section>
 
             <!-- seccion 10 -->
-            <section class="row">
+            <section class="row" style="margin-top: 325px;">
                 <div class="line" />
                 <div class="col-md-4">
                     <div class="container-image-2">
@@ -492,7 +492,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row" style="margin-bottom: 50px; padding-top:150px">
+            <section class="row" style="margin-bottom: 50px; margin-top: 240px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_11') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_11_1') }}</h2>
@@ -511,7 +511,7 @@
             </section>
 
             <!-- seccion 13 -->
-            <section class="row" style="padding-top:150px">
+            <section class="row" style="margin-top: 320px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_13') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_13_1') }}</h2>
@@ -545,7 +545,7 @@
             </section>
 
             <!-- seccion 15 -->
-            <section class="row" style="padding-top:150px">
+            <section class="row" style="padding-top: 150px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_15') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_15_1') }}</h2>
