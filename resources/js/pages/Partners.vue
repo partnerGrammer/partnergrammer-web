@@ -161,7 +161,7 @@
             <!-- seccion 1 -->
             <section class="row">
                 <div class="col-12 col-md-6">
-                    <img src="/gifs/PARTNERS.gif" width="100%" alt="">
+                    <img src="/gifs/PARTNERS.gif" style="width: 135%; margin-left: -18%" alt="">
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-start align-items-center flex-column" style="padding-top: 5em;">
                     <h1>{{ $t('partners.sec_01') }}</h1>
@@ -317,7 +317,7 @@
                                 <h3 class="text-center">{{ $t('partners.sec_11_1') }}</h3>
                                 <div class="row">
                                     <div class="col-md-12" style="padding: 5px;">
-                                        <input type="text" placeholder="Cel. 000 000 0000" v-model="form.number">
+                                        <input type="text" placeholder="Tel. 000 000 0000" v-model="form.number">
                                     </div>
                                 </div>
                             </div>
@@ -431,7 +431,7 @@ export default {
     computed: {
         saludo(){
 
-            let nombreCompleto = this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!'
+            let nombreCompleto = '¡Mucho gusto, ' + this.form.name.charAt(0).toUpperCase() + this.form.name.slice(1) + ' ' + this.form.lastName.charAt(0).toUpperCase() + this.form.lastName.slice(1) + '!'
             return nombreCompleto
         }
     },

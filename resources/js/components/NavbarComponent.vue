@@ -189,7 +189,7 @@
                 <router-link to="/partners">{{ $t('navbar.partners') }}</router-link>
                 <router-link to="/blog">{{ $t('navbar.blog') }}</router-link>
                 <Dropdown />
-                <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact">{{ $t('navbar.contacto') }}</button>
+                <button data-toggle="modal" data-target="#modalContacto" class="nav-section-2-btn-contact" style="border:none" >{{ $t('navbar.contacto') }}</button>
             </div>
         </nav>
 
@@ -221,7 +221,7 @@
                             <router-link to="/partners">partners</router-link>
                             <router-link to="/blog">blog</router-link>
                             <Dropdown />
-                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact">contacto</button>
+                            <button data-toggle="modal" data-target="#modalContacto" class="section-2-btn-contact" style="border:none" >contacto</button>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                     </div> -->
                     <div class="modal-body" style="padding-top:0">
                         <div class="row" style="position: relative;">
-                            <div class="col-md-12" style="background-color: #EE1331; height: 350px;">
+                            <div class="col-md-12" style="background-color: #EE1331; height: 150px;">
                                 <button type="button" class="close mr-2 mt-2" style="z-index: 1000; position: absolute; right: 0;" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -258,7 +258,7 @@
                                 <div class="row">
                                     <div class="col-md-3" />
                                     <div class="col-md-8">
-                                        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <p style="color: white; display: none;"></p>
                                     </div>
                                 </div>
 

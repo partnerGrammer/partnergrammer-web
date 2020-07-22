@@ -335,7 +335,7 @@
                     <p class="mt-3">{{ $t('home.subHeadline') }}</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="/gifs/HOME.gif" width="100%" alt="Desarrollo web y software a la medida">
+                    <img src="/gifs/HOME.gif" style="width: 135%; margin-left:-12%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 
@@ -432,7 +432,7 @@
 
             <!-- seccion 8 -->
             <section class="row">
-                <div class="col-md-12">
+                <div class="col-md-12"  style="padding-top:200px">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_8_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_8_2') }}</h2>
                 </div>
@@ -492,7 +492,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row" style="margin-bottom: 50px">
+            <section class="row" style="margin-bottom: 50px; padding-top:150px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_11') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_11_1') }}</h2>
@@ -511,7 +511,7 @@
             </section>
 
             <!-- seccion 13 -->
-            <section class="row">
+            <section class="row" style="padding-top:150px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_13') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_13_1') }}</h2>
@@ -545,7 +545,7 @@
             </section>
 
             <!-- seccion 15 -->
-            <section class="row">
+            <section class="row" style="padding-top:150px">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_15') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_15_1') }}</h2>
