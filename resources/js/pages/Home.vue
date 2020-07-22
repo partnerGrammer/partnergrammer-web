@@ -443,7 +443,7 @@
                 <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex; justify-content-center align-items-center">
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_1') }}<br> {{ $t('home.secc_9_1_1') }}</p>
+                        <p class="que-hacemos-caption">{{ $t('home.secc_9_1') }}<br> 1234</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-2.png" alt="que-hacemos-2">
@@ -546,7 +546,7 @@
 
             <!-- seccion 15 -->
             <section class="row" style="padding-top: 150px;">
-                <div class="col-md-12">
+                <div class="col-md-12" style="left: 30px;">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_15') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_15_1') }}</h2>
                 </div>
