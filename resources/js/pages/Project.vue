@@ -142,7 +142,7 @@
             <!-- seccion 6 -->
             <section class="row">
                 <div class="col-md-12 text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
+                    <p style="display: none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro reprehenderit inventore.</p>
                 </div>
             </section>
 
