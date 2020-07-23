@@ -340,7 +340,7 @@
             </section>
 
             <!-- seccion 2 -->
-            <section class="row" style="margin-top: 140px;">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.our_process_title') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.our_process_title2') }}</h2>
@@ -384,7 +384,7 @@
             </section>
 
             <!-- seccion 5 -->
-            <section class="row" style="margin-top: 180px;">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_5_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_5_2') }}</h2>
@@ -431,7 +431,7 @@
             </section>
 
             <!-- seccion 8 -->
-            <section class="row" style="margin-top: 300px;">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_8_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_8_2') }}</h2>
@@ -443,7 +443,7 @@
                 <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex; justify-content-center align-items-center">
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
-                        <p class="que-hacemos-caption">{{ $t('home.secc_9_1') }}<br> 1234</p>
+                        <p class="que-hacemos-caption">{{ $t('home.secc_9_1') }} <br> {{ $t('home.secc_9_1_1') }}</p>
                     </div>
                     <div class="img-con-texto">
                         <img class="que-hacemos-img" src="/images/que-hacemos-2.png" alt="que-hacemos-2">
@@ -492,7 +492,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row" style="margin-bottom: 50px; margin-top: 240px;">
+            <section class="row" style="margin-bottom: 50px; margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_11') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_11_1') }}</h2>
@@ -511,7 +511,7 @@
             </section>
 
             <!-- seccion 13 -->
-            <section class="row" style="margin-top: 320px;">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_13') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_13_1') }}</h2>
@@ -545,7 +545,7 @@
             </section>
 
             <!-- seccion 15 -->
-            <section class="row" style="padding-top: 150px;">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12" style="left: 30px;">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_15') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_15_1') }}</h2>
