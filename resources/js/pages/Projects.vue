@@ -198,7 +198,7 @@
 
             <section class="main-container" >
                 <!-- seccion 1 -->
-                <section class="row" style="margin-top:250px;">
+                <section class="row" style="margin-top:325px;">
                     <div class="col-md-12">
                         <h2 style="color: #949A9D;">{{ $t('projects.sec_01') }}</h2>
                         <h2 class="segundo-titulo">{{ $t('projects.sec_01_1') }}</h2>
