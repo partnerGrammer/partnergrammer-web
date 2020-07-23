@@ -242,18 +242,18 @@
                     </div> -->
                     <div class="modal-body" style="padding-top:0">
                         <div class="row" style="position: relative;">
-                            <div class="col-md-12" style="background-color: #EE1331; height: 150px;">
-                                <button type="button" class="close mr-2 mt-2" style="z-index: 1000; position: absolute; right: 0;" data-dismiss="modal" aria-label="Close">
+                            <div class="col-md-12" style="background-color: #EE1331; height: 150px; top: 123px;">
+                                <button type="button" class="close mr-2 mt-2" style="z-index: 1000; position: absolute; right: 0; top: -122px;" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="col-md-12" style="background-color: white; height: 350px;"></div>
+                            <div class="col-md-12" style="background-color: white; height: 324px; top: 90px;"></div>
 
-                            <div class="col-md-11 main-box">
+                            <div class="col-md-11 main-box" style="margin-top: -10px;">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2 style="color: white;">¿qué tienes en mente?</h2>
-                                        <h2 style="color: white;">¡contáctanos!</h2>
+                                        <h2 style="color: black;">¿qué tienes en mente?</h2>
+                                        <h2 style="color: black;">¡contáctanos!</h2>
                                     </div>
                                 </div>
 
