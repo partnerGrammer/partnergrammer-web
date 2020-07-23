@@ -140,7 +140,7 @@
 
         <section class="main-container" >
             <!-- seccion 1 -->
-            <section class="row">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">your</h2>
                     <h2 class="segundo-titulo">partners</h2>
@@ -203,7 +203,7 @@
             </section>
 
             <!-- seccion 4 -->
-            <section class="row">
+            <section class="row" style="margin-top: 325px;">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('about.sec_04') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('about.sec_04_1') }}</h2>
