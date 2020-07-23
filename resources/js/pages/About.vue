@@ -19,6 +19,7 @@
         width: 9vw;
         margin: 5px 10px;
         min-width: 85px;
+        flex: 0 0 20%
 
     }
 
@@ -130,6 +131,12 @@
     .segundo-titulo{
         margin-left: 3%
     }
+
+    @media only screen and (min-width: 768px){
+        #fila-nosotros{
+            max-width:900px
+        }
+    }
 </style>
 
 </style>
@@ -158,7 +165,7 @@
             <!-- seccion 3 -->
             <section class="row">
                 <div class="line" />
-                <div class="col-md-12" style="flex-wrap: wrap">
+                <div class="col-md-12" id="nosotros" style="flex-wrap: wrap; margin: 0 auto;">
                     <div class="image-about">
                         <div class="container-image">
                             <img src="/images/luis.png" width="100%" alt="Luis Andrade">
