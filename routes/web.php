@@ -42,8 +42,8 @@ Route::post('email/contact', function(Request $request){
     $contact->information = $data->information;
     $contact->message = $data->message;
     $contact->save();
-    
-    Mail::to('contact@partnergrammer.com', 'Contacto')->send(new ContactMail($data));
+
+    Mail::to('eduardo@partnergrammer.com', 'Contacto')->send(new ContactMail($data));
 });
 
 //PARTNER MAIL
@@ -62,8 +62,6 @@ Route::post('email/partner', function(Request $request){
     $partner->city = $data->city;
     $partner->comments = $data->comments;
     $partner->save();
-    
-    Mail::to('partner@partnergrammer.com', 'Partner')->send(new PartnerMail($data));
+
+    Mail::to('eduardo@partnergrammer.com', 'Partner')->send(new PartnerMail($data));
 });
-
-
