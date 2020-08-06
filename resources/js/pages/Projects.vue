@@ -199,7 +199,7 @@
             <section class="main-container" >
                 <!-- seccion 1 -->
                 <section class="row" style="margin-top:325px;">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                         <h2 style="color: #949A9D;">{{ $t('projects.sec_01') }}</h2>
                         <h2 class="segundo-titulo">{{ $t('projects.sec_01_1') }}</h2>
                     </div>
@@ -207,7 +207,7 @@
 
                 <!-- seccion 2 -->
                 <section class="row">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center wow animate__animated animate__fadeIn">
                         <h2 style="color: #949A9D;">{{ $t('projects.sec_02') }}</h2>
                         <h2 class="segundo-titulo">{{ $t('projects.sec_02_1') }}</h2>
                     </div>
@@ -215,7 +215,7 @@
 
                 <!-- seccion 3 -->
                 <section class="row">
-                    <div class="col-md-12 d-flex justify-content-center align-items-center" v-for="(item, index) in projects" :key="index">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center wow animate__animated animate__fadeIn" v-for="(item, index) in projects" :key="index">
                         <img :src="item.image" alt="image" :class="[item.control ? 'img-left': 'img-right']">
                         <div :class="[item.control ? 'line-left ': 'line-right']" class="d-flex justify-content-center">
                             <div :class="[item.control ? 'left': 'right']">

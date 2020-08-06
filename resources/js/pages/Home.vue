@@ -329,19 +329,19 @@
 
         <section class="main-container" >
             <!-- seccion 1 -->
-            <section class="row">
+            <section class="row" style="min-height:100vh">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-                    <h1 id="titulo-banner">{{ $t('home.cover') }}</h1>
-                    <p class="mt-3">{{ $t('home.subHeadline') }}</p>
+                    <h1 id="titulo-banner" class=" wow animate__animated animate__fadeInLeft">{{ $t('home.cover') }}</h1>
+                    <p class="mt-3 wow animate__animated animate__fadeInUp animate__delay-1s">{{ $t('home.subHeadline') }}</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow animate__animated animate__fadeInRight">
                     <img src="/gifs/HOME.gif" style="width: 135%; margin-left:-12%" alt="Desarrollo web y software a la medida">
                 </div>
             </section>
 
             <!-- seccion 2 -->
             <section class="row" style="margin-top: 325px;">
-                <div class="col-md-12">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">{{ $t('home.our_process_title') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.our_process_title2') }}</h2>
                 </div>
@@ -385,7 +385,7 @@
 
             <!-- seccion 5 -->
             <section class="row" style="margin-top: 325px;">
-                <div class="col-md-12">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_5_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_5_2') }}</h2>
                 </div>
@@ -416,13 +416,13 @@
                             <div class="line-pointer" />
                             <ul style="margin-left: 30px;">
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">{{ $t('home.secc_7_2') }}</p>
+                                    <p class="wow animate__animated animate__fadeInDown" style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; wow animate__animated animate__fadeInTop">{{ $t('home.secc_7_2') }}</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">{{ $t('home.secc_7_3') }}</p>
+                                    <p class="wow animate__animated animate__fadeInDown animate__delay-1s" style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; wow animate__animated animate__fadeInTop">{{ $t('home.secc_7_3') }}</p>
                                 </li>
                                 <li>
-                                    <p style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold;">{{ $t('home.secc_7_4') }}</p>
+                                    <p class="wow animate__animated animate__fadeInDown animate__delay-2s" style="margin-left: 50px; font-size: 1.2em; margin-top: 1.2em; font-weight: bold; wow animate__animated animate__fadeInTop">{{ $t('home.secc_7_4') }}</p>
                                 </li>
                             </ul>
                         </div>
@@ -432,7 +432,7 @@
 
             <!-- seccion 8 -->
             <section class="row" style="margin-top: 325px;">
-                <div class="col-md-12">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_8_1') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_8_2') }}</h2>
                 </div>
@@ -441,35 +441,35 @@
             <!-- seccion 9 -->
             <section class="row">
                 <div id="hacemos-nosotros" class="col-md-12 text-center" style="display: flex; justify-content-center align-items-center">
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-1s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-1.png" alt="que-hacemos-1">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_1') }} <br> {{ $t('home.secc_9_1_1') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-1s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-2.png" alt="que-hacemos-2">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_2') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-2s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-3.png" alt="que-hacemos-3">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_3') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-2s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-4.png" alt="que-hacemos-4">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_4') }}<br>{{ $t('home.secc_9_4_1') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-3s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-5.png" alt="que-hacemos-5">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_5') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-3s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-6.png" alt="que-hacemos-6">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_6') }}<br>{{ $t('home.secc_9_6_1') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-4s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-7.png" alt="que-hacemos-7">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_7') }}</p>
                     </div>
-                    <div class="img-con-texto">
+                    <div class="img-con-texto wow animate__animated animate__fadeInLeft animate__delay-4s">
                         <img class="que-hacemos-img" src="/images/que-hacemos-8.png" alt="que-hacemos-8">
                         <p class="que-hacemos-caption">{{ $t('home.secc_9_8') }}</p>
                     </div>
@@ -480,11 +480,11 @@
             <section class="row" style="margin-top: 325px;">
                 <div class="line" />
                 <div class="col-md-4">
-                    <div class="container-image-2">
+                    <div class="container-image-2  wow animate__animated animate__fadeInLeft">
                         <img src="/images/grupo-disp.png" style="width:100%; height: auto;" alt="disp">
                     </div>
                 </div>
-                <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5" style="color: white;padding: 20px 0;">
+                <div id="proyectos" class="col-md-8 d-flex justify-content-around align-items-start flex-column text-left pl-5 wow animate__animated animate__fadeInRight animate__delay-1s" style="color: white;padding: 20px 0;">
                     <h2>{{ $t('home.secc_10') }}</h2>
                     <p>{{ $t('home.secc_10_1') }}</p>
                     <a class="btn btn-ver-mas" href="#/projects">{{ $t('home.secc_10_2') }}</a>
@@ -492,7 +492,7 @@
             </section>
 
             <!-- seccion 11 -->
-            <section class="row" style="margin-bottom: 50px; margin-top: 325px;">
+            <section class="row" style="margin-bottom: 50px; margin-top: 325px; wow animate__animated animate__fadeInLeft">
                 <div class="col-md-12">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_11') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_11_1') }}</h2>
@@ -502,17 +502,17 @@
             <!-- seccion 12 -->
             <section class="row">
                 <div id="nuestros-clientes" class="col-md-12 d-flex justify-content-around align-items-center">
-                    <img src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/ghm.png" style=" width: 150px; height: auto;" alt="">
-                    <img src="/images/dix04.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInUp animate__delay-1s" src="/images/checkout.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInDown animate__delay-1s" src="/images/new-castle.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInUp animate__delay-1s" src="/images/caledro.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInDown animate__delay-1s" src="/images/ghm.png" style=" width: 150px; height: auto;" alt="">
+                    <img class="wow animate__animated animate__fadeInUp animate__delay-1s" src="/images/dix04.png" style=" width: 150px; height: auto;" alt="">
                 </div>
             </section>
 
             <!-- seccion 13 -->
             <section class="row" style="margin-top: 325px;">
-                <div class="col-md-12">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_13') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_13_1') }}</h2>
                 </div>
@@ -524,17 +524,17 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
+                            <img class="animate__animated animate__fadeIn animate__delay" src="/images/grupal-1.png" style=" width: 100%; height: auto;" alt="grupal 1">
                         </div>
                         <div class="col-md-12 mt-2">
-                            <img src="/images/grupal-2.png" style=" width: 100%; height: auto;" alt="grupal 2">
+                            <img class="animate__animated animate__fadeIn" src="/images/grupal-2.png" style=" width: 100%; height: auto;" alt="grupal 2">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <div class="col-md-12 ml-2">
-                            <img src="/images/grupal-3.png" style=" width: 100%; height: auto;" alt="grupal 3">
+                            <img class="animate__animated animate__fadeIn" src="/images/grupal-3.png" style=" width: 100%; height: auto;" alt="grupal 3">
                         </div>
                     </div>
                 </div>
@@ -546,7 +546,7 @@
 
             <!-- seccion 15 -->
             <section class="row" style="margin-top: 325px;">
-                <div class="col-md-12" style="left: 30px;">
+                <div class="col-md-12 wow animate__animated animate__fadeInLeft" style="left: 30px;">
                     <h2 style="color: #949A9D;">{{ $t('home.secc_15') }}</h2>
                     <h2 class="segundo-titulo">{{ $t('home.secc_15_1') }}</h2>
                 </div>

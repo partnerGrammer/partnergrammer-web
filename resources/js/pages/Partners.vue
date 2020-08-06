@@ -160,10 +160,10 @@
         <section class="main-container" >
             <!-- seccion 1 -->
             <section class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 wow animate__animated animate__fadeInLeft">
                     <img src="/gifs/PARTNERS.gif" style="width: 135%; margin-left: -18%" alt="">
                 </div>
-                <div class="col-12 col-md-6 d-flex justify-content-start align-items-center flex-column" style="padding-top: 5em;">
+                <div class="col-12 col-md-6 d-flex justify-content-start align-items-center flex-column wow animate__animated animate__fadeInRight" id="banner-texto" style="padding-top: 5em;">
                     <h1>{{ $t('partners.sec_01') }}</h1>
                     <p class="mt-3" style="color: #949A9D; font-size: 0.9rem;">{{ $t('partners.sec_01_1') }}</p>
                 </div>
